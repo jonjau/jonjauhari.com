@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonathan Jauhari]]></title><description><![CDATA[Jonathan Jauhari]]></description><link>https://jonjau.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 22 Jan 2021 01:55:31 GMT</lastBuildDate><item><title><![CDATA[Making English More Regular With Esperanto Grammar]]></title><description><![CDATA[Some problems As a learner of English (who isn’t?), I’ve come across a lot of inconsistent
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Jonathan Jauhari]]></title><description><![CDATA[Jonathan Jauhari]]></description><link>https://jonjau.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 01 Feb 2021 11:34:07 GMT</lastBuildDate><item><title><![CDATA[Making English More Regular With Esperanto Grammar]]></title><description><![CDATA[Some problems As a learner of English (who isn’t?), I’ve come across a lot of inconsistent
 rules and exceptions in the language, and I can…]]></description><link>https://jonjau.github.io/making-english-more-regular-with-esperanto-grammar/</link><guid isPermaLink="false">https://jonjau.github.io/making-english-more-regular-with-esperanto-grammar/</guid><pubDate>Sun, 27 Dec 2020 07:34:18 GMT</pubDate><content:encoded>&lt;h2&gt;Some problems&lt;/h2&gt;
 &lt;p&gt;As a learner of English (who isn’t?), I’ve come across a lot of inconsistent
 rules and exceptions in the language, and I can imagine they exist in most
@@ -165,7 +165,7 @@ it might have to be an exception.&lt;/p&gt;
 &lt;h3&gt;Going further&lt;/h3&gt;
 &lt;p&gt;But what if we wanted to extend verbs such that they could be nouns,
 adjectives or adverbs?&lt;/p&gt;
-&lt;p&gt;Consider &lt;code&gt;&apos;repeat-e&apos;&lt;/code&gt;. It means ‘repeat’, as an adverb. But how exactly should
+&lt;p&gt;Consider &lt;code class=&quot;language-text&quot;&gt;&amp;#39;repeat-e&amp;#39;&lt;/code&gt;. It means ‘repeat’, as an adverb. But how exactly should
 it be interpreted?&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Repetitively&lt;/li&gt;
@@ -175,9 +175,9 @@ it be interpreted?&lt;/p&gt;
 different words in the first place. But the rule was to not modify English
 words more than necessary. Trying to get at meaning 1 leads to another issue:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;repetition-e&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;repetitive-e&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;repetitively-e&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;repetition-e&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;repetitive-e&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;repetitively-e&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;Which one is correct? Perhaps all of them, although 3 is redundant. We see
 mixing English suffixes and (abused) Esperanto suffixes leads to even more
@@ -188,7 +188,7 @@ the), conjunctions (and, or) are not changed.&lt;/p&gt;
 &lt;p&gt;In this system, the words to
 which we attach suffixes are the English words, and those words don’t have to
 be actual root words. It’s not always possible and might lead to ambiguity
-(e.g. &lt;code&gt;&apos;repeat-e&apos;&lt;/code&gt;).&lt;/p&gt;
+(e.g. &lt;code class=&quot;language-text&quot;&gt;&amp;#39;repeat-e&amp;#39;&lt;/code&gt;).&lt;/p&gt;
 &lt;p&gt;Here’s how the system might be used to disambiguate some sentences:&lt;/p&gt;
 &lt;h3&gt;Syntactic ambiguity&lt;/h3&gt;
 &lt;p&gt;Also known as structural ambiguity or grammatical ambiguity. This is when
@@ -395,7 +395,7 @@ greet each other.&lt;/li&gt;
 possibly a knight-knight collision too. To start off, the collision handling
 system shouldn’t need to know the class hierarchy and how each
 creature behaves when it hits another, it just needs them to &lt;em&gt;do what they do&lt;/em&gt;.
-A simple system might look like this, free of &lt;code&gt;instanceof&lt;/code&gt; checks:&lt;/p&gt;
+A simple system might look like this, free of &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; checks:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Game&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token class-name&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Creature&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; cs&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
@@ -444,26 +444,26 @@ A simple system might look like this, free of &lt;code&gt;instanceof&lt;/code&gt
         &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;c &lt;span class=&quot;token keyword&quot;&gt;instanceof&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Archer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;charge&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Archer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; c&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
     &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;All we’ve really done is push back the &lt;code&gt;instanceof&lt;/code&gt; checks into each
+&lt;p&gt;All we’ve really done is push back the &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; checks into each
 method’s implementation. This works.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Adding new behaviour for existing classes means adding an extra
-&lt;code&gt;instanceof&lt;/code&gt; check.&lt;/li&gt;
-&lt;li&gt;Adding a new kind of &lt;code&gt;Creature&lt;/code&gt; will not affect existing classes. If they
-don’t interact with the new kind of &lt;code&gt;Creature&lt;/code&gt;, they simply don’t have
+&lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; check.&lt;/li&gt;
+&lt;li&gt;Adding a new kind of &lt;code class=&quot;language-text&quot;&gt;Creature&lt;/code&gt; will not affect existing classes. If they
+don’t interact with the new kind of &lt;code class=&quot;language-text&quot;&gt;Creature&lt;/code&gt;, they simply don’t have
 to handle it in the if-else chain.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Note that we will have as many &lt;code&gt;instanceof&lt;/code&gt; checks as the number of
+&lt;p&gt;Note that we will have as many &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; checks as the number of
 well-defined interactions. Also note that what we’ve done here, is pretty
 much &lt;a href=&quot;https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching&quot;&gt;pattern matching&lt;/a&gt;,
 just a lot uglier. Apparently more recent Java versions have
 &lt;a href=&quot;https://cr.openjdk.java.net/~briangoetz/amber/pattern-match.html&quot;&gt;improved on that&lt;/a&gt;.
-That being said, this alternative &lt;code&gt;instanceof&lt;/code&gt; approach doesn’t really have
+That being said, this alternative &lt;code class=&quot;language-text&quot;&gt;instanceof&lt;/code&gt; approach doesn’t really have
 a name, and I’m not sure if fits among the usual over-abstracted Java code.&lt;/p&gt;
 &lt;h2&gt;Multiple dispatch&lt;/h2&gt;
-&lt;p&gt;It does seem like we’re sidestepping the type system. In each &lt;code&gt;collide&lt;/code&gt;
+&lt;p&gt;It does seem like we’re sidestepping the type system. In each &lt;code class=&quot;language-text&quot;&gt;collide&lt;/code&gt;
 definition, we’re lying about what we actually require. Knowing that we are
-colliding with a &lt;code&gt;Creature&lt;/code&gt; is not enough, we need more specific type
+colliding with a &lt;code class=&quot;language-text&quot;&gt;Creature&lt;/code&gt; is not enough, we need more specific type
 information, and yet this isn’t reflected in the function signatures. Though
 it’s not clear how it would be!&lt;/p&gt;
 &lt;p&gt;What we want is &lt;a href=&quot;https://stackoverflow.com/questions/1749534/multiple-dispatch-in-c&quot;&gt;multiple dispatch&lt;/a&gt;:&lt;/p&gt;
@@ -471,14 +471,14 @@ it’s not clear how it would be!&lt;/p&gt;
 &lt;p&gt;The concrete function that is called from a function call can depend on the
 dynamic (runtime) type of more than one of its arguments.&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;Note that the object-oriented &lt;code&gt;a.collide(b)&lt;/code&gt; is really just &lt;code&gt;collide(a,b)&lt;/code&gt;,
-where the objects &lt;code&gt;a&lt;/code&gt;, &lt;code&gt;b&lt;/code&gt; are arguments and &lt;code&gt;a&lt;/code&gt; gets special treatment.&lt;/p&gt;
+&lt;p&gt;Note that the object-oriented &lt;code class=&quot;language-text&quot;&gt;a.collide(b)&lt;/code&gt; is really just &lt;code class=&quot;language-text&quot;&gt;collide(a,b)&lt;/code&gt;,
+where the objects &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;b&lt;/code&gt; are arguments and &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; gets special treatment.&lt;/p&gt;
 &lt;p&gt;The issue is, Java, like C++, Python, and many other languages, only supports
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Dynamic_dispatch#Single_and_multiple_dispatch&quot;&gt;single dispatch&lt;/a&gt;:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The concrete function that is called from a function call depends on the
 dynamic (meaning runtime) type of a single object, the &lt;em&gt;receiver&lt;/em&gt;, which is
-&lt;code&gt;a&lt;/code&gt; in &lt;code&gt;a.collide(b)&lt;/code&gt;.&lt;/p&gt;
+&lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;a.collide(b)&lt;/code&gt;.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;To illustrate:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token class-name&quot;&gt;Creature&lt;/span&gt; a &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Archer&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
@@ -487,8 +487,8 @@ dynamic (meaning runtime) type of a single object, the &lt;em&gt;receiver&lt;/em
 a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;collide&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Archer.collide(Creature) is called&lt;/span&gt;
 w&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;collide&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;a&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;// Werewolf.collide(Creature) is called&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;The visitor pattern&lt;/h2&gt;
-&lt;p&gt;There is no way to achieve &lt;code&gt;Archer.collide(Werewolf)&lt;/code&gt; or
-&lt;code&gt;Werewolf.collide(Archer)&lt;/code&gt; when both &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;w&lt;/code&gt; are &lt;code&gt;Creature&lt;/code&gt; references,
+&lt;p&gt;There is no way to achieve &lt;code class=&quot;language-text&quot;&gt;Archer.collide(Werewolf)&lt;/code&gt; or
+&lt;code class=&quot;language-text&quot;&gt;Werewolf.collide(Archer)&lt;/code&gt; when both &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;w&lt;/code&gt; are &lt;code class=&quot;language-text&quot;&gt;Creature&lt;/code&gt; references,
 without an extra layer of indirection. It is not enough to know the
 concrete type of the “collider” — the “thing being hit” should also tell its
 concrete type to the “collider”. The latter should occur before the former:
@@ -502,7 +502,7 @@ w&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&q
 a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;visit&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;w&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
 &lt;span class=&quot;token comment&quot;&gt;// similarly for werewolves colliding with archers.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;In our case, &lt;code&gt;Creature&lt;/code&gt;s are both visitors and things to be visited, where
+&lt;p&gt;In our case, &lt;code class=&quot;language-text&quot;&gt;Creature&lt;/code&gt;s are both visitors and things to be visited, where
 “visit” is understood as “collide”.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// things that can collide with creatures should implement (part of) this&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;CreatureVisitor&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -544,7 +544,7 @@ a&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&q
 &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;It ends up being just as verbose, but indeed it leans upon Java’s (nominal)
 type system a bit more. The calling code will also have to change slightly,
-instead of calling &lt;code&gt;collide&lt;/code&gt; directly, we instead “accept” collisions:&lt;/p&gt;
+instead of calling &lt;code class=&quot;language-text&quot;&gt;collide&lt;/code&gt; directly, we instead “accept” collisions:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;java&quot;&gt;&lt;pre class=&quot;language-java&quot;&gt;&lt;code class=&quot;language-java&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token class-name&quot;&gt;Game&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;token class-name&quot;&gt;List&lt;/span&gt;&lt;span class=&quot;token generics&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token class-name&quot;&gt;Creature&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt; cs&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     &lt;span class=&quot;token keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;handleCollisions&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -559,21 +559,21 @@ instead of calling &lt;code&gt;collide&lt;/code&gt; directly, we instead “acce
 &lt;p&gt;This also works.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Adding new behaviour for existing classes means changing the implementation
-of a &lt;code&gt;collide&lt;/code&gt; method.&lt;/li&gt;
+of a &lt;code class=&quot;language-text&quot;&gt;collide&lt;/code&gt; method.&lt;/li&gt;
 &lt;li&gt;Adding a new kind of Creature will not affect existing classes. If they
 aren’t concerned about the new kind of Creature, they simply don’t have to
-implement a &lt;code&gt;collide(NewCreatureType x)&lt;/code&gt;. Though that method will have to
-be added to the &lt;code&gt;CreatureVisitor&lt;/code&gt; interface as a default, empty method.&lt;/li&gt;
+implement a &lt;code class=&quot;language-text&quot;&gt;collide(NewCreatureType x)&lt;/code&gt;. Though that method will have to
+be added to the &lt;code class=&quot;language-text&quot;&gt;CreatureVisitor&lt;/code&gt; interface as a default, empty method.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;The duplication of &lt;code&gt;collide&lt;/code&gt; in &lt;code&gt;CreatureVisitor&lt;/code&gt; might be something that can
-improved on, but I’m not sure. The use of &lt;code&gt;default&lt;/code&gt; might also be less than
+&lt;p&gt;The duplication of &lt;code class=&quot;language-text&quot;&gt;collide&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;CreatureVisitor&lt;/code&gt; might be something that can
+improved on, but I’m not sure. The use of &lt;code class=&quot;language-text&quot;&gt;default&lt;/code&gt; might also be less than
 ideal, for instance if each class in the hierarchy only implements 1 or 2 out
 of 10+ methods in the interface. But that would probably be an issue of the
 design of the hierarchy itself.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://ericlippert.com/2015/04/27/wizards-and-warriors-part-one/&quot;&gt;Here&lt;/a&gt;
 is a more in-depth exploration of alternatives to the visitor pattern. It’s
 particularly interesting as C# does have language support for multiple
-dispatch, through the &lt;code&gt;dynamic&lt;/code&gt; keyword.&lt;/p&gt;
+dispatch, through the &lt;code class=&quot;language-text&quot;&gt;dynamic&lt;/code&gt; keyword.&lt;/p&gt;
 &lt;h2&gt;Code dump&lt;/h2&gt;
 &lt;p&gt;To save space, I wrote the testing code in Kotlin:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;kotlin&quot;&gt;&lt;pre class=&quot;language-kotlin&quot;&gt;&lt;code class=&quot;language-kotlin&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;interface&lt;/span&gt; CreatureVisitor &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
@@ -876,8 +876,8 @@ a line-by-line translation from the rules of Sudoku &lt;em&gt;that actually runs
     &lt;span class=&quot;token function&quot;&gt;blocks&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token variable&quot;&gt;Bs1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;Bs2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token variable&quot;&gt;Bs3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;* This is the secret sauce:
 &lt;a href=&quot;http://pathwayslms.com/swipltuts/clpfd/clpfd.html&quot;&gt;Constraint Logic Programming over Finite Domains&lt;/a&gt;,
-which is as far as I know, needed for the &lt;code&gt;Vs ins 1..9&lt;/code&gt; bit.&lt;/p&gt;
-&lt;p&gt;A list of lists &lt;code&gt;Rows&lt;/code&gt; is a solved Sudoku puzzle when all of these statements
+which is as far as I know, needed for the &lt;code class=&quot;language-text&quot;&gt;Vs ins 1..9&lt;/code&gt; bit.&lt;/p&gt;
+&lt;p&gt;A list of lists &lt;code class=&quot;language-text&quot;&gt;Rows&lt;/code&gt; is a solved Sudoku puzzle when all of these statements
 hold:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;There are 9 rows, each row is 9 elements long, i.e. the board is square.&lt;/li&gt;
@@ -896,7 +896,7 @@ are considered to form “blocks”.&lt;/li&gt;
 &lt;p&gt;If only project specifications in the real world were as precise as
 logic puzzles!&lt;/p&gt;
 &lt;p&gt;Essentially, you define what makes a solution a solution, and Prolog
-(at least, in the interactive &lt;code&gt;swipl&lt;/code&gt; prompt) will:&lt;/p&gt;
+(at least, in the interactive &lt;code class=&quot;language-text&quot;&gt;swipl&lt;/code&gt; prompt) will:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;If given a complete solution, verify that it truly is a solution
 (outputting true if so, false otherwise).&lt;/li&gt;
@@ -906,7 +906,7 @@ such bindings).
 If it fails in doing so, it spits out false.&lt;/li&gt;
 &lt;li&gt;If given nothing i.e. an unbound variable, binds that variable to all the
 possible completed Sudoku puzzles (maybe not in the way you expect,
-&lt;code&gt;swipl&lt;/code&gt; showed them “bound” in terms of variables, not numbers).&lt;/li&gt;
+&lt;code class=&quot;language-text&quot;&gt;swipl&lt;/code&gt; showed them “bound” in terms of variables, not numbers).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Running the code&lt;/h2&gt;
 &lt;p&gt;Sure enough it actually runs. In a vanilla
@@ -951,9 +951,9 @@ concepts of the Haskell type system (that I’m aware of…).&lt;/p&gt;
 &lt;p&gt;Values have types. Types can be inferred:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token char string&quot;&gt;&apos;f&apos;&lt;/span&gt;       &lt;span class=&quot;token comment&quot;&gt;-- x has (inferred) type Char&lt;/span&gt;
 &lt;span class=&quot;token hvariable&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token char string&quot;&gt;&apos;f&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token char string&quot;&gt;&apos;g&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;-- y has (inferred) type [Char], a list of Char&apos;s&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Use &lt;code&gt;:t&lt;/code&gt; in &lt;a href=&quot;https://docs.haskellstack.org/en/stable/ghci/&quot;&gt;GHCi&lt;/a&gt;
-to check the type of a value, e.g. &lt;code&gt;:t &apos;f&apos;&lt;/code&gt; will give &lt;code&gt;f :: Char&lt;/code&gt;, where
-&lt;code&gt;::&lt;/code&gt; can be read as ‘type of’ or ‘has type’. There is also
+&lt;p&gt;Use &lt;code class=&quot;language-text&quot;&gt;:t&lt;/code&gt; in &lt;a href=&quot;https://docs.haskellstack.org/en/stable/ghci/&quot;&gt;GHCi&lt;/a&gt;
+to check the type of a value, e.g. &lt;code class=&quot;language-text&quot;&gt;:t &amp;#39;f&amp;#39;&lt;/code&gt; will give &lt;code class=&quot;language-text&quot;&gt;f :: Char&lt;/code&gt;, where
+&lt;code class=&quot;language-text&quot;&gt;::&lt;/code&gt; can be read as ‘type of’ or ‘has type’. There is also
 &lt;a href=&quot;%5Bhoogle.com%5D(https://hoogle.haskell.org)&quot;&gt;Hoogle&lt;/a&gt;.
 Though Haskell is able to infer types very well, it is good practice that
 top-level definitions are explicitly type-annotated:&lt;/p&gt;
@@ -963,25 +963,25 @@ top-level definitions are explicitly type-annotated:&lt;/p&gt;
 &lt;h2&gt;Functions&lt;/h2&gt;
 &lt;p&gt;Functions map values to values. Since functions themselves are values
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/First-class_citizen&quot;&gt;“first-class citizens”&lt;/a&gt;),
-they too have types. &lt;code&gt;f :: p -&gt; p&lt;/code&gt; can be read as “f takes a p and returns a p”.&lt;/p&gt;
+they too have types. &lt;code class=&quot;language-text&quot;&gt;f :: p -&amp;gt; p&lt;/code&gt; can be read as “f takes a p and returns a p”.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token hvariable&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;p&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;p&lt;/span&gt;
 &lt;span class=&quot;token hvariable&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;            &lt;span class=&quot;token comment&quot;&gt;-- no-op&lt;/span&gt;
 
 &lt;span class=&quot;token hvariable&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Eq&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Bool&lt;/span&gt;
 &lt;span class=&quot;token hvariable&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;y&lt;/span&gt;      &lt;span class=&quot;token comment&quot;&gt;-- equality, g is pretty much (==)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;The second function &lt;code&gt;g&lt;/code&gt; has a type constraint: it takes two arguments of a type
-&lt;code&gt;a&lt;/code&gt; that must have properly defined equality, such that it is of the
-typeclass &lt;code&gt;Eq&lt;/code&gt; (more on this later), e.g. &lt;code&gt;Int&lt;/code&gt;. This is parametric
+&lt;p&gt;The second function &lt;code class=&quot;language-text&quot;&gt;g&lt;/code&gt; has a type constraint: it takes two arguments of a type
+&lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; that must have properly defined equality, such that it is of the
+typeclass &lt;code class=&quot;language-text&quot;&gt;Eq&lt;/code&gt; (more on this later), e.g. &lt;code class=&quot;language-text&quot;&gt;Int&lt;/code&gt;. This is parametric
 polymorphism, with especially lightweight syntax.&lt;/p&gt;
 &lt;p&gt;Note functions in Haskell are automatically
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Currying&quot;&gt;curried&lt;/a&gt; (like partial application,
-but one argument at at time) — a function that takes two arguments, like &lt;code&gt;g&lt;/code&gt;,
+but one argument at at time) — a function that takes two arguments, like &lt;code class=&quot;language-text&quot;&gt;g&lt;/code&gt;,
 is still a valid function when only one of its arguments is given:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- (g 3) is a function that expects one argument, and returns true if it equals&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;-- 3 and false otherwise. This returns all the items equal to 3 in the list:&lt;/span&gt;
 &lt;span class=&quot;token builtin&quot;&gt;filter&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;-- evaluates to [3,3]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Defining (data) types&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;data&lt;/code&gt; defines an algebraic data type
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; defines an algebraic data type
 (&lt;a href=&quot;https://en.wikipedia.org/wiki/Algebraic_data_type&quot;&gt;ADT&lt;/a&gt;):&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;TrafficLight&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Red&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Yellow&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;|&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Green&lt;/span&gt;
 
@@ -992,7 +992,7 @@ is still a valid function when only one of its arguments is given:&lt;/p&gt;
 parameters and are automatically curried. Types may have the same name as
 their data constructor(s). Note that type constructors do not have a function
 body, they simply construct types.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;newtype&lt;/code&gt; defines new types out of existing data types:&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;newtype&lt;/code&gt; defines new types out of existing data types:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- this is record syntax in Haskell&lt;/span&gt;
 &lt;span class=&quot;token keyword&quot;&gt;data&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ZipList&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ZipList&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;getZipList&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
@@ -1000,10 +1000,10 @@ body, they simply construct types.&lt;/p&gt;
 &lt;span class=&quot;token keyword&quot;&gt;newtype&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ZipList&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;ZipList&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;getZipList&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;It was made exactly for cases when we want to just take one type and
 wrap it in something to present it as another type.
-&lt;code&gt;data&lt;/code&gt; can only and should be replaced with &lt;code&gt;newtype&lt;/code&gt; if the type has exactly
+&lt;code class=&quot;language-text&quot;&gt;data&lt;/code&gt; can only and should be replaced with &lt;code class=&quot;language-text&quot;&gt;newtype&lt;/code&gt; if the type has exactly
 one constructor with exactly one field inside it. Contrast this with:&lt;/p&gt;
 &lt;h2&gt;Type synonyms&lt;/h2&gt;
-&lt;p&gt;&lt;code&gt;type&lt;/code&gt; defines a type alias. Wherever one can be used, the other can
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;type&lt;/code&gt; defines a type alias. Wherever one can be used, the other can
 take its place. No data constructor is defined.&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;type&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;MyStr&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;String&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Typeclasses&lt;/h2&gt;
@@ -1028,23 +1028,23 @@ typeclasses are like interfaces in languages like Java.&lt;/p&gt;
     &lt;span class=&quot;token constant&quot;&gt;Yellow&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Yellow&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;True&lt;/span&gt;
     &lt;span class=&quot;token hvariable&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;_&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;False&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
-&lt;p&gt;If you want to see what the instances of a typeclass are, just do &lt;code&gt;:info&lt;/code&gt;
-(or &lt;code&gt;:i&lt;/code&gt;) on a typeclass in GHCI. Typing &lt;code&gt;:info Num&lt;/code&gt; will show which
+&lt;p&gt;If you want to see what the instances of a typeclass are, just do &lt;code class=&quot;language-text&quot;&gt;:info&lt;/code&gt;
+(or &lt;code class=&quot;language-text&quot;&gt;:i&lt;/code&gt;) on a typeclass in GHCI. Typing &lt;code class=&quot;language-text&quot;&gt;:info Num&lt;/code&gt; will show which
 functions the typeclass defines and it will give you a list of the types in
-the typeclass. &lt;code&gt;:info&lt;/code&gt; works for types and type constructors too.&lt;/p&gt;
+the typeclass. &lt;code class=&quot;language-text&quot;&gt;:info&lt;/code&gt; works for types and type constructors too.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2&gt;Monoids&lt;/h2&gt;
 &lt;p&gt;A monoid is a type for which you have a well-defined associative binary
-function e.g. &lt;code&gt;(*)&lt;/code&gt; in &lt;code&gt;(1*(2*3) == (1*2)*3)&lt;/code&gt; and a value which acts as an
+function e.g. &lt;code class=&quot;language-text&quot;&gt;(*)&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;(1*(2*3) == (1*2)*3)&lt;/code&gt; and a value which acts as an
 identity with respect to that function. When something acts as an identity
 with respect to a function, it means that when called with that function and
 some other value, the result is always equal to that other value:&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;code&gt;1&lt;/code&gt; is the identity with respect to &lt;code&gt;*&lt;/code&gt;
-and &lt;code&gt;[]&lt;/code&gt; is the identity with respect to &lt;code&gt;++&lt;/code&gt;.
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt; is the identity with respect to &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt;
+and &lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt; is the identity with respect to &lt;code class=&quot;language-text&quot;&gt;++&lt;/code&gt;.
 Any number multiplied by 1 is itself, and appending the empty list to any
-list yields the list. So &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;[]&lt;/code&gt; are &lt;code&gt;mempty&lt;/code&gt;s and &lt;code&gt;*&lt;/code&gt; and &lt;code&gt;++&lt;/code&gt; are
-&lt;code&gt;mappend&lt;/code&gt;s for the &lt;code&gt;Num&lt;/code&gt; and &lt;code&gt;[]&lt;/code&gt; monoids, respectively.&lt;/p&gt;
+list yields the list. So &lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt; are &lt;code class=&quot;language-text&quot;&gt;mempty&lt;/code&gt;s and &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;++&lt;/code&gt; are
+&lt;code class=&quot;language-text&quot;&gt;mappend&lt;/code&gt;s for the &lt;code class=&quot;language-text&quot;&gt;Num&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt; monoids, respectively.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Monoid&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt;
     &lt;span class=&quot;token hvariable&quot;&gt;mempty&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;m&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;-- polymorphic constant: the identity value (e.g. 1 w.r.t *)&lt;/span&gt;
@@ -1053,27 +1053,27 @@ list yields the list. So &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;[]&lt;/code&
     &lt;span class=&quot;token hvariable&quot;&gt;mconcat&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;foldr&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;mappend&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;mempty&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;-- default implementation!&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Monoid laws (surrounding a function with backticks (`) allows infix calling):&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;mempty `mappend` x = x&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;x `mappend` mempty = x&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;mempty `mappend` x = x&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;x `mappend` mempty = x&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;Monoid instances:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;lists are monoids, where &lt;code&gt;mempty = []&lt;/code&gt;, &lt;code&gt;mappend = (++)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;numbers can be monoids in multiple ways with &lt;code&gt;0&lt;/code&gt; and &lt;code&gt;+&lt;/code&gt;, and &lt;code&gt;1&lt;/code&gt; and &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;booleans can be monoids in two ways with &lt;code&gt;False&lt;/code&gt; and &lt;code&gt;OR&lt;/code&gt; (&lt;code&gt;newtype&lt;/code&gt;‘d as &lt;code&gt;Any&lt;/code&gt;
-in &lt;code&gt;Data.Monoid&lt;/code&gt;), and &lt;code&gt;True&lt;/code&gt; and &lt;code&gt;AND&lt;/code&gt;
-(&lt;code&gt;newtype&lt;/code&gt;‘d as &lt;code&gt;All&lt;/code&gt; in &lt;code&gt;Data.Monoid&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;lists are monoids, where &lt;code class=&quot;language-text&quot;&gt;mempty = []&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;mappend = (++)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;numbers can be monoids in multiple ways with &lt;code class=&quot;language-text&quot;&gt;0&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;+&lt;/code&gt;, and &lt;code class=&quot;language-text&quot;&gt;1&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;booleans can be monoids in two ways with &lt;code class=&quot;language-text&quot;&gt;False&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;OR&lt;/code&gt; (&lt;code class=&quot;language-text&quot;&gt;newtype&lt;/code&gt;‘d as &lt;code class=&quot;language-text&quot;&gt;Any&lt;/code&gt;
+in &lt;code class=&quot;language-text&quot;&gt;Data.Monoid&lt;/code&gt;), and &lt;code class=&quot;language-text&quot;&gt;True&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;AND&lt;/code&gt;
+(&lt;code class=&quot;language-text&quot;&gt;newtype&lt;/code&gt;‘d as &lt;code class=&quot;language-text&quot;&gt;All&lt;/code&gt; in &lt;code class=&quot;language-text&quot;&gt;Data.Monoid&lt;/code&gt;).&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Functors&lt;/h2&gt;
 &lt;p&gt;What can I map functions over? I can map functions over a
 “computational context”.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;functors are things that can be mapped over (e.g. lists, Maybes).&lt;/li&gt;
-&lt;li&gt;functors are instances of the typeclass &lt;code&gt;Functor&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fmap&lt;/code&gt; works like &lt;code&gt;map&lt;/code&gt;, but is more general (works on all functors, not
+&lt;li&gt;functors are instances of the typeclass &lt;code class=&quot;language-text&quot;&gt;Functor&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fmap&lt;/code&gt; works like &lt;code class=&quot;language-text&quot;&gt;map&lt;/code&gt;, but is more general (works on all functors, not
 just lists).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&amp;#x3C;$&gt;)&lt;/code&gt; is an infix synonym of &lt;code&gt;fmap&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(&amp;lt;$&amp;gt;)&lt;/code&gt; is an infix synonym of &lt;code class=&quot;language-text&quot;&gt;fmap&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;“normal” functors support mapping “normal” functions over them.
 “normal” here meaning dealing with plain old values, i.e. non-monadic
 values.&lt;/li&gt;
@@ -1081,14 +1081,14 @@ values.&lt;/li&gt;
 &lt;p&gt;Technically any type can be defined to be a Functor, whether it makes sense
 is a separate issue. Examples of where it makes sense:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;mapping a function over a list of &lt;code&gt;a&lt;/code&gt;s means applying the function to each
-&lt;code&gt;a&lt;/code&gt; in the list. The computational context here is the “repetition”.&lt;/li&gt;
-&lt;li&gt;mapping a function over a &lt;code&gt;Maybe a&lt;/code&gt;, means applying the function to the &lt;code&gt;a&lt;/code&gt;
-if it’s there, or evaluating to &lt;code&gt;Nothing&lt;/code&gt; if it’s not.
+&lt;li&gt;mapping a function over a list of &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;s means applying the function to each
+&lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; in the list. The computational context here is the “repetition”.&lt;/li&gt;
+&lt;li&gt;mapping a function over a &lt;code class=&quot;language-text&quot;&gt;Maybe a&lt;/code&gt;, means applying the function to the &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;
+if it’s there, or evaluating to &lt;code class=&quot;language-text&quot;&gt;Nothing&lt;/code&gt; if it’s not.
 The computational context here is the “optionality”.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;A &lt;code&gt;Maybe a&lt;/code&gt; is either a &lt;code&gt;Just a&lt;/code&gt; or a &lt;code&gt;Nothing&lt;/code&gt; — it has two data
+&lt;p&gt;A &lt;code class=&quot;language-text&quot;&gt;Maybe a&lt;/code&gt; is either a &lt;code class=&quot;language-text&quot;&gt;Just a&lt;/code&gt; or a &lt;code class=&quot;language-text&quot;&gt;Nothing&lt;/code&gt; — it has two data
 constructors.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- these two expressions are equivalent, they both evaluate to [4,5,6,7,8]&lt;/span&gt;
@@ -1100,41 +1100,41 @@ constructors.&lt;/p&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;$&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Nothing&lt;/span&gt;   &lt;span class=&quot;token comment&quot;&gt;-- evaluates to Nothing&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Note how the values end up inside the context (wrapped in the List/Maybe).
-In general there is not a nice function you can use to recover the &lt;code&gt;a&lt;/code&gt; once
-it is inside a functor (or an &lt;code&gt;Applicative&lt;/code&gt;, or a &lt;code&gt;Monad&lt;/code&gt;). That is,
-&lt;code&gt;Functor&lt;/code&gt; does not require its instances to define what it means to unwrap
+In general there is not a nice function you can use to recover the &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; once
+it is inside a functor (or an &lt;code class=&quot;language-text&quot;&gt;Applicative&lt;/code&gt;, or a &lt;code class=&quot;language-text&quot;&gt;Monad&lt;/code&gt;). That is,
+&lt;code class=&quot;language-text&quot;&gt;Functor&lt;/code&gt; does not require its instances to define what it means to unwrap
 a the context to return the value.&lt;/p&gt;
-&lt;p&gt;This is by design. For instance, unwrapping a &lt;code&gt;Maybe&lt;/code&gt; to try and get the value
-inside of it doesn’t always make sense: what would &lt;code&gt;Nothing&lt;/code&gt; unwrap into?
-&lt;strong&gt;… NullPointerException&lt;/strong&gt;. In the case of the &lt;code&gt;IO&lt;/code&gt; monad, whose
+&lt;p&gt;This is by design. For instance, unwrapping a &lt;code class=&quot;language-text&quot;&gt;Maybe&lt;/code&gt; to try and get the value
+inside of it doesn’t always make sense: what would &lt;code class=&quot;language-text&quot;&gt;Nothing&lt;/code&gt; unwrap into?
+&lt;strong&gt;… NullPointerException&lt;/strong&gt;. In the case of the &lt;code class=&quot;language-text&quot;&gt;IO&lt;/code&gt; monad, whose
 computational context I think of as “impurity”, it is even more finicky to
 extract a pure value from a monadic one. In any case you will invite
 runtime errors.&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Anyway, here are the Functor laws:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;fmap id = id&lt;/code&gt;, where &lt;code&gt;id&lt;/code&gt; is &lt;code&gt;\x -&gt; x&lt;/code&gt;: “return what was passed”&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fmap (f . g) = fmap f . fmap g&lt;/code&gt;, or equivalently, &lt;br&gt;
-&lt;code&gt;fmap (f . g) F = fmap f (fmap g F)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fmap id = id&lt;/code&gt;, where &lt;code class=&quot;language-text&quot;&gt;id&lt;/code&gt; is &lt;code class=&quot;language-text&quot;&gt;\x -&amp;gt; x&lt;/code&gt;: “return what was passed”&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fmap (f . g) = fmap f . fmap g&lt;/code&gt;, or equivalently, &lt;br&gt;
+&lt;code class=&quot;language-text&quot;&gt;fmap (f . g) F = fmap f (fmap g F)&lt;/code&gt;.&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;The &lt;code&gt;\x y -&gt; x + y&lt;/code&gt; syntax is a lambda expression, here it defines an
+&lt;p&gt;The &lt;code class=&quot;language-text&quot;&gt;\x y -&amp;gt; x + y&lt;/code&gt; syntax is a lambda expression, here it defines an
 anonymous function that takes two arguments x and y and returns their sum.
-The &lt;code&gt;.&lt;/code&gt; syntax is
+The &lt;code class=&quot;language-text&quot;&gt;.&lt;/code&gt; syntax is
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Function_composition&quot;&gt;function composition&lt;/a&gt; as
-in mathematics: &lt;code&gt;(f . g) x&lt;/code&gt; is equivalent to &lt;code&gt;f (g x)&lt;/code&gt;.&lt;/p&gt;
+in mathematics: &lt;code class=&quot;language-text&quot;&gt;(f . g) x&lt;/code&gt; is equivalent to &lt;code class=&quot;language-text&quot;&gt;f (g x)&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;Applicative functors&lt;/h2&gt;
 &lt;p&gt;What if I want to map normal functions in a functor over another functor:
 “to reach into the context, compute, and return the value in that context”?
 Those functors must be applicative.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;applicative values are values with “added context”, e.g. &lt;code&gt;Just 5&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;applicative values are values with “added context”, e.g. &lt;code class=&quot;language-text&quot;&gt;Just 5&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;applicative functors support mapping functions inside functors over them&lt;/li&gt;
 &lt;li&gt;applicative functors are functors, and they are instances of the
-&lt;code&gt;Applicative&lt;/code&gt; typeclass. It defines &lt;code&gt;pure&lt;/code&gt; and &lt;code&gt;(&amp;#x3C;*&gt;)&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pure&lt;/code&gt; takes a value and returns that value in the applicative functor
+&lt;code class=&quot;language-text&quot;&gt;Applicative&lt;/code&gt; typeclass. It defines &lt;code class=&quot;language-text&quot;&gt;pure&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;(&amp;lt;*&amp;gt;)&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pure&lt;/code&gt; takes a value and returns that value in the applicative functor
 (“wrapped in the minimal context”)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&amp;#x3C;*&gt;&lt;/code&gt; (infix) takes a functor with a function in it and another functor,
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;lt;*&amp;gt;&lt;/code&gt; (infix) takes a functor with a function in it and another functor,
 and extracts the function from the first functor and maps it over the
 second one.&lt;/li&gt;
 &lt;/ul&gt;
@@ -1149,34 +1149,34 @@ second one.&lt;/li&gt;
 &lt;span class=&quot;token constant&quot;&gt;Nothing&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;*&gt;&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Nothing&lt;/span&gt;        &lt;span class=&quot;token comment&quot;&gt;-- Nothing&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;Applicative functor laws (this is where the analogies fall apart):&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;pure id &amp;#x3C;*&gt; v = v&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pure f &amp;#x3C;*&gt; pure x = pure (f x)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;u &amp;#x3C;*&gt; pure y = pure ($ y) &amp;#x3C;*&gt; u&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pure (.) &amp;#x3C;*&gt; u &amp;#x3C;*&gt; v &amp;#x3C;*&gt; w = u &amp;#x3C;*&gt; (v &amp;#x3C;*&gt; w)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pure id &amp;lt;*&amp;gt; v = v&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pure f &amp;lt;*&amp;gt; pure x = pure (f x)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;u &amp;lt;*&amp;gt; pure y = pure ($ y) &amp;lt;*&amp;gt; u&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pure (.) &amp;lt;*&amp;gt; u &amp;lt;*&amp;gt; v &amp;lt;*&amp;gt; w = u &amp;lt;*&amp;gt; (v &amp;lt;*&amp;gt; w)&lt;/code&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2&gt;Monads&lt;/h2&gt;
-&lt;p&gt;What if I have a value in a context, &lt;code&gt;m a&lt;/code&gt;, and want apply to it a function
-that takes a normal &lt;code&gt;a&lt;/code&gt; and returns a value in that context?
-How do you apply a function of type &lt;code&gt;a -&gt; m b&lt;/code&gt; to a value of type &lt;code&gt;m a&lt;/code&gt;?&lt;/p&gt;
+&lt;p&gt;What if I have a value in a context, &lt;code class=&quot;language-text&quot;&gt;m a&lt;/code&gt;, and want apply to it a function
+that takes a normal &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; and returns a value in that context?
+How do you apply a function of type &lt;code class=&quot;language-text&quot;&gt;a -&amp;gt; m b&lt;/code&gt; to a value of type &lt;code class=&quot;language-text&quot;&gt;m a&lt;/code&gt;?&lt;/p&gt;
 &lt;p&gt;Another take on monads from a similarly great book:
 &lt;a href=&quot;http://book.realworldhaskell.org/read/monads.html&quot;&gt;a programmable semicolon&lt;/a&gt;.&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;monads are just applicative functors that support &lt;code&gt;&gt;&gt;=&lt;/code&gt; (read as “bind”)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;&gt;&gt;=&lt;/code&gt; is like function application, only instead of taking a normal value
+&lt;li&gt;monads are just applicative functors that support &lt;code class=&quot;language-text&quot;&gt;&amp;gt;&amp;gt;=&lt;/code&gt; (read as “bind”)&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;&amp;gt;&amp;gt;=&lt;/code&gt; is like function application, only instead of taking a normal value
 and feeding it to a normal function, it takes a monadic value (that is,
 a value with a context) and feeds it to a function that takes a normal
 value but returns a monadic value.&lt;/li&gt;
-&lt;li&gt;a &lt;code&gt;Monad&lt;/code&gt;’s &lt;code&gt;return&lt;/code&gt; is the same as an &lt;code&gt;Applicative&lt;/code&gt;’s &lt;code&gt;pure&lt;/code&gt;,
+&lt;li&gt;a &lt;code class=&quot;language-text&quot;&gt;Monad&lt;/code&gt;’s &lt;code class=&quot;language-text&quot;&gt;return&lt;/code&gt; is the same as an &lt;code class=&quot;language-text&quot;&gt;Applicative&lt;/code&gt;’s &lt;code class=&quot;language-text&quot;&gt;pure&lt;/code&gt;,
 just a different name.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;The most useful monad: the &lt;code&gt;IO&lt;/code&gt; monad (again, it is also an Applicative and a
+&lt;p&gt;The most useful monad: the &lt;code class=&quot;language-text&quot;&gt;IO&lt;/code&gt; monad (again, it is also an Applicative and a
 Functor). Sequencing operations one after the other (functions) is possible
 in the IO monad. This looks like imperative programming and is indeed necessary
 when dealing with IO operations, which are inherently
 &lt;a href=&quot;https://en.wikipedia.org/wiki/Functional_purity&quot;&gt;impure&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In a way, since the fact that potential side effects from the &lt;code&gt;IO&lt;/code&gt; operations
+&lt;p&gt;In a way, since the fact that potential side effects from the &lt;code class=&quot;language-text&quot;&gt;IO&lt;/code&gt; operations
 are clearly in laid out in the type system, they are not really side effects,
 and this makes the whole program easier to reason with. It is said that this
 makes Haskell a purely functional language still.&lt;/p&gt;
@@ -1198,7 +1198,7 @@ makes Haskell a purely functional language still.&lt;/p&gt;
                 &lt;span class=&quot;token builtin&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;name&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;p&gt;The distinction with applicative functors is very slight.
 &lt;strong&gt;Most common functors are applicative and are monads&lt;/strong&gt;, e.g.
-&lt;code&gt;[]&lt;/code&gt;, &lt;code&gt;Maybe&lt;/code&gt;, &lt;code&gt;State&lt;/code&gt;, &lt;code&gt;IO&lt;/code&gt;&lt;/p&gt;
+&lt;code class=&quot;language-text&quot;&gt;[]&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;Maybe&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;State&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;IO&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://en.wikibooks.org/wiki/Haskell/do_notation&quot;&gt;do-blocks&lt;/a&gt;
 are syntactic sugar to deal with monads, to do away with nesting. See below.&lt;/p&gt;
 &lt;h2&gt;Syntax&lt;/h2&gt;
@@ -1234,19 +1234,19 @@ are syntactic sugar to deal with monads, to do away with nesting. See below.&lt;
     &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;\&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;y&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;$&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;lst&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;*&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;lst&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Types and instances of functors et al&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;map :: (a -&gt; b) -&gt; [a] -&gt; [b]&lt;/code&gt;, literally &lt;code&gt;fmap&lt;/code&gt; but just for lists&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;fmap :: (a -&gt; b) -&gt; f a -&gt; f b&lt;/code&gt;, where f is a functor :@1&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&amp;#x3C;$&gt;) :: (a -&gt; b) -&gt; f a -&gt; f b&lt;/code&gt;, where f is a functor&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pure :: a -&gt; f a&lt;/code&gt;, where f is an applicative functor&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&amp;#x3C;*&gt;) :: f (a -&gt; b) -&gt; f a -&gt; f b&lt;/code&gt;, where f is an applicative functor&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&gt;&gt;=) :: m a -&gt; (a -&gt; m b) -&gt; m b&lt;/code&gt;, where m is a monad&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;(&gt;&gt;) :: m a -&gt; m b -&gt; m b&lt;/code&gt;, where m is a monad&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;return :: a -&gt; m a&lt;/code&gt;, where m is a monad&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;map :: (a -&amp;gt; b) -&amp;gt; [a] -&amp;gt; [b]&lt;/code&gt;, literally &lt;code class=&quot;language-text&quot;&gt;fmap&lt;/code&gt; but just for lists&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;fmap :: (a -&amp;gt; b) -&amp;gt; f a -&amp;gt; f b&lt;/code&gt;, where f is a functor :@1&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(&amp;lt;$&amp;gt;) :: (a -&amp;gt; b) -&amp;gt; f a -&amp;gt; f b&lt;/code&gt;, where f is a functor&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;pure :: a -&amp;gt; f a&lt;/code&gt;, where f is an applicative functor&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(&amp;lt;*&amp;gt;) :: f (a -&amp;gt; b) -&amp;gt; f a -&amp;gt; f b&lt;/code&gt;, where f is an applicative functor&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(&amp;gt;&amp;gt;=) :: m a -&amp;gt; (a -&amp;gt; m b) -&amp;gt; m b&lt;/code&gt;, where m is a monad&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;(&amp;gt;&amp;gt;) :: m a -&amp;gt; m b -&amp;gt; m b&lt;/code&gt;, where m is a monad&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;return :: a -&amp;gt; m a&lt;/code&gt;, where m is a monad&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;a href=&quot;https://wiki.haskell.org/Lifting&quot;&gt;“lifting”&lt;/a&gt;:
-&lt;code&gt;(-&gt;)&lt;/code&gt; is right-applicative, so
-&lt;code&gt;fmap :: (a -&gt; b) -&gt; (f a -&gt; f b)&lt;/code&gt; is equivalent, and emphasises the “lift”,
-likewise for &lt;code&gt;pure&lt;/code&gt; et al.&lt;/p&gt;
+&lt;code class=&quot;language-text&quot;&gt;(-&amp;gt;)&lt;/code&gt; is right-applicative, so
+&lt;code class=&quot;language-text&quot;&gt;fmap :: (a -&amp;gt; b) -&amp;gt; (f a -&amp;gt; f b)&lt;/code&gt; is equivalent, and emphasises the “lift”,
+likewise for &lt;code class=&quot;language-text&quot;&gt;pure&lt;/code&gt; et al.&lt;/p&gt;
 &lt;p&gt;this is how lists are instances of Functor:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;-- [] here is A TYPE CONSTRUCTOR, i.e. the f in Functor f&lt;/span&gt;
 &lt;span class=&quot;token comment&quot;&gt;-- not the literal for an empty list.&lt;/span&gt;
@@ -1262,7 +1262,7 @@ likewise for &lt;code&gt;pure&lt;/code&gt; et al.&lt;/p&gt;
 &lt;span class=&quot;token keyword&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Functor&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Either&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt;
     &lt;span class=&quot;token builtin&quot;&gt;fmap&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Right&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Right&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token hvariable&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
     &lt;span class=&quot;token builtin&quot;&gt;fmap&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;f&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Left&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Left&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;x&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code&gt;Either a&lt;/code&gt; is a type constructor that takes 1 parameter, which is what the
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;Either a&lt;/code&gt; is a type constructor that takes 1 parameter, which is what the
 Functor typeclass expects.&lt;/p&gt;
 &lt;p&gt;Functions are in fact monads too:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;instance&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Applicative&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;r&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt;
@@ -1286,7 +1286,7 @@ Functor typeclass expects.&lt;/p&gt;
 &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Just&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Nothing&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;Just&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 &lt;h2&gt;Class constraints&lt;/h2&gt;
 &lt;p&gt;Class constraints can appear in (type)class declarations vs instance
-declarations, as in &lt;code&gt;(Eq m) =&gt; Eq (classOrInstanceName m)&lt;/code&gt;.&lt;/p&gt;
+declarations, as in &lt;code class=&quot;language-text&quot;&gt;(Eq m) =&amp;gt; Eq (classOrInstanceName m)&lt;/code&gt;.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;In class declarations, they are used for making a typeclass a subclass of
 another typeclass.&lt;/li&gt;
@@ -1301,26 +1301,26 @@ have type systems that allow access to higher-kinded types (e.g. Monads).
 Haskell lets you see the kinds of types too. I have yet to realise where
 this might be useful.&lt;/p&gt;
 &lt;p&gt;Kinds are to types what types are to values. Find out kind of a type with
-&lt;code&gt;:k&lt;/code&gt; in GHCi.&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;*&lt;/code&gt; means concrete type:&lt;/p&gt;
+&lt;code class=&quot;language-text&quot;&gt;:k&lt;/code&gt; in GHCi.&lt;/p&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt; means concrete type:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;Int :: *&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Maybe :: * -&gt; *&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Maybe Int :: *&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Either :: * -&gt; * -&gt; *&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Int :: *&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Maybe :: * -&amp;gt; *&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Maybe Int :: *&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;Either :: * -&amp;gt; * -&amp;gt; *&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;I haven’t quite grasped this, but it’s interesting regardless:&lt;/p&gt;
 &lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;haskell&quot;&gt;&lt;pre class=&quot;language-haskell&quot;&gt;&lt;code class=&quot;language-haskell&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;token constant&quot;&gt;Tofu&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;where&lt;/span&gt;
     &lt;span class=&quot;token hvariable&quot;&gt;tofu&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;::&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;j&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;-&gt;&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;t&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;token hvariable&quot;&gt;j&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;If &lt;code&gt;t&lt;/code&gt; is an instance of &lt;code&gt;Tofu&lt;/code&gt;, what would its kind be?&lt;/p&gt;
+&lt;p&gt;If &lt;code class=&quot;language-text&quot;&gt;t&lt;/code&gt; is an instance of &lt;code class=&quot;language-text&quot;&gt;Tofu&lt;/code&gt;, what would its kind be?&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;code&gt;j a&lt;/code&gt; is the type of the value of the first parameter of &lt;code&gt;tofu&lt;/code&gt;, so
-its kind must be &lt;code&gt;*&lt;/code&gt;, i.e. it is a concrete type.&lt;/li&gt;
-&lt;li&gt;Assuming &lt;code&gt;a&lt;/code&gt; is of kind &lt;code&gt;*&lt;/code&gt;, &lt;code&gt;j&lt;/code&gt; has kind &lt;code&gt;* -&gt; *&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;t a j&lt;/code&gt; must be a concrete type, and since it takes two types &lt;code&gt;a&lt;/code&gt; and &lt;code&gt;j&lt;/code&gt;,
-whose kinds we inferred above, &lt;code&gt;t&lt;/code&gt; has kind &lt;code&gt;* -&gt; (* -&gt; *) -&gt; *&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;j a&lt;/code&gt; is the type of the value of the first parameter of &lt;code class=&quot;language-text&quot;&gt;tofu&lt;/code&gt;, so
+its kind must be &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt;, i.e. it is a concrete type.&lt;/li&gt;
+&lt;li&gt;Assuming &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; is of kind &lt;code class=&quot;language-text&quot;&gt;*&lt;/code&gt;, &lt;code class=&quot;language-text&quot;&gt;j&lt;/code&gt; has kind &lt;code class=&quot;language-text&quot;&gt;* -&amp;gt; *&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;t a j&lt;/code&gt; must be a concrete type, and since it takes two types &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt; and &lt;code class=&quot;language-text&quot;&gt;j&lt;/code&gt;,
+whose kinds we inferred above, &lt;code class=&quot;language-text&quot;&gt;t&lt;/code&gt; has kind &lt;code class=&quot;language-text&quot;&gt;* -&amp;gt; (* -&amp;gt; *) -&amp;gt; *&lt;/code&gt;.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;So, &lt;code&gt;t&lt;/code&gt; takes a concrete type &lt;code&gt;a&lt;/code&gt;, a type constructor &lt;code&gt;j&lt;/code&gt; that takes a concrete
+&lt;p&gt;So, &lt;code class=&quot;language-text&quot;&gt;t&lt;/code&gt; takes a concrete type &lt;code class=&quot;language-text&quot;&gt;a&lt;/code&gt;, a type constructor &lt;code class=&quot;language-text&quot;&gt;j&lt;/code&gt; that takes a concrete
 type, and produces a concrete type.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Connect 4 Pancake]]></title><description><![CDATA[Submission Github A Windows 10 executable (no installation needed) is available from both
 links. Otherwise, building from source is an…]]></description><link>https://jonjau.github.io/connect-4-pancake/</link><guid isPermaLink="false">https://jonjau.github.io/connect-4-pancake/</guid><pubDate>Sat, 01 Aug 2020 04:12:16 GMT</pubDate><content:encoded>&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://jhan1.itch.io/connect-4-pancake&quot;&gt;Submission&lt;/a&gt;&lt;/li&gt;
