@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Jonathan Jauhari",
   "dependencies": {
+    "@fontsource/iosevka": "^5.0.7",
     "@fontsource/noto-sans": "^4.1.0",
     "@fontsource/noto-serif": "^4.1.0",
     "@mdx-js/mdx": "^1.6.22",
