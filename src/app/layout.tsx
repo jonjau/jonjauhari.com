@@ -38,10 +38,7 @@ export default function RootLayout({
                   >
                     Projects
                   </Link>
-                  <Link
-                    href="/about"
-                    className="asds mx-2 block px-4 py-1 text-2xl"
-                  >
+                  <Link href="/about" className="mx-2 block px-4 py-1 text-2xl">
                     About
                   </Link>
                 </div>
@@ -49,7 +46,7 @@ export default function RootLayout({
             </nav>
           </header>
           <main className="flex">
-            <div className="mb-auto mt-0 pt-16">{children}</div>
+            <div className="mx-auto max-w-4xl px-6 pt-40">{children}</div>
           </main>
           <footer className="mt-8">
             <div />
