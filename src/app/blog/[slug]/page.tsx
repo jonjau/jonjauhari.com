@@ -7,7 +7,7 @@ export default async function BlogPost({
 }: {
   params: { slug: string };
 }) {
-  const post = await getPostBySlug(params.slug);
+  const post = getPostBySlug(params.slug);
   const content = await markdownToHtml(post.content);
   return (
     <>
