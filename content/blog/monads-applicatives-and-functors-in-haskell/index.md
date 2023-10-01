@@ -172,7 +172,7 @@ class Monoid m where
 
 Monoid laws (surrounding a function with backticks `` ` `` allows infix calling):
 
-```_
+```text
 1. mempty `mappend` x = x
 2. x `mappend` mempty = x
 3. (x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)
@@ -237,7 +237,7 @@ fmap (+3) (Just 5) -- evaluates to (Just 8)
 
 Anyway, here are the Functor laws:
 
-```_
+```text
 1. fmap id = id
 2. fmap (f . g) = fmap f . fmap g
 
@@ -282,7 +282,7 @@ Nothing <*> Nothing        -- Nothing
 
 Applicative functor laws (this is where the analogies fall apart):
 
-```_
+```text
 1. pure id <*> v = v
 2. pure f <*> pure x = pure (f x)
 3. u <*> pure y = pure ($ y) <*> u

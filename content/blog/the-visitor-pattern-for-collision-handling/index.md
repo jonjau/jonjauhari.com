@@ -316,7 +316,7 @@ fun main() {
 
 The output:
 
-```_
+```text
 Hail!
 (knight hits dragon)
 (knight slashes werewolf)

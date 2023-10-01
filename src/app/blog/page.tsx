@@ -13,21 +13,25 @@ export default async function Blog() {
       <ol>
         {posts.map((post: Post) => (
           <li key={post.slug}>
-            <article
-              itemScope
-              itemType="https://schema.org/BlogPosting"
-              className="my-6 rounded p-6"
-            >
-              <header className="mb-4 font-serif">
-                <h2 itemProp="headline" className="text-xl">
-                  {post.title}
-                </h2>
-                <time itemProp="datePublished">
-                  {post.date.toLocaleDateString("en-AU", { dateStyle: "long" })}
-                </time>
-              </header>
-              <p itemProp="description">{post.description}</p>
-            </article>
+            <Link href={`/blog/${post.slug}`}>
+              <article
+                itemScope
+                itemType="https://schema.org/BlogPosting"
+                className="my-6 rounded p-6"
+              >
+                <header className="mb-4 font-serif">
+                  <h2 itemProp="headline" className="text-xl">
+                    {post.title}
+                  </h2>
+                  <time itemProp="datePublished">
+                    {post.date.toLocaleDateString("en-AU", {
+                      dateStyle: "long",
+                    })}
+                  </time>
+                </header>
+                <p itemProp="description">{post.description}</p>
+              </article>
+            </Link>
           </li>
         ))}
       </ol>

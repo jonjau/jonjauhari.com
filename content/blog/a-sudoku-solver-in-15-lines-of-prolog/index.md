@@ -73,7 +73,7 @@ Essentially, you define what makes a solution a solution, and Prolog
 Sure enough it actually runs. In a vanilla
 [SWI-Prolog](https://www.swi-prolog.org/) session:
 
-```_
+```text
 (manually formatted swipl output)
 
 ?- Puzzle=[[5,3,_, _,7,_, _,_,_],
