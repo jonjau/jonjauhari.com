@@ -19,12 +19,32 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-full bg-neutral-950">
-          <header className="fixed left-0 right-0 z-10">
-            <nav>
-              <div>
-                <Link href="/blog">blog</Link>
-                <Link href="/projects">projects</Link>
-                <Link href="/about">about</Link>
+          <header className="absolute left-0 right-0 z-10">
+            <nav className="bg-slate-800 px-4 py-12 md:bg-transparent">
+              <div className="mx-auto flex max-w-6xl items-center">
+                <Link href="/" className="flex-0">
+                  <div className="flex">
+                    <span className="flex items-center justify-center"></span>
+                    <span className="mx-3 text-2xl">Jonathan Jauhari</span>
+                  </div>
+                </Link>
+                <div className="flex flex-1 items-center justify-end">
+                  <Link href="/blog" className="mx-2 block px-4 py-1 text-2xl">
+                    Blog
+                  </Link>
+                  <Link
+                    href="/projects"
+                    className="mx-2 block px-4 py-1 text-2xl"
+                  >
+                    Projects
+                  </Link>
+                  <Link
+                    href="/about"
+                    className="asds mx-2 block px-4 py-1 text-2xl"
+                  >
+                    About
+                  </Link>
+                </div>
               </div>
             </nav>
           </header>
