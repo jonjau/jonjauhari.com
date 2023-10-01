@@ -46,7 +46,7 @@ export default function RootLayout({
             </nav>
           </header>
           <main className="flex flex-auto">
-            <div className="mx-auto max-w-4xl px-6 pt-40">{children}</div>
+            <div className="mx-auto max-w-3xl px-6 pt-40">{children}</div>
           </main>
           <footer className="mt-8">
             <div className="mx-auto flex max-w-3xl pb-8">
