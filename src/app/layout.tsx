@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-full bg-neutral-950">
+        <div className="flex min-h-screen flex-col bg-neutral-950">
           <header className="absolute left-0 right-0 z-10">
             <nav className="bg-slate-800 px-4 py-12 md:bg-transparent">
               <div className="mx-auto flex max-w-6xl items-center">
@@ -45,11 +45,18 @@ export default function RootLayout({
               </div>
             </nav>
           </header>
-          <main className="flex">
+          <main className="flex flex-auto">
             <div className="mx-auto max-w-4xl px-6 pt-40">{children}</div>
           </main>
           <footer className="mt-8">
-            <div />
+            <div className="mx-auto flex max-w-3xl pb-8">
+              <span>© {new Date().getFullYear()} Jonathan Jauhari</span>
+              <div className="ml-auto flex items-center justify-center">
+                <Link href="www.google.com">links</Link>
+                <Link href="www.google.com">links</Link>
+                <Link href="www.google.com">links</Link>
+              </div>
+            </div>
           </footer>
         </div>
       </body>
