@@ -5,7 +5,7 @@ export default async function Blog() {
   const posts = await getAllPosts();
   return (
     <>
-      <h1 className="font-serif text-4xl/loose">Blog</h1>
+      <h1 className="font-serif text-4xl/loose text-teal-600">Blog</h1>
       <p className="mb-8 text-lg">
         I sometimes write about programming and software development. The RSS
         feed for this blog is <Link href="/rss.xml">here</Link>.
@@ -20,10 +20,16 @@ export default async function Blog() {
                 className="my-6 rounded p-6"
               >
                 <header className="mb-4 font-serif">
-                  <h2 itemProp="headline" className="text-xl">
+                  <h2
+                    itemProp="headline"
+                    className="text-2xl/loose text-teal-600"
+                  >
                     {post.title}
                   </h2>
-                  <time itemProp="datePublished">
+                  <time
+                    itemProp="datePublished"
+                    className="text-sm text-amber-200"
+                  >
                     {post.date.toLocaleDateString("en-AU", {
                       dateStyle: "long",
                     })}

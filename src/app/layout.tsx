@@ -28,14 +28,14 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSans.variable} ${sourceSerif.variable}`}
     >
-      <body className="flex min-h-screen flex-col bg-neutral-950">
+      <body className="flex min-h-screen flex-col bg-stone-800 text-amber-100">
         <header className="absolute left-0 right-0 z-10">
-          <nav className="bg-slate-800 px-4 py-12 md:bg-transparent">
+          <nav className="px-4 py-12 md:bg-transparent">
             <div className="mx-auto flex max-w-6xl items-center">
               <Link href="/" className="flex-0">
                 <div className="flex">
                   <span className="flex items-center justify-center"></span>
-                  <span className="mx-3 text-2xl">Jonathan Jauhari</span>
+                  <span className="mx-3 text-2xl ">Jonathan Jauhari</span>
                 </div>
               </Link>
               <div className="flex flex-1 items-center justify-end">
@@ -56,7 +56,7 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="flex flex-auto">
-          <div className=" mx-auto  max-w-4xl px-6 pt-40">{children}</div>
+          <div className=" mx-auto  max-w-3xl px-6 pt-40">{children}</div>
         </main>
         <footer className="mt-8">
           <div className="mx-auto flex max-w-3xl pb-8">
