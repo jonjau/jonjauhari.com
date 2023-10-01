@@ -1,6 +1,8 @@
 import Link from "next/link";
+import { Post, getAllPosts } from "../../../lib/api";
 
-export default function Blog() {
+export default async function Blog() {
+  const posts = await getAllPosts();
   return (
     <>
       <h1 className="font-serif text-4xl/loose">Blog</h1>
@@ -9,19 +11,25 @@ export default function Blog() {
         feed for this blog is <Link href="/rss.xml">here</Link>.
       </p>
       <ol>
-        <article
-          itemScope
-          itemType="https://schema.org/BlogPosting"
-          className="my-6 rounded p-6"
-        >
-          <header className="mb-4 font-serif">
-            <h2 itemProp="headline" className="text-xl">
-              First Post
-            </h2>
-            <time itemProp="datePublished">2345</time>
-          </header>
-          <p itemProp="description">First Post's description hello</p>
-        </article>
+        {posts.map((post: Post) => (
+          <li key={post.slug}>
+            <article
+              itemScope
+              itemType="https://schema.org/BlogPosting"
+              className="my-6 rounded p-6"
+            >
+              <header className="mb-4 font-serif">
+                <h2 itemProp="headline" className="text-xl">
+                  {post.title}
+                </h2>
+                <time itemProp="datePublished">
+                  {post.date.toLocaleDateString("en-AU", { dateStyle: "long" })}
+                </time>
+              </header>
+              <p itemProp="description">{post.description}</p>
+            </article>
+          </li>
+        ))}
       </ol>
     </>
   );
