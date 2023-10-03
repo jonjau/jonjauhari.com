@@ -4,7 +4,7 @@ import shiki from "shiki";
 
 export default async function markdownToHtml(markdown: string) {
   const theme = await shiki.loadTheme(
-    join(process.cwd(), "lib", "gruvbox-dark-hard.json"),
+    join(process.cwd(), "src", "lib", "gruvbox-dark-hard.json"),
   );
   const highlighter = await shiki.getHighlighter({ theme });
   return md({

@@ -1,5 +1,5 @@
-import { getPostBySlug } from "../../../../lib/api";
-import markdownToHtml from "../../../../lib/markdown-to-html";
+import { getPostBySlug } from "../../../lib/api";
+import markdownToHtml from "../../../lib/markdown-to-html";
 
 //TODO: minutes to read, machine readable time, typography styling
 export default async function BlogPost({

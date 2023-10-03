@@ -18,7 +18,7 @@ export default function Home() {
         <Link
           title="GitHub repository for this site"
           href="https://github.com/jonjau/jonjauhari.com"
-          className="border-b-2 border-dotted border-b-teal-600 text-teal-600 hover:border-solid hover:border-b-amber-700 hover:text-teal-400"
+          className="border-b-2 border-dotted border-b-teal-600 text-teal-600 hover:border-b-amber-700 hover:text-teal-400 focus:border-solid focus:border-b-amber-700 focus:text-teal-200"
         >
           work in progress
         </Link>

@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Post, getAllPosts } from "../../../lib/api";
+import { Post, getAllPosts } from "../../lib/api";
 
 export default async function Blog() {
   const posts = await getAllPosts();
@@ -26,16 +26,16 @@ export default async function Blog() {
                   >
                     {post.title}
                   </h2>
-                  <time
-                    itemProp="datePublished"
-                    className="text-sm text-amber-200"
-                  >
+                </header>
+                <p itemProp="description">
+                  {" "}
+                  <time itemProp="datePublished" className="text-amber-200">
                     {post.date.toLocaleDateString("en-AU", {
                       dateStyle: "long",
                     })}
-                  </time>
-                </header>
-                <p itemProp="description">{post.description}</p>
+                  </time>{" "}
+                  — {post.description}
+                </p>
               </article>
             </Link>
           </li>
