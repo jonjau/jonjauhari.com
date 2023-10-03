@@ -30,6 +30,7 @@ const uiLinkClasses = [
   "focus:border-b-amber-700",
 ];
 
+// TODO: text selection bg change
 export default function RootLayout({
   children,
 }: {
@@ -47,7 +48,7 @@ export default function RootLayout({
               <Link href="/" className={clsx("flex-0", ...uiLinkClasses)}>
                 <div className="flex justify-center">
                   <span className="flex items-center justify-center">
-                    <FaSquareFull className="rounded text-2xl text-[#197060]" />
+                    <FaSquareFull className="rounded-sm text-2xl text-[#197060]" />
                   </span>
                   <span className="mx-3 text-2xl font-bold ">
                     Jonathan Jauhari
@@ -81,11 +82,13 @@ export default function RootLayout({
           </nav>
         </header>
         <main className="flex flex-auto flex-col">
-          <div className="mx-auto max-w-4xl px-6 pt-40">{children}</div>
+          <div className="mx-auto max-w-3xl px-6 pt-40">{children}</div>
         </main>
         <footer className="mt-8">
-          <div className="mx-auto flex max-w-4xl pb-8">
-            <span>© {new Date().getFullYear()} Jonathan Jauhari</span>
+          <div className="mx-auto flex max-w-3xl pb-8">
+            <span className="inline-flex items-center">
+              © {new Date().getFullYear()} Jonathan Jauhari
+            </span>
             <div className="ml-auto flex items-center justify-center">
               {[
                 { linkIcon: <FaGithub />, href: "https://github.com/jonjau" },

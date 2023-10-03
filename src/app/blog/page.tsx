@@ -1,6 +1,18 @@
 import Link from "next/link";
 import { Post, getAllPosts } from "../../lib/api";
+import clsx from "clsx";
 
+const postLinkClasses = [
+  "border-l-4",
+  "border-transparent",
+  "group-hover:border-dotted",
+  "group-hover:border-amber-700",
+  "group-hover:bg-stone-700",
+  "group-focus:border-amber-700",
+  "group-focus:border-solid",
+];
+
+// TODO: RSS feed, machine readable time value attributes
 export default async function Blog() {
   const posts = await getAllPosts();
   return (
@@ -13,11 +25,11 @@ export default async function Blog() {
       <ol>
         {posts.map((post: Post) => (
           <li key={post.slug}>
-            <Link href={`/blog/${post.slug}`}>
+            <Link href={`/blog/${post.slug}`} className="group">
               <article
                 itemScope
                 itemType="https://schema.org/BlogPosting"
-                className="my-6 rounded p-6"
+                className={clsx(["my-6", "p-6", ...postLinkClasses])}
               >
                 <header className="mb-4 font-serif">
                   <h2
