@@ -1,3 +1,4 @@
+import clsx from "clsx";
 import Link from "next/link";
 
 //TODO: mobile site, factor out common components, e.g. links
@@ -8,7 +9,7 @@ export default function Home() {
         Hi, I'm <span className="text-teal-600">Jonathan</span>.
       </h1>
       <h2 className="font-serif text-6xl/normal text-amber-200">
-        I build web applications.<span className="text-amber-700">*</span>
+        I build web apps.<span className="text-amber-700">*</span>
       </h2>
       <p className="mt-8 text-xl">
         <span className="text-amber-700">*</span> learning to, anyway.
@@ -18,7 +19,20 @@ export default function Home() {
         <Link
           title="GitHub repository for this site"
           href="https://github.com/jonjau/jonjauhari.com"
-          className="border-b-2 border-dotted border-b-teal-600 text-teal-600 hover:border-b-amber-700 hover:text-teal-400 focus:border-solid focus:border-b-amber-700 focus:text-teal-200"
+          className={clsx([
+            "text-teal-600",
+            "underline",
+            "underline-offset-4",
+            "decoration-dotted",
+            "decoration-2",
+            "decoration-teal-600",
+            "hover:decoration-amber-700",
+            "hover:text-teal-400",
+            "focus:decoration-solid",
+            "focus:decoration-amber-700",
+            "focus:text-teal-200",
+            "visited:text-teal-700",
+          ])}
         >
           work in progress
         </Link>

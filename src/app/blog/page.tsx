@@ -7,7 +7,7 @@ const postLinkClasses = [
   "border-transparent",
   "group-hover:border-dotted",
   "group-hover:border-amber-700",
-  "group-hover:bg-stone-700",
+  "group-hover:bg-stone-900",
   "group-focus:border-amber-700",
   "group-focus:border-solid",
 ];

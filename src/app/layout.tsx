@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import "./globals.css";
+import "@fontsource/iosevka";
 import type { Metadata } from "next";
 import { Source_Serif_4, Source_Sans_3 } from "next/font/google";
 import Link from "next/link";
@@ -7,11 +8,13 @@ import { FaEnvelope, FaGithub, FaLinkedin, FaSquareFull } from "react-icons/fa";
 
 const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
+  style: ["normal", "italic"],
   variable: "--font-source-serif",
 });
 
 const sourceSans = Source_Sans_3({
   subsets: ["latin"],
+  style: ["normal", "italic"],
   variable: "--font-source-sans",
 });
 

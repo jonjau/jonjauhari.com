@@ -13,6 +13,19 @@ const config: Config = {
       fontFamily: {
         sans: ["var(--font-source-sans)", ...defaultTheme.fontFamily.sans],
         serif: ["var(--font-source-serif)", ...defaultTheme.fontFamily.serif],
+        mono: ["Iosevka", ...defaultTheme.fontFamily.mono],
+      },
+      typography: {
+        DEFAULT: {
+          css: {
+            "code::before": {
+              content: "normal",
+            },
+            "code::after": {
+              content: "normal",
+            },
+          },
+        },
       },
     },
   },
