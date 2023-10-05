@@ -1,5 +1,5 @@
 import clsx from "clsx";
-import { getPostBySlug } from "../../../lib/api";
+import { getBlogPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdown-to-html";
 
 //TODO: minutes to read, machine readable time, typography styling,
@@ -9,7 +9,7 @@ export default async function BlogPost({
 }: {
   params: { slug: string };
 }) {
-  const post = getPostBySlug(params.slug);
+  const post = getBlogPostBySlug(params.slug);
   const content = await markdownToHtml(post.content);
   return (
     <>
@@ -53,6 +53,8 @@ export default async function BlogPost({
             "prose-blockquote:text-amber-200",
             "prose-blockquote:border-l-amber-700",
             "prose-blockquote:border-l-4",
+            "prose-headings:max-w-prose",
+            "prose-headings:mx-auto",
             "prose-headings:text-teal-600",
             "prose-headings:font-normal",
             "prose-headings:font-serif",
@@ -66,7 +68,6 @@ export default async function BlogPost({
             "focus:prose-a:decoration-solid",
             "focus:prose-a:decoration-amber-700",
             "focus:prose-a:text-teal-200",
-            "visited:prose-a:text-teal-700",
             "prose-li:marker:text-amber-400",
             "prose-code:text-amber-200",
             "prose-code:font-normal",

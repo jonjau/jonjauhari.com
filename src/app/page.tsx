@@ -31,7 +31,6 @@ export default function Home() {
             "focus:decoration-solid",
             "focus:decoration-amber-700",
             "focus:text-teal-200",
-            "visited:text-teal-700",
           ])}
         >
           work in progress

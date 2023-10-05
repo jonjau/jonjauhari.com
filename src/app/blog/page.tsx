@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { Post, getAllPosts } from "../../lib/api";
+import { BlogPost, getAllBlogPosts } from "../../lib/api";
 import clsx from "clsx";
 
 const postLinkClasses = [
@@ -14,7 +14,8 @@ const postLinkClasses = [
 
 // TODO: RSS feed, machine readable time value attributes
 export default async function Blog() {
-  const posts = await getAllPosts();
+  const posts = await getAllBlogPosts();
+
   return (
     <>
       <h1 className="font-serif text-4xl/loose text-teal-600">Blog</h1>
@@ -23,7 +24,7 @@ export default async function Blog() {
         feed for this blog is <Link href="/rss.xml">here</Link>.
       </p>
       <ol>
-        {posts.map((post: Post) => (
+        {posts.map((post: BlogPost) => (
           <li key={post.slug}>
             <Link href={`/blog/${post.slug}`} className="group">
               <article
