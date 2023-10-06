@@ -32,10 +32,10 @@ export function getBlogPostBySlug(slug: string): BlogPost {
   return getPostBySlug(blogPostsDir, slug, ({ data: frontmatter, content }) => {
     return {
       slug: slug,
-      title: frontmatter.title,
-      date: frontmatter.date,
-      draft: frontmatter.draft,
-      description: frontmatter.description,
+      title: frontmatter.title as string,
+      date: frontmatter.date as Date,
+      draft: frontmatter.draft as boolean,
+      description: frontmatter.description as string,
       content: content,
     };
   });
@@ -47,7 +47,7 @@ export function getProjectPostBySlug(slug: string): ProjectPost {
     slug,
     ({ data: frontmatter, content }) => {
       const posixPath = `/images/projects/${slug}`;
-      const inlineImageLinkRegex = /\!\[([^\[]+)\]\((.*)\)/gm;
+      const inlineImageLinkRegex = /!\[([^[]+)\]\((.*)\)/gm;
       const contentWithStaticLinks = content.replace(
         inlineImageLinkRegex,
         `![$1](${posixPath}/$2)`,
@@ -55,10 +55,10 @@ export function getProjectPostBySlug(slug: string): ProjectPost {
 
       return {
         slug: slug,
-        title: frontmatter.title,
-        date: frontmatter.date,
-        draft: frontmatter.draft,
-        description: frontmatter.description,
+        title: frontmatter.title as string,
+        date: frontmatter.date as Date,
+        draft: frontmatter.draft as boolean,
+        description: frontmatter.description as string,
         thumbnail: `${posixPath}/${frontmatter.featured}`,
         content: contentWithStaticLinks,
       };

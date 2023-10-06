@@ -1,3 +1,4 @@
+import React from "react";
 import clsx from "clsx";
 import Link from "next/link";
 
@@ -12,7 +13,7 @@ export default function Home() {
   return (
     <>
       <h1 className="font-serif text-7xl/normal">
-        Hi, I'm <span className="text-teal-600">Jonathan</span>.
+        Hi, I&apos;m <span className="text-teal-600">Jonathan</span>.
       </h1>
       <h2 className="font-serif text-6xl/normal text-amber-200">
         I build web apps.<span className="text-amber-700">*</span>

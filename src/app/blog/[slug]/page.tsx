@@ -1,4 +1,5 @@
 import clsx from "clsx";
+import React from "react";
 import { getBlogPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdown-to-html";
 

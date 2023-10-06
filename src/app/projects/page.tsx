@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { ProjectPost, getAllProjectPosts } from "../../lib/api";
 import clsx from "clsx";
+import React from "react";
 
 const postLinkClasses = [
   "border-l-4",
@@ -19,14 +20,14 @@ export function generateMetadata() {
   };
 }
 
-export default async function Projects() {
-  const posts = await getAllProjectPosts();
+export default function Projects() {
+  const posts = getAllProjectPosts();
 
   return (
     <>
       <h1 className="font-serif text-4xl/loose text-teal-600">Projects</h1>
       <p className="mb-8 text-lg">
-        Here I write about notable projects that I've undertaken.
+        Here I write about notable projects that I&apos;ve undertaken.
       </p>
       <ol>
         {posts.map((post: ProjectPost) => (

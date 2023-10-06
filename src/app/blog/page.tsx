@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { BlogPost, getAllBlogPosts } from "../../lib/api";
 import clsx from "clsx";
+import React from "react";
 
 const postLinkClasses = [
   "border-l-4",
@@ -19,8 +20,8 @@ export function generateMetadata() {
 }
 
 // TODO: RSS feed, machine readable time value attributes
-export default async function Blog() {
-  const posts = await getAllBlogPosts();
+export default function Blog() {
+  const posts = getAllBlogPosts();
 
   return (
     <>

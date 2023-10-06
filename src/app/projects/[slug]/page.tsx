@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import { getProjectPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdown-to-html";
+import React from "react";
 
 export function generateMetadata({ params }: { params: { slug: string } }) {
   const post = getProjectPostBySlug(params.slug);
