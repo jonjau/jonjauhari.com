@@ -13,6 +13,12 @@ const postLinkClasses = [
   "group-focus:border-solid",
 ];
 
+export function generateMetadata() {
+  return {
+    title: "Projects - Jonathan Jauhari",
+  };
+}
+
 export default async function Projects() {
   const posts = await getAllProjectPosts();
 
@@ -29,31 +35,42 @@ export default async function Projects() {
               <article
                 itemScope
                 itemType="https://schema.org/BlogPosting"
-                className={clsx(["my-6", "p-6", ...postLinkClasses])}
+                className={clsx([
+                  "my-6",
+                  "p-6",
+                  "flex",
+                  "items-center",
+                  ...postLinkClasses,
+                ])}
               >
-                <Image
-                  src={"/c4p1.png"}
-                  alt={post.title}
-                  height={500}
-                  width={500}
-                />
-                <header className="mb-4 font-serif">
-                  <h2
-                    itemProp="headline"
-                    className="text-2xl/loose text-teal-600"
-                  >
-                    {post.title}
-                  </h2>
-                </header>
-                <p itemProp="description">
-                  {" "}
-                  <time itemProp="datePublished" className="text-amber-200">
-                    {post.date.toLocaleDateString("en-AU", {
-                      dateStyle: "long",
-                    })}
-                  </time>{" "}
-                  — {post.description}
-                </p>
+                <div className="mr-6 basis-2/5">
+                  <Image
+                    src={post.thumbnail}
+                    alt={post.title}
+                    width={500}
+                    height={500}
+                    className="rounded-sm "
+                  />
+                </div>
+                <div className="basis-3/5">
+                  <header className="mb-4 font-serif">
+                    <h2
+                      itemProp="headline"
+                      className="text-2xl/loose text-teal-600"
+                    >
+                      {post.title}
+                    </h2>
+                  </header>
+                  <p itemProp="description">
+                    {" "}
+                    <time itemProp="datePublished" className="text-amber-200">
+                      {post.date.toLocaleDateString("en-AU", {
+                        dateStyle: "long",
+                      })}
+                    </time>{" "}
+                    — {post.description}
+                  </p>
+                </div>
               </article>
             </Link>
           </li>

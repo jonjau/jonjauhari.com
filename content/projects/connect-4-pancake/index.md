@@ -25,5 +25,5 @@ on the Github repo.
 
 ## Screenshots
 
-![c4p1](./c4p1.png)
-![c4p2](/c4p2.png)
+![c4p1](c4p1.png)
+![c4p2](c4p2.png)

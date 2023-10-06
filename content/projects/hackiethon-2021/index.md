@@ -29,7 +29,7 @@ the stuff.
 
 ## Gallery
 
-![Screenshot of Hackiethon's FAQ page](./hackiethon_faq.jpg)
-![Screenshot of Hackiethon's prizes page](./hackiethon_prizes.jpg)
-![Screenshot of Melbourne Hack's landing page](./melbourne_hack_landing.jpg)
-![Screenshot of Melbourne Hack's schedule page](./melbourne_hack_schedule.jpg)
+![Screenshot of Hackiethon's FAQ page](hackiethon_faq.jpg)
+![Screenshot of Hackiethon's prizes page](hackiethon_prizes.jpg)
+![Screenshot of Melbourne Hack's landing page](melbourne_hack_landing.jpg)
+![Screenshot of Melbourne Hack's schedule page](melbourne_hack_schedule.jpg)

@@ -1,3 +1,9 @@
+export function generateMetadata() {
+  return {
+    title: "About - Jonathan Jauhari",
+  };
+}
+
 export default function About() {
   return (
     <article>
@@ -6,7 +12,8 @@ export default function About() {
       </header>
       <p className="mb-4">
         I'm a Melbourne-based software engineer interested in financial
-        applications, currently developing for an investment platform.
+        applications, currently developing for a leading investment platform in
+        the UK.
       </p>
       <p className="mb-4">
         Recently, I've been exploring full-stack web development, working with

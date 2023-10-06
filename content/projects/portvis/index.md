@@ -18,20 +18,15 @@ offered by AWS's free tier really makes this harder than it needs to be.
 
 Low-res demo:
 
-<p align="center">
-  <img
-    src="./demo.gif"
-    style="max-width: 100%; width: auto; height: auto;"
-  />
-</p>
+![Demo GIF of main functionality](demo.gif)
 
 ## Screenshots
 
 Pages in order -- login, portfolios, backtest, stocks, account, about:
 
-![Screenshot of login page](./login.jpg)
-![Screenshot of portfolios page](./portfolios.jpg)
-![Screenshot of backtest page](./backtest.jpg)
-![Screenshot of stocks page](./stocks.jpg)
-![Screenshot of account page](./account.jpg)
-![Screenshot of about page](./about.jpg)
+![Screenshot of login page](login.jpg)
+![Screenshot of portfolios page](portfolios.jpg)
+![Screenshot of backtest page](backtest.jpg)
+![Screenshot of stocks page](stocks.jpg)
+![Screenshot of account page](account.jpg)
+![Screenshot of about page](about.jpg)

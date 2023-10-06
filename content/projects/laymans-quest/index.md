@@ -96,34 +96,20 @@ take your time and explore.
 
 The user interface guide accessible in the pause menu:
 
-![UI Guide](./ui_guide.jpg)
+![UI Guide](ui_guide.jpg)
 
 Real-time map UI, first half of the game map:
 
-![Main Map UI](./maps.jpg)
+![Main Map UI](maps.jpg)
 
 Starting area, and the leaf particle system:
 
-<p align="center">
-  <img
-    src="./leaf.gif"
-    style="max-width: 100%; width: auto; height: auto;"
-  />
-</p>
+![GIF showing leaves falling from trees](leaf.gif)
 
 Midgame optional area, combat and looting interactions:
 
-<p align="center">
-  <img
-    src="./cave_interact_objects.gif"
-    style="max-width: 100%; width: auto; height: auto;" />
-</p>
+![GIF interaction with a chest in an ice cave](cave_interact_objects.gif)
 
 Final stage, boss fight, a custom shader:
 
-<p align="center">
-  <img
-    src="./enemyShader.gif"
-    style="max-width: 100%; width: auto; height: auto;"
-  />
-</p>
+![GIF of a boss fight and the shader that plays on its death](enemyShader.gif)

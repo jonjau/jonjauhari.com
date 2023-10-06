@@ -1,7 +1,13 @@
 import clsx from "clsx";
 import Link from "next/link";
 
-//TODO: mobile site, factor out common components, e.g. links
+export function generateMetadata() {
+  return {
+    title: "Jonathan Jauhari",
+  };
+}
+
+//TODO: mobile site, factor out common components, e.g. links, licence
 export default function Home() {
   return (
     <>

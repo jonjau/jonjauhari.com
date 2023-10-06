@@ -12,6 +12,12 @@ const postLinkClasses = [
   "group-focus:border-solid",
 ];
 
+export function generateMetadata() {
+  return {
+    title: "Blog - Jonathan Jauhari",
+  };
+}
+
 // TODO: RSS feed, machine readable time value attributes
 export default async function Blog() {
   const posts = await getAllBlogPosts();

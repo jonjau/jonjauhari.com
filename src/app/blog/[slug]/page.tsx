@@ -2,6 +2,13 @@ import clsx from "clsx";
 import { getBlogPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdown-to-html";
 
+export function generateMetadata({ params }: { params: { slug: string } }) {
+  const post = getBlogPostBySlug(params.slug);
+  return {
+    title: `${post.title} - Jonathan Jauhari`,
+  };
+}
+
 //TODO: minutes to read, machine readable time, typography styling,
 //TODO: back and forward links
 export default async function BlogPost({

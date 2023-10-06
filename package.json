@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "copyimages": "node ./src/bin/copy-images.mjs",
+    "prebuild": "npm run copyimages"
   },
   "dependencies": {
     "@fontsource/iosevka": "^5.0.7",

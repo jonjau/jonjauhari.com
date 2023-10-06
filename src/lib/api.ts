@@ -46,14 +46,21 @@ export function getProjectPostBySlug(slug: string): ProjectPost {
     projectPostsDir,
     slug,
     ({ data: frontmatter, content }) => {
+      const posixPath = `/images/projects/${slug}`;
+      const inlineImageLinkRegex = /\!\[([^\[]+)\]\((.*)\)/gm;
+      const contentWithStaticLinks = content.replace(
+        inlineImageLinkRegex,
+        `![$1](${posixPath}/$2)`,
+      );
+
       return {
         slug: slug,
         title: frontmatter.title,
         date: frontmatter.date,
         draft: frontmatter.draft,
         description: frontmatter.description,
-        thumbnail: join("/content", "projects", slug, frontmatter.featured),
-        content: content,
+        thumbnail: `${posixPath}/${frontmatter.featured}`,
+        content: contentWithStaticLinks,
       };
     },
   );

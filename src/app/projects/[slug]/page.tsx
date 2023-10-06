@@ -2,8 +2,16 @@ import clsx from "clsx";
 import { getProjectPostBySlug } from "../../../lib/api";
 import markdownToHtml from "../../../lib/markdown-to-html";
 
+export function generateMetadata({ params }: { params: { slug: string } }) {
+  const post = getProjectPostBySlug(params.slug);
+  return {
+    title: `${post.title} - Jonathan Jauhari`,
+  };
+}
+
 //TODO: minutes to read, machine readable time, typography styling,
-//TODO: back and forward links
+//TODO: back and forward links, not found, shared styles
+// favicon,
 export default async function ProjectPost({
   params,
 }: {
@@ -18,7 +26,7 @@ export default async function ProjectPost({
         itemType="http://schema.org/BlogPosting"
         className="flex flex-col items-center"
       >
-        <header className="">
+        <header className="w-full">
           <h1
             itemProp="headline"
             className="mb-4 font-serif text-4xl text-teal-600"
