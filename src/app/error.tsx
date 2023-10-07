@@ -1,39 +1,30 @@
 "use client";
 
+import InlineLink from "@/components/inline-link";
 import React from "react";
-import clsx from "clsx";
-import Link from "next/link";
 
 export default function Error() {
   return (
     <div className="flex flex-col items-center">
-      <h2 className="font-serif text-6xl/normal">Error</h2>
-      <p className=" mt-8 pr-8 font-serif text-2xl text-amber-200">
-        Have you found the void —
-      </p>
-      <p className=" mt-8 pl-8  text-right font-serif text-2xl text-amber-200">
-        — or has the void found you?
+      <h2 className="font-serif text-5xl/normal">Something went wrong.</h2>
+      <p className=" mt-8 font-serif text-2xl text-amber-200">
+        &ldquo;Mission failed — we&apos;ll get &apos;em next time.&rdquo;
       </p>
       <div className="my-16  h-32 border-l-4 border-l-amber-700"></div>
-      <Link
-        href="/"
-        className={clsx([
-          "text-2xl",
-          "text-teal-600",
-          "underline",
-          "underline-offset-4",
-          "decoration-dotted",
-          "decoration-2",
-          "decoration-teal-600",
-          "hover:decoration-amber-700",
-          "hover:text-teal-400",
-          "focus:decoration-solid",
-          "focus:decoration-amber-700",
-          "focus:text-teal-200",
-        ])}
-      >
-        Return Home
-      </Link>
+      <div className="text-2xl">
+        <InlineLink title="Go back to homepage" href="/" className="mx-2">
+          Return home
+        </InlineLink>{" "}
+        or{" "}
+        <InlineLink
+          title="Go back to this website's GitHub page"
+          href="https://github.com/jonjau/jonjauhari.com"
+          className="mx-2"
+        >
+          report this issue
+        </InlineLink>
+        .
+      </div>
     </div>
   );
 }

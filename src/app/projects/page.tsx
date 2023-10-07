@@ -1,18 +1,10 @@
-import Link from "next/link";
-import Image from "next/image";
 import { ProjectPost, getAllProjectPosts } from "../../lib/api";
-import clsx from "clsx";
+import Image from "next/image";
+import Link from "next/link";
 import React from "react";
-
-const postLinkClasses = [
-  "border-l-4",
-  "border-transparent",
-  "group-hover:border-dotted",
-  "group-hover:border-amber-700",
-  "group-hover:bg-stone-900",
-  "group-focus:border-amber-700",
-  "group-focus:border-solid",
-];
+import clsx from "clsx";
+import { notFound } from "next/navigation";
+import { postLinkClasses } from "@/components/styles";
 
 export function generateMetadata() {
   return {
@@ -20,8 +12,13 @@ export function generateMetadata() {
   };
 }
 
-export default function Projects() {
-  const posts = getAllProjectPosts();
+export default async function Projects() {
+  let posts;
+  try {
+    posts = await getAllProjectPosts();
+  } catch {
+    notFound();
+  }
 
   return (
     <>

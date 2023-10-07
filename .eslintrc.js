@@ -12,6 +12,23 @@ module.exports = {
     project: true,
     tsconfigRootDir: __dirname,
   },
-  projectFolderIgnoreList: ["/bin"],
+  ignorePatterns: [
+    "/bin",
+    "next.config.js",
+    "postcss.config.js",
+    "prettier.config.js",
+  ],
   root: true,
+  rules: {
+    "sort-imports": [
+      "error",
+      {
+        ignoreCase: false,
+        ignoreDeclarationSort: false,
+        ignoreMemberSort: false,
+        memberSyntaxSortOrder: ["none", "all", "multiple", "single"],
+        allowSeparatedGroups: false,
+      },
+    ],
+  },
 };

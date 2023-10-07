@@ -1,17 +1,9 @@
-import Link from "next/link";
 import { BlogPost, getAllBlogPosts } from "../../lib/api";
-import clsx from "clsx";
+import Link from "next/link";
 import React from "react";
-
-const postLinkClasses = [
-  "border-l-4",
-  "border-transparent",
-  "group-hover:border-dotted",
-  "group-hover:border-amber-700",
-  "group-hover:bg-stone-900",
-  "group-focus:border-amber-700",
-  "group-focus:border-solid",
-];
+import clsx from "clsx";
+import { notFound } from "next/navigation";
+import { postLinkClasses } from "@/components/styles";
 
 export function generateMetadata() {
   return {
@@ -20,8 +12,13 @@ export function generateMetadata() {
 }
 
 // TODO: RSS feed, machine readable time value attributes
-export default function Blog() {
-  const posts = getAllBlogPosts();
+export default async function Blog() {
+  let posts;
+  try {
+    posts = await getAllBlogPosts();
+  } catch {
+    notFound();
+  }
 
   return (
     <>

@@ -1,12 +1,11 @@
-import fs from "fs";
+import fs from "fs/promises";
 import { join } from "path";
 import matter from "gray-matter";
-import BlogPost from "@/app/blog/[slug]/page";
 
 const blogPostsDir = join(process.cwd(), "content", "blog");
 const projectPostsDir = join(process.cwd(), "content", "projects");
 
-export type BlogPost = {
+export type Post = {
   slug: string;
   title: string;
   date: Date;
@@ -15,20 +14,21 @@ export type BlogPost = {
   content: string;
 };
 
+export type BlogPost = Post;
 export type ProjectPost = BlogPost & { thumbnail: string };
 
-const getPostBySlug = <T>(
+const getPostBySlug = async <T extends Post>(
   dir: string,
   slug: string,
   m: (file: matter.GrayMatterFile<string>) => T,
-): T => {
+) => {
   const fullPath = join(dir, slug, "index.md");
-  const fileContents = fs.readFileSync(fullPath, "utf8");
+  const fileContents = await fs.readFile(fullPath, "utf8");
 
   return m(matter(fileContents));
 };
 
-export function getBlogPostBySlug(slug: string): BlogPost {
+export function getBlogPostBySlug(slug: string): Promise<BlogPost> {
   return getPostBySlug(blogPostsDir, slug, ({ data: frontmatter, content }) => {
     return {
       slug: slug,
@@ -41,7 +41,7 @@ export function getBlogPostBySlug(slug: string): BlogPost {
   });
 }
 
-export function getProjectPostBySlug(slug: string): ProjectPost {
+export function getProjectPostBySlug(slug: string): Promise<ProjectPost> {
   return getPostBySlug(
     projectPostsDir,
     slug,
@@ -66,15 +66,20 @@ export function getProjectPostBySlug(slug: string): ProjectPost {
   );
 }
 
-const getAllPosts = <T extends { date: Date }>(
+const getAllPosts = async <T extends Post>(
   dir: string,
-  postGetter: (slug: string) => T,
-) =>
-  fs
-    .readdirSync(dir)
-    .map((slug) => postGetter(slug))
-    // sort posts by date in descending order
-    .sort((post1, post2) => (post1.date > post2.date ? -1 : 1));
+  getPostFromSlug: (slug: string) => Promise<T>,
+) => {
+  const slugs = await fs.readdir(dir);
+  const posts = await Promise.all(
+    slugs.map(async (slug) => getPostFromSlug(slug)),
+  );
+  return (
+    posts
+      // sort posts by date in descending order
+      .sort((post1, post2) => (post1.date > post2.date ? -1 : 1))
+  );
+};
 
 export function getAllBlogPosts() {
   return getAllPosts(blogPostsDir, getBlogPostBySlug);

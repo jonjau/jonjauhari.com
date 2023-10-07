@@ -1,6 +1,9 @@
 {
   "name": "jonjauhari.com",
   "version": "0.1.0",
+  "license": "MIT",
+  "description": "Jonathan Jauhari's website",
+  "author": "Jonathan Jauhari",
   "private": true,
   "scripts": {
     "dev": "next dev",

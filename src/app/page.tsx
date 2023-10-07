@@ -1,6 +1,5 @@
+import InlineLink from "@/components/inline-link";
 import React from "react";
-import clsx from "clsx";
-import Link from "next/link";
 
 export function generateMetadata() {
   return {
@@ -23,25 +22,12 @@ export default function Home() {
       </p>
       <p className="mt-8 text-xl">
         This website is a{" "}
-        <Link
+        <InlineLink
           title="GitHub repository for this site"
           href="https://github.com/jonjau/jonjauhari.com"
-          className={clsx([
-            "text-teal-600",
-            "underline",
-            "underline-offset-4",
-            "decoration-dotted",
-            "decoration-2",
-            "decoration-teal-600",
-            "hover:decoration-amber-700",
-            "hover:text-teal-400",
-            "focus:decoration-solid",
-            "focus:decoration-amber-700",
-            "focus:text-teal-200",
-          ])}
         >
           work in progress
-        </Link>
+        </InlineLink>
         . Enjoy your stay!
       </p>
     </>

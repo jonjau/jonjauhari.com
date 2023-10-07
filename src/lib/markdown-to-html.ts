@@ -1,5 +1,5 @@
-import md from "markdown-it";
 import { join } from "path";
+import md from "markdown-it";
 import shiki from "shiki";
 
 export default async function markdownToHtml(markdown: string) {

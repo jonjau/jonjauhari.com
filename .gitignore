@@ -36,6 +36,7 @@ next-env.d.ts
 
 # VS Code
 *.code-workspace
+.vscode
 
 # copied images to static
 /public/images/*

@@ -1,11 +1,11 @@
-import React from "react";
-import clsx from "clsx";
 import "./globals.css";
 import "@fontsource/iosevka";
-import type { Metadata } from "next";
-import { Source_Serif_4, Source_Sans_3 } from "next/font/google";
-import Link from "next/link";
 import { FaEnvelope, FaGithub, FaLinkedin, FaSquareFull } from "react-icons/fa";
+import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
+import Link from "next/link";
+import type { Metadata } from "next";
+import React from "react";
+import clsx from "clsx";
 
 const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
@@ -34,7 +34,6 @@ const uiLinkClasses = [
   "focus:border-b-amber-700",
 ];
 
-// TODO: text selection bg change
 export default function RootLayout({
   children,
 }: {

@@ -1,6 +1,11 @@
+import InlineLink from "@/components/inline-link";
 import React from "react";
-import clsx from "clsx";
-import Link from "next/link";
+
+export function generateMetadata() {
+  return {
+    title: "Not found - Jonathan Jauhari",
+  };
+}
 
 export default function NotFound() {
   return (
@@ -13,25 +18,10 @@ export default function NotFound() {
         — or has the void found you?
       </p>
       <div className="my-16  h-32 border-l-4 border-l-amber-700"></div>
-      <Link
-        href="/"
-        className={clsx([
-          "text-2xl",
-          "text-teal-600",
-          "underline",
-          "underline-offset-4",
-          "decoration-dotted",
-          "decoration-2",
-          "decoration-teal-600",
-          "hover:decoration-amber-700",
-          "hover:text-teal-400",
-          "focus:decoration-solid",
-          "focus:decoration-amber-700",
-          "focus:text-teal-200",
-        ])}
-      >
-        Return Home
-      </Link>
+      <InlineLink title="Go back to homepage" href="/" className="text-2xl">
+        Return home
+      </InlineLink>
+      .
     </div>
   );
 }
