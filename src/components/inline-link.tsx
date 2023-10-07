@@ -30,7 +30,9 @@ export default function InlineLink({
           "focus:decoration-solid",
           "focus:decoration-amber-700",
           "focus:text-teal-200",
-        ]) + className
+        ]) +
+        " " +
+        className
       }
     >
       {children}

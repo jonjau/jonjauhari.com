@@ -22,8 +22,19 @@ export default async function Projects() {
 
   return (
     <>
-      <h1 className="font-serif text-4xl/loose text-teal-600">Projects</h1>
-      <p className="mb-8 text-lg">
+      <h1
+        className={clsx([
+          "text-center",
+          "font-serif",
+          "text-2xl/loose",
+          "text-teal-600",
+          "sm:text-left",
+          "sm:text-4xl/loose",
+        ])}
+      >
+        Projects
+      </h1>
+      <p className="text-md mb-4 sm:mb-8 sm:text-lg">
         Here I write about notable projects that I&apos;ve undertaken.
       </p>
       <ol>
@@ -34,10 +45,17 @@ export default async function Projects() {
                 itemScope
                 itemType="https://schema.org/BlogPosting"
                 className={clsx([
-                  "my-6",
-                  "p-6",
                   "flex",
+                  "flex-col",
+                  "sm:flex-row",
                   "items-center",
+                  "justify-center",
+                  "my-3",
+                  "p-3",
+                  "bg-stone-900",
+                  "sm:bg-inherit",
+                  "sm:my-6",
+                  "sm:p-6",
                   ...postLinkClasses,
                 ])}
               >
@@ -51,15 +69,15 @@ export default async function Projects() {
                   />
                 </div>
                 <div className="basis-3/5">
-                  <header className="mb-4 font-serif">
+                  <header className="my-2 font-serif sm:mb-4">
                     <h2
                       itemProp="headline"
-                      className="text-2xl/loose text-teal-600"
+                      className="text-md/loose text-teal-600 sm:text-2xl/loose"
                     >
                       {post.title}
                     </h2>
                   </header>
-                  <p itemProp="description">
+                  <p itemProp="description" className="sm:text-md text-sm">
                     {" "}
                     <time itemProp="datePublished" className="text-amber-200">
                       {post.date.toLocaleDateString("en-AU", {

@@ -11,9 +11,10 @@ module.exports = {
   parserOptions: {
     project: true,
     tsconfigRootDir: __dirname,
+    projectFolderIgnoreList: [""],
   },
   ignorePatterns: [
-    "/bin",
+    "src/bin/copy-images.mjs",
     "next.config.js",
     "postcss.config.js",
     "prettier.config.js",

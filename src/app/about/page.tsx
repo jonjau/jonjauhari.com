@@ -1,4 +1,5 @@
 import React from "react";
+import clsx from "clsx";
 
 export function generateMetadata() {
   return {
@@ -10,7 +11,18 @@ export default function About() {
   return (
     <article>
       <header>
-        <h1 className="font-serif text-4xl/loose text-teal-600">About me</h1>
+        <h1
+          className={clsx([
+            "text-center",
+            "font-serif",
+            "text-2xl/loose",
+            "text-teal-600",
+            "sm:text-left",
+            "sm:text-4xl/loose",
+          ])}
+        >
+          About me
+        </h1>
       </header>
       <p className="mb-4">
         I&apos;m a Melbourne-based software engineer interested in financial

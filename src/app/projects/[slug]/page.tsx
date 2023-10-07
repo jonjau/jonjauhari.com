@@ -27,7 +27,7 @@ export async function generateMetadata({
   };
 }
 
-//TODO: minutes to read, machine readable time,
+//TODO: minutes to read,
 //TODO: back and forward links,
 export default async function ProjectPost({
   params,
@@ -44,19 +44,19 @@ export default async function ProjectPost({
 
   return (
     <>
-      <article
-        itemScope
-        itemType="http://schema.org/BlogPosting"
-        className="flex flex-col items-center"
-      >
-        <header className="w-full">
+      <article itemScope itemType="http://schema.org/BlogPosting">
+        <header>
           <h1
             itemProp="headline"
-            className="mb-4 font-serif text-4xl text-teal-600"
+            className="mb-4 font-serif text-2xl text-teal-600 sm:text-4xl"
           >
             {post.title}
           </h1>
-          <time itemProp="datePublished" className="mb-4 block text-amber-200">
+          <time
+            itemProp="datePublished"
+            className="mb-4 block text-amber-200"
+            dateTime={post.date.toISOString()}
+          >
             {post.date.toLocaleDateString("en-AU", {
               dateStyle: "long",
             })}
