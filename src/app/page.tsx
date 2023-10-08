@@ -8,7 +8,6 @@ export function generateMetadata() {
   };
 }
 
-//TODO: mobile site
 export default function Home() {
   return (
     <>

@@ -12,7 +12,7 @@ export function generateMetadata() {
   };
 }
 
-// TODO: RSS feed, machine readable time value attributes
+// TODO: RSS feed, 
 export default async function Blog() {
   let posts;
   try {

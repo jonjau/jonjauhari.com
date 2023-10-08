@@ -28,7 +28,6 @@ export async function generateMetadata({
 }
 
 //TODO: minutes to read
-//TODO: back and forward links
 export default async function BlogPost({
   params,
 }: {
@@ -69,7 +68,6 @@ export default async function BlogPost({
           className={clsx(proseClasses)}
         />
       </article>
-      <nav>||back and forward links||</nav>
     </>
   );
 }
