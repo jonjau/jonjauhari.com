@@ -1,6 +1,6 @@
 ---
 title: "Monads, Applicatives, and Functors in Haskell"
-date: "2020-10-07T22:31:10+11:00"
+date: 2020-10-07
 description: "A brief summary of Haskell's type system, detailing monads,
 applicatives and functors, and how they relate to one another."
 ---
@@ -27,7 +27,7 @@ y = ['f','g'] -- y has (inferred) type [Char], a list of Char's
 Use `:t` in [GHCi](https://docs.haskellstack.org/en/stable/ghci/)
 to check the type of a value, e.g. `:t 'f'` will give `f :: Char`, where
 `::` can be read as 'type of' or 'has type'. There is also
-[Hoogle]([hoogle.com](https://hoogle.haskell.org)).
+[Hoogle](<[hoogle.com](https://hoogle.haskell.org)>).
 Though Haskell is able to infer types very well, it is good practice that
 top-level definitions are explicitly type-annotated:
 
@@ -54,7 +54,7 @@ g x y = x == y      -- equality, g is pretty much (==)
 The second function `g` has a type constraint: it takes two arguments of a type
 `a` that must have properly defined equality, such that it is of the
 typeclass `Eq` (more on this later), e.g. `Int`. This is
-*parametric polymorphism*, with especially lightweight syntax.
+_parametric polymorphism_, with especially lightweight syntax.
 
 Note functions in Haskell are automatically
 [curried](https://en.wikipedia.org/wiki/Currying) (like partial application,
@@ -172,7 +172,7 @@ class Monoid m where
 
 Monoid laws (surrounding a function with backticks `` ` `` allows infix calling):
 
-```_
+```text
 1. mempty `mappend` x = x
 2. x `mappend` mempty = x
 3. (x `mappend` y) `mappend` z = x `mappend` (y `mappend` z)
@@ -180,9 +180,9 @@ Monoid laws (surrounding a function with backticks `` ` `` allows infix calling)
 
 Monoid instances:
 
-* lists are monoids, where `mempty = []`, `mappend = (++)`
-* numbers can be monoids in multiple ways with `0` and `+`, and `1` and `*`
-* booleans can be monoids in two ways with `False` and `OR` (`newtype`'d as `Any`
+- lists are monoids, where `mempty = []`, `mappend = (++)`
+- numbers can be monoids in multiple ways with `0` and `+`, and `1` and `*`
+- booleans can be monoids in two ways with `False` and `OR` (`newtype`'d as `Any`
   in `Data.Monoid`), and `True` and `AND`
   (`newtype`'d as `All` in `Data.Monoid`).
 
@@ -191,21 +191,21 @@ Monoid instances:
 What can I map functions over? I can map functions over a
 "computational context".
 
-* functors are things that can be mapped over (e.g. lists, `Maybe`s).
-* functors are instances of the typeclass `Functor`.
-* `fmap` works like `map`, but is more general (works on all functors, not
+- functors are things that can be mapped over (e.g. lists, `Maybe`s).
+- functors are instances of the typeclass `Functor`.
+- `fmap` works like `map`, but is more general (works on all functors, not
   just lists).
-* `(<$>)` is an infix synonym of `fmap`.
-* "normal" functors support mapping "normal" functions over them.
+- `(<$>)` is an infix synonym of `fmap`.
+- "normal" functors support mapping "normal" functions over them.
   "normal" here meaning dealing with plain old values, i.e. non-monadic
   values.
 
 Technically any type can be defined to be a Functor, whether it makes sense
 is a separate issue. Examples of where it makes sense:
 
-* mapping a function over a list of `a`s means applying the function to each
+- mapping a function over a list of `a`s means applying the function to each
   `a` in the list. The computational context here is the "repetition".
-* mapping a function over a `Maybe a`, means applying the function to the `a`
+- mapping a function over a `Maybe a`, means applying the function to the `a`
   if it's there, or evaluating to `Nothing` if it's not.
   The computational context here is the "optionality".
 
@@ -237,7 +237,7 @@ fmap (+3) (Just 5) -- evaluates to (Just 8)
 
 Anyway, here are the Functor laws:
 
-```_
+```text
 1. fmap id = id
 2. fmap (f . g) = fmap f . fmap g
 
@@ -259,13 +259,13 @@ What if I want to map normal functions in a functor over another functor:
 "to reach into the context, compute, and return the value in that context"?
 Those functors must be applicative.
 
-> * applicative values are values with "added context", e.g. `Just 5`
-> * applicative functors support mapping functions inside functors over them
-> * applicative functors are functors, and they are instances of the
+> - applicative values are values with "added context", e.g. `Just 5`
+> - applicative functors support mapping functions inside functors over them
+> - applicative functors are functors, and they are instances of the
 >   `Applicative` typeclass. It defines `pure` and `(<*>)`.
-> * `pure` takes a value and returns that value in the applicative functor
+> - `pure` takes a value and returns that value in the applicative functor
 >   ("wrapped in the minimal context")
-> * `<*>` (infix) takes a functor with a function in it and another functor,
+> - `<*>` (infix) takes a functor with a function in it and another functor,
 >   and extracts the function from the first functor and maps it over the
 >   second one.
 
@@ -282,7 +282,7 @@ Nothing <*> Nothing        -- Nothing
 
 Applicative functor laws (this is where the analogies fall apart):
 
-```_
+```text
 1. pure id <*> v = v
 2. pure f <*> pure x = pure (f x)
 3. u <*> pure y = pure ($ y) <*> u
@@ -298,12 +298,12 @@ How do you apply a function of type `a -> m b` to a value of type `m a`?
 Another take on monads from a similarly great book:
 [a programmable semicolon](http://book.realworldhaskell.org/read/monads.html).
 
-> * monads are just applicative functors that support `>>=` (read as "bind")
-> * `>>=` is like function application, only instead of taking a normal value
+> - monads are just applicative functors that support `>>=` (read as "bind")
+> - `>>=` is like function application, only instead of taking a normal value
 >   and feeding it to a normal function, it takes a monadic value (that is,
 >   a value with a context) and feeds it to a function that takes a normal
 >   value but returns a monadic value.
-> * a `Monad`'s `return` is the same as an `Applicative`'s `pure`,
+> - a `Monad`'s `return` is the same as an `Applicative`'s `pure`,
 >   just a different name.
 
 The most useful monad: the `IO` monad (again, it is also an Applicative and a
@@ -381,14 +381,14 @@ e4 lst =
 
 ## Types and instances of functors et al
 
-* `map :: (a -> b) -> [a] -> [b]`, literally `fmap` but just for lists
-* `fmap :: (a -> b) -> f a -> f b`, where f is a functor \*
-* `(<$>) :: (a -> b) -> f a -> f b`, where f is a functor
-* `pure :: a -> f a`, where f is an applicative functor
-* `(<*>) :: f (a -> b) -> f a -> f b`, where f is an applicative functor
-* `(>>=) :: m a -> (a -> m b) -> m b`, where m is a monad
-* `(>>) :: m a -> m b -> m b`, where m is a monad
-* `return :: a -> m a`, where m is a monad
+- `map :: (a -> b) -> [a] -> [b]`, literally `fmap` but just for lists
+- `fmap :: (a -> b) -> f a -> f b`, where f is a functor \*
+- `(<$>) :: (a -> b) -> f a -> f b`, where f is a functor
+- `pure :: a -> f a`, where f is an applicative functor
+- `(<*>) :: f (a -> b) -> f a -> f b`, where f is an applicative functor
+- `(>>=) :: m a -> (a -> m b) -> m b`, where m is a monad
+- `(>>) :: m a -> m b -> m b`, where m is a monad
+- `return :: a -> m a`, where m is a monad
 
 \* ["lifting"](https://wiki.haskell.org/Lifting):
 `(->)` is right-applicative, so
@@ -461,17 +461,17 @@ ghci> (fmap (*2)) <$> [Just 1, Nothing, Just 3]
 Class constraints can appear in (type)class declarations vs instance
 declarations, as in `(Eq m) => Eq (classOrInstanceName m)`.
 
-* In class declarations, they are used for making a typeclass a subclass of
+- In class declarations, they are used for making a typeclass a subclass of
   another typeclass.
-* In instance declarations, they are used to express requirements about the
+- In instance declarations, they are used to express requirements about the
   contents of some type.
-  
+
 For instance, we might require the contents of a Maybe, which is a concrete
 type to also be part of the Eq typeclass. Note the Maybe is a type constructor.
 
 ## Kinds
 
-[Few languages](https://en.wikipedia.org/wiki/Kind_(type_theory))
+[Few languages](<https://en.wikipedia.org/wiki/Kind_(type_theory)>)
 have type systems that allow access to higher-kinded types (e.g. Monads).
 Haskell lets you see the kinds of types too. I have yet to realise where
 this might be useful.
@@ -481,10 +481,10 @@ Kinds are to types what types are to values. Find out kind of a type with
 
 `*` means concrete type:
 
-* `Int :: *`
-* `Maybe :: * -> *`
-* `Maybe Int :: *`
-* `Either :: * -> * -> *`
+- `Int :: *`
+- `Maybe :: * -> *`
+- `Maybe Int :: *`
+- `Either :: * -> * -> *`
 
 I haven't quite grasped this, but it's interesting regardless:
 
@@ -495,10 +495,10 @@ class Tofu t where
 
 If `t` is an instance of `Tofu`, what would its kind be?
 
-* `j a` is the type of the value of the first parameter of `tofu`, so
+- `j a` is the type of the value of the first parameter of `tofu`, so
   its kind must be `*`, i.e. it is a concrete type.
-* Assuming `a` is of kind `*`, `j` has kind `* -> *`.
-* `t a j` must be a concrete type, and since it takes two types `a` and `j`,
+- Assuming `a` is of kind `*`, `j` has kind `* -> *`.
+- `t a j` must be a concrete type, and since it takes two types `a` and `j`,
   whose kinds we inferred above, `t` has kind `* -> (* -> *) -> *`.
 
 So, `t` takes a concrete type `a`, a type constructor `j` that takes a concrete

@@ -1,5 +1,5 @@
 ---
-featured: "./menu.jpg"
+featured: "menu.jpg"
 title: "Snacks In A Van"
 date: 2021-05-31T12:12:16+11:00
 draft: false
@@ -9,8 +9,8 @@ description:
 	functionality. Built with Express and Handlebars for COMP30022."
 ---
 
-* [Live customer app](https://snacks-in-a-van-roboto.herokuapp.com/customer)
-* [Live vendor app](https://snacks-in-a-van-roboto.herokuapp.com/vendor)
+- [Live customer app](https://snacks-in-a-van-roboto.herokuapp.com/customer)
+- [Live vendor app](https://snacks-in-a-van-roboto.herokuapp.com/vendor)
 
 The web development subject INFO30005 taught the basics of the web, how
 websites work, and more practical topics such as setting up and doing CRUD on
@@ -92,7 +92,7 @@ The customer confirms by placing the order, in a screen like this:
 
 ![cart](ordering.jpg)
 
-The order will be marked as *preparing*, exceeding 15 minutes will mean the
+The order will be marked as _preparing_, exceeding 15 minutes will mean the
 customer gets a discount. The customer can change or cancel their order
 within 10 minutes of placing the order.
 

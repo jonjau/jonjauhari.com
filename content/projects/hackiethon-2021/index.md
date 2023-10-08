@@ -1,16 +1,16 @@
 ---
-featured: "./hackiethon_landing.jpg"
+featured: "hackiethon_landing.jpg"
 title: "Hackiethon 2021 Website"
 date: 2021-02-22T12:12:16+11:00
 draft: false
 description:
-    "An informational website for an online Australia-wide hackathon for
-    rookies, hosted by HackMelbourne."
+  "An informational website for an online Australia-wide hackathon for
+  rookies, hosted by HackMelbourne."
 ---
 
-* [Hackiethon Website](https://hackiethon.hackmelb.org)
-* [HackMelbourne](https://hackmelb.org)
-* [Melbourne Hack Website](https://melbournehack.hackmelb.org)
+- [Hackiethon Website](https://hackiethon.hackmelb.org)
+- [HackMelbourne](https://hackmelb.org)
+- [Melbourne Hack Website](https://melbournehack.hackmelb.org)
 
 I built this website with React, Typescript and Sass, from a finished design
 which was done by [@mispelledname](https://github.com/mispelledname).
@@ -29,7 +29,7 @@ the stuff.
 
 ## Gallery
 
-![Screenshot of Hackiethon's FAQ page](./hackiethon_faq.jpg)
-![Screenshot of Hackiethon's prizes page](./hackiethon_prizes.jpg)
-![Screenshot of Melbourne Hack's landing page](./melbourne_hack_landing.jpg)
-![Screenshot of Melbourne Hack's schedule page](./melbourne_hack_schedule.jpg)
+![Screenshot of Hackiethon's FAQ page](hackiethon_faq.jpg)
+![Screenshot of Hackiethon's prizes page](hackiethon_prizes.jpg)
+![Screenshot of Melbourne Hack's landing page](melbourne_hack_landing.jpg)
+![Screenshot of Melbourne Hack's schedule page](melbourne_hack_schedule.jpg)

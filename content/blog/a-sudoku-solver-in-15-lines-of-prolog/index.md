@@ -1,6 +1,6 @@
 ---
 title: "A Sudoku Solver in 15 Lines of Prolog"
-date: "2020-10-26T18:22:55+11:00"
+date: 2020-10-26
 description: "Appreciating a sudoku solver in 15 lines of Prolog, a classic
 example of declarative programming."
 ---
@@ -10,7 +10,7 @@ and it seems to come from [here](https://www.metalevel.at/sudoku/). If this
 isn't peak abstraction, I don't know what is.
 
 Honestly though, can anyone even claim this is computer code? Seems to me like
-a line-by-line translation from the rules of Sudoku *that actually runs* (!!).
+a line-by-line translation from the rules of Sudoku _that actually runs_ (!!).
 
 I've added some annotations below -- it really is just precise English.
 
@@ -58,13 +58,13 @@ logic puzzles!
 Essentially, you define what makes a solution a solution, and Prolog
 (at least, in the interactive `swipl` prompt) will:
 
-* If given a complete solution, verify that it truly is a solution
+- If given a complete solution, verify that it truly is a solution
   (outputting true if so, false otherwise).
-* If given a partial solution, try different
+- If given a partial solution, try different
   variable bindings to make it a correct solution (outputting each set of
   such bindings).
   If it fails in doing so, it spits out false.
-* If given nothing i.e. an unbound variable, binds that variable to all the
+- If given nothing i.e. an unbound variable, binds that variable to all the
   possible completed Sudoku puzzles (maybe not in the way you expect,
   `swipl` showed them "bound" in terms of variables, not numbers).
 
@@ -73,7 +73,7 @@ Essentially, you define what makes a solution a solution, and Prolog
 Sure enough it actually runs. In a vanilla
 [SWI-Prolog](https://www.swi-prolog.org/) session:
 
-```_
+```text
 (manually formatted swipl output)
 
 ?- Puzzle=[[5,3,_, _,7,_, _,_,_],

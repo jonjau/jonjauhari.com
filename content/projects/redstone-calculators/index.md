@@ -1,14 +1,13 @@
 ---
-featured: "./k3ki1.png"
+featured: "k3ki1.png"
 title: "K3-KI and DENTA9"
 date: 2018-08-10T12:12:16+11:00
 draft: false
-description:
-    "Two working arithmetic calculators built in Minecraft: a 32-bit
-    combinatorial one with a display, and a 64-bit sequential one."
+description: "Two working arithmetic calculators built in Minecraft: a 32-bit
+  combinatorial one with a display, and a 64-bit sequential one."
 ---
 
-* [Redstone world download on planetminecraft.com](https://www.planetminecraft.com/project/k3-ki-the-8-bit-arithmetic-calculator-sktch-256-the-sketching-machine/)
+- [Redstone world download on planetminecraft.com](https://www.planetminecraft.com/project/k3-ki-the-8-bit-arithmetic-calculator-sktch-256-the-sketching-machine/)
 
 This post is about the redstone world I worked on until August 2018, which is
 available from the link above. It is filled with my experiments with
@@ -49,11 +48,11 @@ out), then extended that to work with 8-bit binary numbers, this became the
 **Addition** module.
 
 The **Subtraction** module is exactly the Addition module, except with
-additional negation steps to the *minuend* and the *subtrahend* (cool words).
+additional negation steps to the _minuend_ and the _subtrahend_ (cool words).
 
 When working with negative numbers in the
 [Two's complement](https://en.wikipedia.org/wiki/Two%27s_complement) form,
-addition and subtraction with negative numbers *just works* without further
+addition and subtraction with negative numbers _just works_ without further
 modification to the Addition/Subtraction module:
 
 ![Addition/Subtraction module](addsub.png)

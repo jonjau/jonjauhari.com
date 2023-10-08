@@ -1,6 +1,6 @@
 ---
 title: "The Visitor Pattern for Collision Handling"
-date: 2020-11-20T11:23:15+11:00
+date: 2020-11-20
 draft: false
 description: "A motivation for the visitor design pattern, in the context of
 basic collision handling in a game."
@@ -316,7 +316,7 @@ fun main() {
 
 The output:
 
-```_
+```text
 Hail!
 (knight hits dragon)
 (knight slashes werewolf)

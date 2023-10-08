@@ -1,8 +1,8 @@
 ---
 title: "Engineering and Developing Software"
-date: "2022-02-27T18:22:55+11:00"
+date: 2022-02-27
 description: "Some thoughts about the nature of software engineering and
-              development, and the role of communication."
+  development, and the role of communication."
 ---
 
 Once, my friend told me that there was a 'financial engineering' subject
@@ -10,7 +10,7 @@ taught at my university and that he really wanted to take it. My immediate
 reaction was to laugh as it sounded absurd, and somehow nefarious.
 
 He did seem like the kind of guy who would love to work behind 6 or so
-monitors trading in *((exotic))* financial instruments for the fun of it.
+monitors trading in _((exotic))_ financial instruments for the fun of it.
 
 > In fact I had been taking an introductory finance class (in person!) at
 > that time, and my newly-formed intuition was that in the thing called
@@ -24,8 +24,8 @@ to inspect another more commonly-used term more familiar to me: Software
 Engineering.
 
 For me, 'engineering' has always felt off for what I've seen software
-engineers actually do. My preference for the term *'software development'*
-over *'software engineering'* in most cases has now led me to write a lot of
+engineers actually do. My preference for the term _'software development'_
+over _'software engineering'_ in most cases has now led me to write a lot of
 paragraphs to question the nature of the profession from the microscopic bit
 of experience that I've had in it, even if I use them basically
 interchangeably. Beginners and bikeshedding do go hand in hand!

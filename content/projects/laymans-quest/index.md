@@ -1,15 +1,14 @@
 ---
-featured: "./thumbnail.jpg"
+featured: "thumbnail.jpg"
 title: "Layman's Quest"
 date: 2021-11-03T12:12:16+11:00
 draft: false
-description:
-    "An action adventure third-person RPG in a medieval open world with
-    quests, dialogue and interactables. Built with Unity for COMP30019."
+description: "An action adventure third-person RPG in a medieval open world with
+  quests, dialogue and interactables. Built with Unity for COMP30019."
 ---
 
-* [Game Playthrough](https://www.youtube.com/watch?v=iCOplFOJvow)
-* [Game Trailer](https://www.youtube.com/watch?v=nLOWhwDyKM0)
+- [Game Playthrough](https://www.youtube.com/watch?v=iCOplFOJvow)
+- [Game Trailer](https://www.youtube.com/watch?v=nLOWhwDyKM0)
 
 Layman's Quest is an action adventure RPG centered around the main character
 embarking on a quest to find a cure for a mysterious disease that plagued his
@@ -21,19 +20,19 @@ leveling up and obtaining stronger weapons.
 This was my team's submission for Project 2 of COMP30019 at the University of
 Melbourne, Semester 2 2021. That dream team being:
 
-* Marco Altieri
-* Justin Chen
-* Jonathan Jauhari
-* Jun Hee Han
+- Marco Altieri
+- Justin Chen
+- Jonathan Jauhari
+- Jun Hee Han
 
 ## Concept
 
 We discussed the game concepts and set targets in the first two weeks of
 development. Being epic gamers, we understood the classic RPG tropes and just
 went with them: medieval, low fantasy, save-the-world, etc. The aesthetic was
-meant to be informed by both grittier titles like *The Witcher 3* (UI) and
-*The Elder Scrolls Online* (background music), and brighter ones such as
-*Genshin Impact* (interactions). We quickly realized it was difficult to
+meant to be informed by both grittier titles like _The Witcher 3_ (UI) and
+_The Elder Scrolls Online_ (background music), and brighter ones such as
+_Genshin Impact_ (interactions). We quickly realized it was difficult to
 exactly nail a specific look-and-feel for the game when working with random
 free assets.
 
@@ -43,7 +42,7 @@ free assets.
 > or downloaded for free from YouTube and other game asset sites.
 
 As for gameplay, we liberally took inspiration from (read: ripped off) series
-like *Dark Souls*, in the combat system, the boss fight, and how the
+like _Dark Souls_, in the combat system, the boss fight, and how the
 checkpoints work. But the game is hardly challenging, due to the less cunning
 AI and forgiving potion system. I would say the standout features ended up
 being the quest/dialogue system, the map itself, the enemy and weapon variety,
@@ -85,7 +84,7 @@ split work and test their game...
 
 Development sped up just before the trailer release (2 weeks before the
 deadline), and we collected feedback from friends shortly after that. Then, we
-*actually* addressed all the points brought up and added even more content. The
+_actually_ addressed all the points brought up and added even more content. The
 feature list ended up being massive, and we somehow met all of the ambitious
 targets we set out at the onset of the project.
 
@@ -97,34 +96,20 @@ take your time and explore.
 
 The user interface guide accessible in the pause menu:
 
-![UI Guide](./ui_guide.jpg)
+![UI Guide](ui_guide.jpg)
 
 Real-time map UI, first half of the game map:
 
-![Main Map UI](./maps.jpg)
+![Main Map UI](maps.jpg)
 
 Starting area, and the leaf particle system:
 
-<p align="center">
-  <img
-    src="./leaf.gif"
-    style="max-width: 100%; width: auto; height: auto;"
-  />
-</p>
+![GIF showing leaves falling from trees](leaf.gif)
 
 Midgame optional area, combat and looting interactions:
 
-<p align="center">
-  <img
-    src="./cave_interact_objects.gif"
-    style="max-width: 100%; width: auto; height: auto;" />
-</p>
+![GIF interaction with a chest in an ice cave](cave_interact_objects.gif)
 
 Final stage, boss fight, a custom shader:
 
-<p align="center">
-  <img
-    src="./enemyShader.gif"
-    style="max-width: 100%; width: auto; height: auto;"
-  />
-</p>
+![GIF of a boss fight and the shader that plays on its death](enemyShader.gif)

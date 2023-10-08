@@ -1,10 +1,10 @@
 ---
-featured: "./cifero1.jpg"
+featured: "cifero1.jpg"
 title: "Cifero"
 date: 2018-11-01T13:14:30+11:00
 draft: false
 description: "A desktop application for syllable separation and phonetic
-              transliteration of English, with a cross-platform PyQt5 GUI."
+  transliteration of English, with a cross-platform PyQt5 GUI."
 ---
 
 [Github](https://github.com/jonjau/cifero)
@@ -53,24 +53,24 @@ be in Esperanto (I don't think it's cifero).
 
 ## Features
 
-* Cross-platform Qt GUI, designed in QtDesigner
-* Regex-based syllable separation of English words
-* Phonetic transliteration of English words in IPA or a more pronounceable
+- Cross-platform Qt GUI, designed in QtDesigner
+- Regex-based syllable separation of English words
+- Phonetic transliteration of English words in IPA or a more pronounceable
   form of it
-* Transcription to and from IPA and my esoteric writing systems
+- Transcription to and from IPA and my esoteric writing systems
 
 ## Screenshots
 
-![keysmith](./keysmith.jpg)
-![cifero1](./cifero1.jpg)
-![cifero2](./cifero2.jpg)
-![cifero5](./cifero5.jpg)
+![keysmith](keysmith.jpg)
+![cifero1](cifero1.jpg)
+![cifero2](cifero2.jpg)
+![cifero5](cifero5.jpg)
 
 ## Sample text
 
 Here's the sample text (mostly obscure loanwords):
 
-```_
+```text
 Hello World, look at this syllable separation:
 archetypes of cinematography and comfort colonel highfalutin. Are those shy
 eurasian footwear, cowboy chaps or jolly earthmoving headgear?
