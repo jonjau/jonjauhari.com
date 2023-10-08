@@ -41,7 +41,6 @@ const uiLinkClasses = [
   "focus:border-b-amber-700",
 ];
 
-//TODO: link to licence
 export default function RootLayout({
   children,
 }: {
@@ -82,7 +81,7 @@ const Header = () => (
             <span className="flex items-center justify-center">
               <FaSquareFull className="rounded-sm text-2xl text-[#197060]" />
             </span>
-            <span className="mx-3 hidden text-2xl font-bold sm:inline ">
+            <span className="mx-3 text-lg sm:text-2xl font-bold">
               Jonathan Jauhari
             </span>
           </div>

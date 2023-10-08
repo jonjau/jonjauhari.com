@@ -27,7 +27,6 @@ export async function generateMetadata({
   };
 }
 
-//TODO: minutes to read
 export default async function BlogPost({
   params,
 }: {
