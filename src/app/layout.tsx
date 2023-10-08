@@ -51,7 +51,7 @@ export default function RootLayout({
       lang="en"
       className={`${sourceSans.variable} ${sourceSerif.variable}`}
     >
-      <body className="flex min-h-screen flex-col bg-stone-800 text-amber-100">
+      <body className="flex min-h-screen flex-col bg-stone-900 text-amber-100">
         <Header />
         <main className="sm:flex sm:flex-auto sm:flex-col">
           <div className="mx-auto px-2 pt-20 sm:max-w-3xl sm:px-6 sm:pt-40">
@@ -68,7 +68,7 @@ const Header = () => (
   <header className="fixed left-0 right-0 z-10 sm:absolute">
     <nav
       className={clsx([
-        "bg-stone-900",
+        "bg-stone-950",
         "p-4",
         "sm:bg-transparent",
         "sm:px-4",
@@ -81,7 +81,7 @@ const Header = () => (
             <span className="flex items-center justify-center">
               <FaSquareFull className="rounded-sm text-2xl text-[#197060]" />
             </span>
-            <span className="mx-3 text-lg sm:text-2xl font-bold">
+            <span className="mx-3 text-lg font-bold sm:text-2xl">
               Jonathan Jauhari
             </span>
           </div>
@@ -153,7 +153,7 @@ const MobileNav = () => (
         "flex",
         "flex-col",
         "justify-center",
-        "bg-stone-950",
+        "bg-black",
         "text-center",
         "-right-1/3",
         "w-1/3",
@@ -196,21 +196,28 @@ const Footer = () => (
       </span>
       <div className="flex items-center justify-center sm:ml-auto">
         {[
-          { linkIcon: <FaGithub />, href: "https://github.com/jonjau" },
+          {
+            linkIcon: <FaGithub />,
+            title: "My GitHub profile",
+            href: "https://github.com/jonjau",
+          },
           {
             linkIcon: <FaLinkedin />,
+            title: "My LinkedIn profile",
             href: "https://www.linkedin.com/in/jonathanjauhari/",
           },
           {
             linkIcon: <FaEnvelope />,
+            title: "Send an email to my email address",
             href:
               "\u006d\u0061\u0069\u006c\u0074\u006f\u003a" +
               "%6A%6F%6E%63%6A%61%75%68%61%72%69%40%67%6D%61" +
               "%69%6C%2E%63%6F%6D",
           },
-        ].map(({ linkIcon, href }) => (
+        ].map(({ linkIcon, title, href }) => (
           <Link
             key={href}
+            title={title}
             href={href}
             className={clsx("p-2", "text-2xl", ...uiLinkClasses)}
           >

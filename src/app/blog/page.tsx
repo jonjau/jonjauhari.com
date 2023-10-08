@@ -1,5 +1,4 @@
 import { BlogPost, getAllBlogPosts } from "../../lib/api";
-import InlineLink from "@/components/inline-link";
 import Link from "next/link";
 import React from "react";
 import clsx from "clsx";
@@ -35,12 +34,7 @@ export default async function Blog() {
         Blog
       </h1>
       <p className="text-md mb-4 sm:mb-8 sm:text-lg">
-        I sometimes write about programming and software development. The RSS
-        feed for this blog is{" "}
-        <InlineLink title="RSS feed of blog posts" href="/rss.xml">
-          here
-        </InlineLink>
-        .
+        I sometimes write about programming and software development.
       </p>
       <ol>
         {posts.map((post: BlogPost) => (
@@ -52,7 +46,7 @@ export default async function Blog() {
                 className={clsx([
                   "my-3",
                   "p-3",
-                  "bg-stone-900",
+                  "bg-stone-950",
                   "sm:bg-inherit",
                   "sm:my-6",
                   "sm:p-6",

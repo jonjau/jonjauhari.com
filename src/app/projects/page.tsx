@@ -1,8 +1,8 @@
-import { ProjectPost, getAllProjectPosts } from "../../lib/api";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import clsx from "clsx";
+import { getAllProjectPosts } from "../../lib/api";
 import { notFound } from "next/navigation";
 import { postLinkClasses } from "@/components/styles";
 
@@ -38,7 +38,7 @@ export default async function Projects() {
         Here I write about notable projects that I&apos;ve undertaken.
       </p>
       <ol>
-        {posts.map((post: ProjectPost) => (
+        {posts.map((post, idx) => (
           <li key={post.slug}>
             <Link href={`/projects/${post.slug}`} className="group">
               <article
@@ -52,7 +52,7 @@ export default async function Projects() {
                   "justify-center",
                   "my-3",
                   "p-3",
-                  "bg-stone-900",
+                  "bg-stone-950",
                   "sm:bg-inherit",
                   "sm:my-6",
                   "sm:p-6",
@@ -63,9 +63,11 @@ export default async function Projects() {
                   <Image
                     src={post.thumbnail}
                     alt={post.title}
-                    width={200}
-                    height={200}
-                    className="rounded-sm "
+                    width={250}
+                    height={180}
+                    className="rounded-sm"
+                    // first 5 images are high-priority to preload for LCP
+                    priority={idx <= 5}
                   />
                 </div>
                 <div className="basis-3/5">
