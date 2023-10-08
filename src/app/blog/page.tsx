@@ -12,7 +12,6 @@ export function generateMetadata() {
   };
 }
 
-// TODO: RSS feed, 
 export default async function Blog() {
   let posts;
   try {
