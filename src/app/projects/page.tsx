@@ -63,8 +63,8 @@ export default async function Projects() {
                   <Image
                     src={post.thumbnail}
                     alt={post.title}
-                    width={500}
-                    height={500}
+                    width={200}
+                    height={200}
                     className="rounded-sm "
                   />
                 </div>
