@@ -1,7 +1,7 @@
 # v3
 
-Version 3 of my personal website. It's built with Next.js and Tailwind.
-It should function without JavaScript enabled, hopefully!
+Version 3 of my personal website. It's built with Next.js and Tailwind,
+deployed with Vercel. It should function without JavaScript enabled, hopefully!
 
 - V2 was built with Gatsby and styled-components, deployed with Netlify.
 - V1 was built with Hugo and plain CSS and Sass, deployed with GitHub Pages.
