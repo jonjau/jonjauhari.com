@@ -1,4 +1,5 @@
-import { BlogPost, getAllBlogPosts, getBlogPostBySlug } from "../../../lib/api";
+import { getAllBlogPosts, getBlogPostBySlug } from "../../../lib/api";
+import type { BlogPost } from "../../../lib/api";
 import React from "react";
 import clsx from "clsx";
 import markdownToHtml from "../../../lib/markdown-to-html";
@@ -10,11 +11,12 @@ export async function generateStaticParams() {
   return posts.map((p) => ({ slug: p.slug }));
 }
 
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export async function generateMetadata(
+  props: {
+    params: Promise<{ slug: string }>;
+  }
+) {
+  const params = await props.params;
   let post;
   try {
     post = await getBlogPostBySlug(params.slug);
@@ -27,11 +29,12 @@ export async function generateMetadata({
   };
 }
 
-export default async function BlogPost({
-  params,
-}: {
-  params: { slug: string };
-}) {
+export default async function BlogPost(
+  props: {
+    params: Promise<{ slug: string }>;
+  }
+) {
+  const params = await props.params;
   let post;
   try {
     post = await getBlogPostBySlug(params.slug);

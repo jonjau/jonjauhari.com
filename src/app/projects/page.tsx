@@ -65,7 +65,7 @@ export default async function Projects() {
                     alt={post.title}
                     width={250}
                     height={180}
-                    className="rounded-sm"
+                    className="rounded-xs"
                     // first 5 images are high-priority to preload for LCP
                     priority={idx <= 5}
                   />
