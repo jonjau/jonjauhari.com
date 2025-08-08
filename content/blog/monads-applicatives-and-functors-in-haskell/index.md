@@ -6,7 +6,7 @@ applicatives and functors, and how they relate to one another."
 ---
 
 This is my summary of Chapter 11 and 12 of
-[Learn You a Haskell for Great Good!](http://learnyouahaskell.com/chapters),
+[Learn You a Haskell for Great Good!](https://learnyouahaskell.github.io/),
 a great introduction to functional programming and Haskell. I've found its
 explanation of monads, by far the most notorious of category theory jargon
 (monoids and functors being runner-ups), to be about as intuitive as monad
@@ -24,10 +24,10 @@ x = 'f'       -- x has (inferred) type Char
 y = ['f','g'] -- y has (inferred) type [Char], a list of Char's
 ```
 
-Use `:t` in [GHCi](https://docs.haskellstack.org/en/stable/ghci/)
+Use `:t` in [GHCi](https://docs.haskellstack.org/en/stable/)
 to check the type of a value, e.g. `:t 'f'` will give `f :: Char`, where
 `::` can be read as 'type of' or 'has type'. There is also
-[Hoogle](<[hoogle.com](https://hoogle.haskell.org)>).
+[Hoogle](https://hoogle.haskell.org).
 Though Haskell is able to infer types very well, it is good practice that
 top-level definitions are explicitly type-annotated:
 

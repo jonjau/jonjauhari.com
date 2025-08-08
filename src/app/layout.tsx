@@ -81,7 +81,7 @@ const Header = () => (
             <span className="flex items-center justify-center">
               <FaSquareFull className="rounded-xs text-2xl text-[#197060]" />
             </span>
-            <span className="mx-3 text-lg font-bold sm:text-2xl">
+            <span className="mx-3 text-lg font-bold sm:text-2xl whitespace-nowrap">
               Jonathan Jauhari
             </span>
           </div>
