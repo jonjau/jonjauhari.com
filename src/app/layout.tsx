@@ -79,7 +79,7 @@ const Header = () => (
         <Link href="/" className={clsx("flex-0", ...uiLinkClasses)}>
           <div className="mb-1 flex justify-center">
             <span className="flex items-center justify-center">
-              <FaSquareFull className="rounded-sm text-2xl text-[#197060]" />
+              <FaSquareFull className="rounded-xs text-2xl text-[#197060]" />
             </span>
             <span className="mx-3 text-lg font-bold sm:text-2xl">
               Jonathan Jauhari
@@ -154,7 +154,7 @@ const MobileNav = () => (
         "flex-col",
         "justify-center",
         "bg-black/40",
-        "backdrop-blur",
+        "backdrop-blur-sm",
         "text-center",
         "-right-1/3",
         "w-1/3",

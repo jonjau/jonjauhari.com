@@ -1,3 +1,13 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+    --font-sans: var(--font-source-sans), sans-serif;
+    --font-serif: var(--font-source-serif), serif;
+    --font-mono: Iosevka, monospace;
+}
+
+.prose code::before,
+.prose code::after {
+    content: normal;
+}
