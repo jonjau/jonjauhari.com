@@ -33,8 +33,8 @@ export default async function Blog() {
       >
         Blog
       </h1>
-      <p className="text-md mb-4 sm:mb-8 sm:text-lg">
-        I sometimes write about programming and software development.
+      <p className="text-md mb-4 sm:mb-8 sm:text-lg text-center sm:text-left">
+        I sometimes write about software development.
       </p>
       <ol>
         {posts.map((post: BlogPost) => (
