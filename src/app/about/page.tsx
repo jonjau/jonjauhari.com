@@ -1,3 +1,4 @@
+import InlineLink from "@/components/inline-link";
 import React from "react";
 import clsx from "clsx";
 
@@ -25,16 +26,42 @@ export default function About() {
         </h1>
       </header>
       <p className="mb-4">
-        I&apos;m a Melbourne-based software engineer interested in financial
-        applications, currently developing for a leading investment platform in
-        the UK.
+        I&apos;m <span className="text-amber-200">Jonathan Jauhari</span>, a software developer based in Melbourne interested in financial applications.
       </p>
       <p className="mb-4">
-        Recently, I&apos;ve been exploring full-stack web development, working
-        with React on the front end and Spring Boot and Node.js on the server
-        side. Of course, I&apos;m looking to gain more practical experience
-        working with other technology stacks, mainly so I&apos;ll have more to
-        write here...
+        At <InlineLink
+          title="IntegraDev website"
+          href="https://integradev.com.au/"
+        >
+          IntegraDev
+        </InlineLink>, I focus on expanding the capabilities of the online onboarding feature of
+        the <InlineLink
+          title="Transact website"
+          href="https://www.transact-online.co.uk/"
+        >Transact investment platform</InlineLink> — an industry leader in the UK.
+      </p>
+      <p className="mb-4">
+        After setting up a homelab and self-hosting open source applications for my family and myself,
+        as well as switching to Linux, I&apos;ve developed an honest appreciation of the
+        operations side of software development.
+      </p>
+      <p className="mb-4">
+        I&apos;m eager to gain professional experience with provisioning, monitoring and managing distributed applications on cloud platforms,
+        and implementing automations in the software development process.
+      </p>
+      <p className="mb-4">
+        I draw inspiration from the early days of computing, when software was simpler.
+        Things were as breakable as they were fixable.
+        Just as we are frugal with time and money, should we not be frugal also with complexity in software?
+        Open and simple software is empowering and enduring.
+      </p>
+      <p className="mb-4">
+        In the off-hours when I&apos;m not spending time with family and friends,
+        I like to tinker with my home server, practice cooking dishes or play real-time strategy games.
+      </p>
+      <p className="mb-4">
+        Sporadically, I read books (more often Wikipedia!).
+        I enjoy going down rabbit holes learning about history, philosophy and language.
       </p>
     </article>
   );

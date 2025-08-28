@@ -12,7 +12,7 @@ export default function NotFound() {
   return (
     <div className="flex flex-col items-center">
       <h2 className="font-serif text-4xl sm:text-7xl/normal">
-        Page not found.
+        Page not found...
       </h2>
       <p
         className={clsx([
@@ -37,7 +37,7 @@ export default function NotFound() {
           "text-right",
         ])}
       >
-        — or has the void found you?
+        or has the void found you?
       </p>
       <div className="my-16  h-32 border-l-4 border-l-amber-700"></div>
       <span>

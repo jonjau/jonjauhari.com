@@ -33,8 +33,8 @@ export default async function Blog() {
       >
         Blog
       </h1>
-      <p className="text-md mb-4 sm:mb-8 sm:text-lg">
-        I sometimes write about programming and software development.
+      <p className="text-md mb-4 sm:mb-8 sm:text-lg text-center sm:text-left">
+        I sometimes write about software development.
       </p>
       <ol>
         {posts.map((post: BlogPost) => (
@@ -44,32 +44,24 @@ export default async function Blog() {
                 itemScope
                 itemType="https://schema.org/BlogPosting"
                 className={clsx([
-                  "my-3",
+                  "my-2",
                   "p-3",
                   "bg-stone-950",
                   "sm:bg-inherit",
-                  "sm:my-6",
-                  "sm:p-6",
                   ...postLinkClasses,
                 ])}
               >
-                <header className="my-2 font-serif sm:mb-4">
+                <header className="my-2 font-serif sm:mb-2 flex flex-col sm:flex-row items-start sm:items-center text-sm sm:text-xl">
+                  <time itemProp="datePublished" className="text-amber-200 pr-5">
+                    {post.date.toISOString().split('T')[0]}
+                  </time>
                   <h2
                     itemProp="headline"
-                    className="text-md/loose text-teal-600 sm:text-2xl/loose"
+                    className="text-teal-600"
                   >
                     {post.title}
                   </h2>
                 </header>
-                <p itemProp="description" className="sm:text-md text-sm">
-                  {" "}
-                  <time itemProp="datePublished" className="text-amber-200">
-                    {post.date.toLocaleDateString("en-AU", {
-                      dateStyle: "long",
-                    })}
-                  </time>{" "}
-                  — {post.description}
-                </p>
               </article>
             </Link>
           </li>
