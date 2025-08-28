@@ -26,7 +26,7 @@ export default function About() {
         </h1>
       </header>
       <p className="mb-4">
-        I&apos;m Jonathan Jauhari, a software developer based in Melbourne interested in financial applications.
+        I&apos;m <span className="text-amber-200">Jonathan Jauhari</span>, a software developer based in Melbourne interested in financial applications.
       </p>
       <p className="mb-4">
         At <InlineLink
@@ -41,7 +41,7 @@ export default function About() {
         >Transact investment platform</InlineLink> — an industry leader in the UK.
       </p>
       <p className="mb-4">
-        After setting up a Proxmox homelab and self-hosting open source applications for my family and myself,
+        After setting up a homelab and self-hosting open source applications for my family and myself,
         as well as switching to Linux, I&apos;ve developed an honest appreciation of the
         operations side of software development.
       </p>
@@ -53,10 +53,10 @@ export default function About() {
         I draw inspiration from the early days of computing, when software was simpler.
         Things were as breakable as they were fixable.
         Just as we are frugal with time and money, should we not be frugal also with complexity in software?
-        Open and simple software empowers users and endures the test of time.
+        Open and simple software is empowering and enduring.
       </p>
       <p className="mb-4">
-        In my off-hours when I&apos;m not spending time with family and friends,
+        In the off-hours when I&apos;m not spending time with family and friends,
         I like to tinker with my home server, practice cooking dishes or play real-time strategy games.
       </p>
       <p className="mb-4">
