@@ -71,7 +71,7 @@ export default async function Projects() {
                   />
                 </div>
                 <div className="basis-3/5">
-                  <header className="my-2 font-serif sm:mb-4">
+                  <header className="my-2 font-serif">
                     <h2
                       itemProp="headline"
                       className="text-md/loose text-teal-600 sm:text-2xl/loose"
