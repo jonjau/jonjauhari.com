@@ -34,8 +34,8 @@ export default async function Projects() {
       >
         Projects
       </h1>
-      <p className="text-md mb-4 sm:mb-8 sm:text-lg">
-        Here I write about notable projects that I&apos;ve undertaken.
+      <p className="text-md mb-4 sm:mb-8 sm:text-lg text-center sm:text-left">
+        Here are some notable projects that I&apos;ve undertaken.
       </p>
       <ol>
         {posts.map((post, idx) => (
@@ -71,7 +71,7 @@ export default async function Projects() {
                   />
                 </div>
                 <div className="basis-3/5">
-                  <header className="my-2 font-serif sm:mb-4">
+                  <header className="my-2 font-serif">
                     <h2
                       itemProp="headline"
                       className="text-md/loose text-teal-600 sm:text-2xl/loose"
