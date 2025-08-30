@@ -1,3 +1,4 @@
+import { Building } from "../svg";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -22,6 +23,9 @@ export default async function Projects() {
 
   return (
     <>
+      <div className="w-1/3 py-4 mx-auto">
+        <Building />
+      </div>
       <h1
         className={clsx([
           "text-center",
@@ -97,3 +101,4 @@ export default async function Projects() {
     </>
   );
 }
+
