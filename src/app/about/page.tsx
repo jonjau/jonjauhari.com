@@ -1,4 +1,5 @@
 import InlineLink from "@/components/inline-link";
+import { LetterJ } from "../svg";
 import React from "react";
 import clsx from "clsx";
 
@@ -11,6 +12,9 @@ export function generateMetadata() {
 export default function About() {
   return (
     <article>
+      <div className="h-32 mx-auto">
+        <LetterJ />
+      </div>
       <header>
         <h1
           className={clsx([
