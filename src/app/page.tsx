@@ -25,13 +25,13 @@ export default function Home() {
       >
         I build web apps <span className="text-amber-700">—</span>
       </h2>
-      <div className="w-5/6 py-4 mx-auto">
+      <div className="w-5/6 py-2 mx-auto">
         <Goat />
       </div>
       <p className="text-md sm:text-xl">
-        on <span className="text-amber-200">sure footing</span>.
+        with a <span className="text-amber-200">sure-footed</span> approach.
       </p>
-      <p className="text-md mt-12 sm:text-xl">
+      <p className="text-md mt-6 sm:text-xl">
         This website is {" "}
         <InlineLink
           title="GitHub repository for this site"

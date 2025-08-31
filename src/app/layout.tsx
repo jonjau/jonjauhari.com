@@ -54,7 +54,7 @@ export default function RootLayout({
       <body className="flex min-h-screen flex-col bg-stone-900 text-amber-100">
         <Header />
         <main className="sm:flex sm:flex-auto sm:flex-col">
-          <div className="mx-auto px-2 pt-20 sm:max-w-3xl sm:px-6 sm:pt-40">
+          <div className="mx-auto px-2 pt-20 sm:max-w-3xl sm:px-6 sm:pt-36">
             {children}
           </div>
         </main>
