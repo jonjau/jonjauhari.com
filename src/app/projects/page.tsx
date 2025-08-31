@@ -1,3 +1,4 @@
+import { CarpenterGauge } from "../svg";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -22,6 +23,9 @@ export default async function Projects() {
 
   return (
     <>
+      <div className="h-20 mx-auto">
+        <CarpenterGauge />
+      </div>
       <h1
         className={clsx([
           "text-center",
@@ -74,7 +78,7 @@ export default async function Projects() {
                   <header className="my-2 font-serif">
                     <h2
                       itemProp="headline"
-                      className="text-md/loose text-teal-600 sm:text-2xl/loose"
+                      className="text-md/loose text-teal-400 sm:text-2xl/loose"
                     >
                       {post.title}
                     </h2>
@@ -97,3 +101,4 @@ export default async function Projects() {
     </>
   );
 }
+

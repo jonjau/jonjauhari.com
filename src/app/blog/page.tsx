@@ -1,6 +1,7 @@
 import { BlogPost, getAllBlogPosts } from "../../lib/api";
 import Link from "next/link";
 import React from "react";
+import { WritingHand } from "../svg";
 import clsx from "clsx";
 import { notFound } from "next/navigation";
 import { postLinkClasses } from "@/components/styles";
@@ -21,6 +22,9 @@ export default async function Blog() {
 
   return (
     <>
+      <div className="h-20">
+        <WritingHand />
+      </div>
       <h1
         className={clsx([
           "text-center",
@@ -57,7 +61,7 @@ export default async function Blog() {
                   </time>
                   <h2
                     itemProp="headline"
-                    className="text-teal-600"
+                    className="text-teal-400"
                   >
                     {post.title}
                   </h2>
