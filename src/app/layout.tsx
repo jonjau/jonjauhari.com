@@ -205,7 +205,7 @@ const Footer = () => (
           {
             linkIcon: <FaLinkedin />,
             title: "My LinkedIn profile",
-            href: "https://www.linkedin.com/in/jonathanjauhari/",
+            href: "https://www.linkedin.com/in/jonjauhari/",
           },
           {
             linkIcon: <FaEnvelope />,
