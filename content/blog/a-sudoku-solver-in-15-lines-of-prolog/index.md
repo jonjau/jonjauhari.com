@@ -1,5 +1,5 @@
 ---
-title: "A Sudoku Solver in 15 Lines of Prolog"
+title: "A Sudoku solver in 15 lines of Prolog"
 date: 2020-10-26
 description: "Appreciating a sudoku solver in 15 lines of Prolog, a classic
 example of declarative programming."
