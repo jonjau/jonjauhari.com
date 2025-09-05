@@ -23,3 +23,5 @@ yarn dev
 ```
 
 It should be running on [http://localhost:3000](http://localhost:3000).
+
+The written content (blog posts, articles, and other non-code files in `/content/`) is licensed under CC BY-NC-ND 4.0 unless otherwise noted.
