@@ -61,7 +61,7 @@ export default function About() {
       </p>
       <p className="mb-4">
         In the off-hours when I&apos;m not spending time with family and friends,
-        I like to tinker with my home server, practice cooking dishes or play real-time strategy games.
+        I like to tinker with my home server, practice cooking dishes I&apos;d pay good money for, or play real-time strategy games.
       </p>
       <p className="mb-4">
         Sporadically, I read books (more often Wikipedia!).

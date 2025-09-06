@@ -8,9 +8,9 @@ description:
   rookies, hosted by HackMelbourne."
 ---
 
-- [Hackiethon Website](https://hackiethon.hackmelb.org)
-- [HackMelbourne](https://hackmelb.org)
-- [Melbourne Hack Website](https://melbournehack.hackmelb.org)
+- [Hackiethon Website (no longer live)](https://hackiethon.hackmelb.org)
+- [HackMelbourne](https://hack.melbourne/)
+- [Melbourne Hack Website (no longer live)](https://melbournehack.hackmelb.org)
 
 I built this website with React, Typescript and Sass, from a finished design
 which was done by [@mispelledname](https://github.com/mispelledname).

@@ -9,8 +9,10 @@ description: "A web app to compare and visualise historical returns of US stock
 
 [Github](https://github.com/jonjau/portvis)
 
-A full-stack web application that allows users to visualise and compare
-historical returns of US stock portfolios, built with Spring Boot and React.
+I wanted to try out developing a "real-world" web app in my spare time.
+
+Portvis is a full-stack web application that allows users (i.e. just me) to visualise and compare
+historical returns of US stock portfolios, built with **Spring Boot**, **React**, and **MySQL**.
 
 I have yet to deploy this to a live website. It's a good idea to have TLS
 enabled beforehand, to say the least. But working with the bare compute units
