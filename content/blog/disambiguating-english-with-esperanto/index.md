@@ -1,6 +1,6 @@
 ---
 title: "Disambiguating English with Esperanto"
-date: 2020-12-27
+date: 2021-01-15
 draft: false
 description: "Exploring the use of Esperanto grammar structures with English
   vocabulary to disambiguate sentences."

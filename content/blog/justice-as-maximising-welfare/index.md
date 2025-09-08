@@ -3,7 +3,7 @@ title: "Justice as maximising welfare"
 date: 2024-08-19
 ---
 
-This is the first of 3 posts on the approaches to justice that Michael Sandel outlines in [*Justice*](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F) (as I understand it):
+This is the first of 3 posts on the approaches to justice that [Michael Sandel](https://en.wikipedia.org/wiki/Michael_Sandel) outlines in [*Justice*](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F) (as I understand it):
 
 1. [Maximising welfare](justice-as-maximising-welfare): Utilitarianism (Bentham and Mill)
 2. [Respecting freedom](justice-as-respecting-freedom): Libertarianism and deontology (Kant).
@@ -15,13 +15,13 @@ The question I had after I finished was simple:
 
 **How can we know what is the right thing to do?**
 
-That so happens to be the subtitle of [Justice by Michael Sandel](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F).
+That so happens to be the subtitle of *Justice*.
 
 I started reading it, as it is often recommended as an introduction to moral and political philosophy. The book is based on [a course at Harvard University](https://pll.harvard.edu/course/justice).
 
-## The greatest good for the greatest number
+## Do the greatest good for the greatest number
 
-Jeremy Bentham's [classical utilitarianism](https://en.wikipedia.org/wiki/Jeremy_Bentham#Utilitarianism) says that we should do whatever leads to *the greatest happiness of the greatest number*.
+Jeremy Bentham's [classical utilitarianism](https://en.wikipedia.org/wiki/Jeremy_Bentham#Utilitarianism) says that we should act in a way that leads to *the greatest happiness of the greatest number*.
 
 Sandel's opening example in Justice is [the stranding of the Mignonette, in 1884](https://en.wikipedia.org/wiki/R_v_Dudley_and_Stephens). In the desperation after an accident at sea, a sickly 17-year-old cabin boy is killed and cannibalised for the survival of 3 others.
 
@@ -29,7 +29,9 @@ Sandel's opening example in Justice is [the stranding of the Mignonette, in 1884
 
 A historical instance of [the trolley problem](https://en.wikipedia.org/wiki/Trolley_problem).
 
-Bentham might say yes. This seems cold. But why might we feel so?
+**Can the ends justify the means?**
+
+Bentham might say yes. This seems cold to me. But why might I feel so?
 
 Maybe we are thinking of these 2 objections:
 1. we ought to respect the consent of others — the boy was vulnerable and did not want to be killed. That is, morality is more than just costs and benefits, it should have something to do with how we treat one another.
@@ -131,14 +133,14 @@ Since *On Justice* appeals to moral ideals beyond utility (ideals of character a
 
 ## Higher pleasures
 
-For Bentham there are only quantitative differences, not qualitative differences between kinds of pain. Bentham thinks this helps weigh all pleasures on a single scale.
+For Bentham there are only quantitative differences, not qualitative differences between kinds of pain.
 
-One objection to Bentham's utilitarianism is that Romans throwing Christians to the lions in the Coliseum caters to "perverse pleasures" rather than noble ones. We shouldn't promote such preferences.
+One objection to Bentham's utilitarianism is that Romans throwing Christians to the lions in the Coliseum caters to "perverse pleasures" rather than noble ones. We shouldn't promote such preferences, should we?
 
 Mill tries to save utilitarianism from this objection. Unlike Bentham, Mill believes it is possible to distinguish between higher and lower pleasures - to assess the quality, not just the quantity or intensity, of our desires.
 
 How can we know which pleasures are qualitatively higher? Mill proposes a simple test:
-> "Of two pleasures, if there be one to which all or almost all who have experience of both give a decided preference, irrespective of any feeling of moral obligation to prefer it, that is the more desirable pleasure."
+> Of two pleasures, if there be one to which all or almost all who have experience of both give a decided preference, irrespective of any feeling of moral obligation to prefer it, that is the more desirable pleasure.
 
 So if (almost) everyone prefer A over B, then A is more desirable.
 
@@ -152,4 +154,4 @@ As with individual rights, so with higher pleasures: Mill saves utilitarianism f
 
 Of the two great proponents of utilitarianism, Mill was the more humane philosopher, Bentham the more consistent one.
 
-Pivoting to an approach that is more centered on individual rights, [the next part](justice-as-respecting-freedom) of *Justice* goes into **Libertarianism and free markets**.
+Pivoting to an approach that is more centered on individual rights, [the next part](justice-as-respecting-freedom) of *Justice* goes into **Libertarianism and deontology**.
