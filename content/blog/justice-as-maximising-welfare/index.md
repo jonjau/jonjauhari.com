@@ -3,11 +3,11 @@ title: "Justice as maximising welfare"
 date: 2024-08-19
 ---
 
-This is the first of 3 posts on the approaches to justice that [Michael Sandel](https://en.wikipedia.org/wiki/Michael_Sandel) outlines in [*Justice*](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F) (as I understand it):
+This is the first of 3 posts on the approaches to justice that [Michael Sandel](https://en.wikipedia.org/wiki/Michael_Sandel) outlines in his book [*Justice*](https://en.wikipedia.org/wiki/Justice:_What%27s_the_Right_Thing_to_Do%3F) (as I understand it):
 
 1. [Maximising welfare](justice-as-maximising-welfare): Utilitarianism (Bentham and Mill)
 2. [Respecting freedom](justice-as-respecting-freedom): Libertarianism and deontology (Kant).
-3. [Promoting virtue](justice-as-promoting-virtue): Virtue ethics (Aristotle)
+3. [Cultivating virtue](justice-as-cultivating-virtue): Virtue ethics (Aristotle)
 
 I developed an interest in understanding some scholarship on ethical theories, after someone recommended that I read the Bible. As my first foray into scripture, I closely read through Genesis and the Gospel of Mark, finding their passages both mysterious and challenging.
 
@@ -29,9 +29,11 @@ Sandel's opening example in Justice is [the stranding of the Mignonette, in 1884
 
 A historical instance of [the trolley problem](https://en.wikipedia.org/wiki/Trolley_problem).
 
-**Can the ends justify the means?**
+For Bentham:
 
-Bentham might say yes. This seems cold to me. But why might I feel so?
+**The ends do justify the means. Consequences over motive.**
+
+Bentham might condone cannibalism. This seems cold to me. But why might I feel so?
 
 Maybe we are thinking of these 2 objections:
 1. we ought to respect the consent of others — the boy was vulnerable and did not want to be killed. That is, morality is more than just costs and benefits, it should have something to do with how we treat one another.
@@ -153,5 +155,7 @@ Many students prefer watching Homer Simpson, but still think a Hamlet soliloquy 
 As with individual rights, so with higher pleasures: Mill saves utilitarianism from the charge that it reduces everything to a crude calculus of pleasure and pain, but only by invoking a moral ideal of human dignity and personality independent of utility itself.
 
 Of the two great proponents of utilitarianism, Mill was the more humane philosopher, Bentham the more consistent one.
+
+## Next up
 
 Pivoting to an approach that is more centered on individual rights, [the next part](justice-as-respecting-freedom) of *Justice* goes into **Libertarianism and deontology**.
