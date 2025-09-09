@@ -3,7 +3,7 @@ featured: "cifero1.jpg"
 title: "Cifero"
 date: 2018-11-01T13:14:30+11:00
 draft: false
-description: "A desktop application for syllable separation and phonetic
+description: "A Python desktop application for syllable separation and phonetic
   transliteration of English, with a cross-platform PyQt5 GUI."
 ---
 

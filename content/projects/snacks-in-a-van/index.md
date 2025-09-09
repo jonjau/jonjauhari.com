@@ -9,8 +9,8 @@ description:
 	functionality. Built with Express and Handlebars for COMP30022."
 ---
 
-- [Live customer app](https://snacks-in-a-van-roboto.herokuapp.com/customer)
-- [Live vendor app](https://snacks-in-a-van-roboto.herokuapp.com/vendor)
+- [Customer app (no longer running)](https://snacks-in-a-van-roboto.herokuapp.com/customer)
+- [Vendor app (no longer running)](https://snacks-in-a-van-roboto.herokuapp.com/vendor)
 
 The web development subject INFO30005 taught the basics of the web, how
 websites work, and more practical topics such as setting up and doing CRUD on

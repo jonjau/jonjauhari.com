@@ -4,12 +4,13 @@ title: "OneThread"
 date: 2021-11-15T12:12:16+11:00
 draft: false
 description: "A personal CRM web app with contact management, event scheduling,
-  note taking, and JWT authentication functionalities.
-  Built with MERN for COMP30022."
+  note taking, and JWT authentication. Built with MongoDB/Express/React/Node.js for COMP30022."
 ---
 
-- [Live client website](https://spider55-fe.herokuapp.com)
-- [Live backend server](https://spider55-api.herokuapp.com)
+- [GitHub repo for client website](https://github.com/TeamSpider55/frontend)
+- [GitHub repo for backend server](https://github.com/TeamSpider55/backend)
+- [Client website (no longer running)](https://spider55-fe.herokuapp.com)
+- [Backend server (no longer running)](https://spider55-api.herokuapp.com)
 
 **OneThread** was a semester-long "capstone" project for the Computing and
 Software Systems degree at Melbourne Uni, delivered in the subject COMP30022.
@@ -26,13 +27,22 @@ the other projects we saw -- each team had to present their project -- was
 enabling a user to manage contacts and their details, like a phone book.
 Basically all projects were web applications.
 
-> Really, for my team this subject meant adapting what we knew about web
-> development from a previous subject we had done together, which culminated
-> in [Snacks in a Van](https://jonjauhari.com/projects/snacks-in-a-van/). Sure
-> enough, this time the tutors and lecturers did not help us in any technical
-> way, instead ensuring that we showed evidence of documenting APIs, meetings
-> and work delegation. So much so that I suspect the final product did not
-> even matter to them...
+Really, for my team this subject meant adapting what we knew about web
+development from a previous subject we had done together, which culminated
+in [Snacks in a Van](https://jonjauhari.com/projects/snacks-in-a-van/). Sure
+enough, this time the tutors and lecturers did not help us in any technical
+way, instead ensuring that we showed evidence of documenting APIs, meetings
+and work delegation. So much so that I suspect the final product did not
+even matter to them...
+
+## Technologies
+
+It is the [MERN](https://www.mongodb.com/resources/languages/mern-stack) stack, classic enough to have an acronym:
+
+- MongoDB 
+- Express
+- React (we also used Redux)
+- Node.js
 
 ## Development Process
 
