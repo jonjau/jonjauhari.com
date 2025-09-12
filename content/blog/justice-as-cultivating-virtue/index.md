@@ -192,7 +192,7 @@ I really enjoyed the tour of the 3 major approaches to normative ethics that San
 
 In my current opinion, I think Aristotle's character-based ethical theory applies most cleanly to the real world. I often find my self deciding what good character I should I cultivate, before I think about the motive and consequences.
 
-Perhaps the Sandel's deliberate leaning towards virtue ethics has had an effect on me...
+Perhaps Sandel's deliberate leaning towards virtue ethics has had an effect on me...
 
 I'll be honest, a lot of it went over my head but writing out notes like this does help.
 
