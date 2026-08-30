@@ -105,6 +105,17 @@
     font-variant-numeric: tabular-nums;
 }
 
+@media (max-width: 40em) {
+    .projects a {
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .projects__thumb {
+        width: 100%;
+    }
+}
+
 /* ── Home ──────────────────────────────────────────────────── */
 
 .hero {
