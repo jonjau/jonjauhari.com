@@ -32,8 +32,6 @@
     }
 }
 
-
-
 .posts__date {
     flex: none;
     font-family: var(--mono);
@@ -139,8 +137,6 @@
         font-size: 1.75rem;
     }
 }
-
-
 
 .section-label {
     max-width: var(--measure);
