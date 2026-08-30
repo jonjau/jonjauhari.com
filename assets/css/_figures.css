@@ -1,0 +1,40 @@
+.prose {
+    counter-reset: figure;
+}
+
+/* Figures break the text measure — screenshots need the full column.
+   Needs .prose specificity to beat `.prose > *`. */
+.prose > figure {
+    max-width: 100%;
+    margin-block: 2rem;
+    text-align: center;
+}
+
+figure img,
+figure video {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--rule);
+}
+
+figure a:focus-visible img {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+}
+
+figcaption {
+    counter-increment: figure;
+    margin-top: 0.6rem;
+    font-size: 0.8125rem;
+    font-style: italic;
+    line-height: 1.5;
+    color: var(--dim);
+    text-align: center;
+}
+
+figcaption::before {
+    content: "Fig. " counter(figure) " — ";
+    font-style: normal;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.06em;
+}

@@ -1,0 +1,17 @@
+/* ── Skip-to-content (accessibility) ──────────────────────── */
+
+.skip {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    padding: 0.6rem 1rem;
+    background: var(--bg);
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    z-index: 100;
+}
+
+.skip:focus {
+    left: 0.5rem;
+    top: 0.5rem;
+}

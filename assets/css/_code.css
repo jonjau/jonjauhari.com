@@ -1,0 +1,89 @@
+code,
+kbd,
+samp,
+pre {
+    font-family: var(--mono);
+    font-size: 0.875em;
+}
+
+.prose :not(pre) > code {
+    color: var(--accent);
+    overflow-wrap: break-word;
+}
+
+/* Code blocks — bounded box with thin border all around */
+.prose pre {
+    max-width: var(--measure);
+    margin-block: 1.5rem;
+    padding: 0.9rem 1.1rem;
+    border: 1px solid var(--rule);
+    overflow-x: auto;
+    line-height: 1.55;
+    tab-size: 4;
+}
+
+.prose pre code {
+    color: var(--text);
+    font-size: 0.8125rem;
+}
+
+.prose .highlight {
+    max-width: var(--measure);
+    margin-inline: auto;
+}
+
+.prose .highlight pre {
+    margin-inline: 0;
+}
+
+/* Chroma — restrained, near-monochrome. */
+.chroma .k,
+.chroma .kc,
+.chroma .kd,
+.chroma .kn,
+.chroma .kp,
+.chroma .kr,
+.chroma .kt,
+.chroma .nt {
+    font-weight: 700;
+}
+
+.chroma .c,
+.chroma .ch,
+.chroma .cm,
+.chroma .c1,
+.chroma .cs,
+.chroma .cp,
+.chroma .cpf {
+    color: var(--dim);
+    font-style: italic;
+}
+
+.chroma .s,
+.chroma .sa,
+.chroma .sb,
+.chroma .sc,
+.chroma .dl,
+.chroma .sd,
+.chroma .s2,
+.chroma .se,
+.chroma .sh,
+.chroma .si,
+.chroma .sx,
+.chroma .sr,
+.chroma .s1,
+.chroma .ss,
+.chroma .m,
+.chroma .mb,
+.chroma .mf,
+.chroma .mh,
+.chroma .mi,
+.chroma .il,
+.chroma .mo {
+    color: var(--accent);
+}
+
+.chroma .err {
+    color: var(--accent);
+    text-decoration: underline wavy;
+}

@@ -5,7 +5,7 @@
 			<ul>
 				{{ range site.Menus.main }}
 				{{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
-				<li><a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a></li>
+				<li><a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }} data-text="{{ .Name }}">{{ .Name }}</a></li>
 				{{ end }}
 			</ul>
 		</nav>
