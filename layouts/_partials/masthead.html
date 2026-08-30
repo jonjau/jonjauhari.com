@@ -1,0 +1,13 @@
+<header class="masthead">
+	<div class="wrap">
+		<a class="brand" href="{{ "/" | relURL }}">{{ site.Params.author }}</a>
+		<nav aria-label="Main">
+			<ul>
+				{{ range site.Menus.main }}
+				{{ $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) }}
+				<li><a href="{{ .URL }}"{{ if $active }} aria-current="page"{{ end }} data-text="{{ .Name }}">{{ .Name }}</a></li>
+				{{ end }}
+			</ul>
+		</nav>
+	</div>
+</header>

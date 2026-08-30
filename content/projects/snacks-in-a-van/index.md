@@ -6,7 +6,7 @@ draft: false
 description:
     "A web app for customers and travelling vendors to submit, edit,
     and track food orders, with geolocating, discount and rating
-	functionality. Built with Express and Handlebars for COMP30022."
+    functionality. Built with Express and Handlebars for COMP30022."
 ---
 
 - [Customer app (no longer running)](https://snacks-in-a-van-roboto.herokuapp.com/customer)

@@ -1,0 +1,19 @@
+{{ define "main" }}
+<div style="max-width: 8rem; margin-bottom: 1.5rem;">
+	{{ partial "svgs/letter-b.html" . }}
+</div>
+<header>
+	<h1>{{ .Title }}</h1>
+</header>
+{{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+<ol class="posts">
+	{{ range .Pages }}
+	<li>
+		<a href="{{ .RelPermalink }}">
+			<time class="posts__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+			<span class="posts__title">{{ .Title }}</span>
+		</a>
+	</li>
+	{{ end }}
+</ol>
+{{ end }}

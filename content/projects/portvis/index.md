@@ -20,7 +20,7 @@ offered by AWS's free tier really makes this harder than it needs to be.
 
 Low-res demo:
 
-![Demo GIF of main functionality](demo.gif)
+![Demo of main functionality](demo.jpg)
 
 ## Screenshots
 

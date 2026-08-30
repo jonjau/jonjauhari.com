@@ -104,12 +104,12 @@ Real-time map UI, first half of the game map:
 
 Starting area, and the leaf particle system:
 
-![GIF showing leaves falling from trees](leaf.gif)
+![Leaves falling from trees](leaf.jpg)
 
 Midgame optional area, combat and looting interactions:
 
-![GIF interaction with a chest in an ice cave](cave_interact_objects.gif)
+![Interaction with a chest in an ice cave](cave_interact_objects.jpg)
 
 Final stage, boss fight, a custom shader:
 
-![GIF of a boss fight and the shader that plays on its death](enemyShader.gif)
+![Boss fight and the shader that plays on its death](enemyShader.jpg)

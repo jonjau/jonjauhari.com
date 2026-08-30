@@ -1,0 +1,16 @@
+:root {
+    --bg: #181a17;
+    --text: #f4f6eb;
+    --dim: #868686;
+    --rule: #2f322c;
+    --accent: #a2b08d;
+
+    --measure: 34rem;
+    --serif: "Libre Baskerville", Baskerville, "Baskerville Old Face",
+        "Hoefler Text", Garamond, "Times New Roman", Georgia, serif;
+    --mono: "Iosevka", ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+        "Liberation Mono", monospace;
+
+    color-scheme: dark;
+    background-color: var(--bg);
+}

@@ -1,27 +1,18 @@
-# v3
+# jonjauhari.com v4
 
-Version 3 of my personal website. It's built with Next.js and Tailwind,
-deployed with Vercel. It should function without JavaScript enabled, hopefully!
+A Hugo port of the Next.js version of this site. No JavaScript, no Node, no
+build step beyond the `hugo` binary itself.
 
-- V2 was built with Gatsby and styled-components, deployed with Netlify.
-- V1 was built with Hugo and plain CSS and Sass, deployed with GitHub Pages.
-
-## Starting the development server
-
-Next.js expects statically served images to be under `public/`, but I had my
-images beside my markdown files for each post under `content/`. Since I'd like
-to keep that structure, I wrote a prebuild script to just copy them over.
-
-`npm run copyimages` would have to be re-run if the images added/removed.
-
-To run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
+```sh
+hugo server    # http://localhost:1313
+hugo           # build to ./public
 ```
 
-It should be running on [http://localhost:3000](http://localhost:3000).
+Either the standard or extended binary works.
+There is no Sass, so the extended build is not required.
 
-The written content (blog posts, articles, and other non-code files in `/content/`) is licensed under CC BY-NC-ND 4.0 unless otherwise noted.
+### Requirements
+
+- **Hugo ≥ 0.158.0** — the site uses the new template scheme (0.146+) and
+  `.Site.Language.Locale` (0.158+).
+

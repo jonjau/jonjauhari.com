@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    background-color: var(--bg);
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: var(--bg);
+    color: var(--text);
+    font-family: var(--serif);
+    font-size: 1rem;
+    line-height: 1.7;
+    text-rendering: optimizeLegibility;
+}
+
+@media (min-width: 40em) {
+    body {
+        font-size: 1.0625rem;
+        line-height: 1.75;
+    }
+}
+
+
+
+img,
+svg {
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--accent);
+    color: var(--bg);
+}

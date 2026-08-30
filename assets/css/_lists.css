@@ -1,0 +1,155 @@
+/* ── Post list ─────────────────────────────────────────────── */
+
+.posts {
+    max-width: var(--measure);
+    margin-inline: auto;
+    padding: 0;
+    list-style: none;
+}
+
+.posts a {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+    padding: 0.85rem 0.75rem;
+    margin-inline: -0.75rem;
+    text-decoration: none;
+}
+
+.posts a:hover {
+    background-color: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
+.posts a:hover .posts__title {
+    color: var(--accent);
+}
+
+@media (min-width: 34em) {
+    .posts a {
+        flex-direction: row;
+        align-items: baseline;
+        gap: 1.25rem;
+    }
+}
+
+.posts__date {
+    flex: none;
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    color: var(--dim);
+    font-variant-numeric: tabular-nums;
+}
+
+.posts__title {
+    color: var(--text);
+    text-wrap: balance;
+}
+
+/* ── Project list ──────────────────────────────────────────── */
+
+.projects {
+    margin-inline: auto;
+    padding: 0;
+    list-style: none;
+    max-width: 44rem;
+}
+
+.projects li + li {
+    margin-top: 0.5rem;
+}
+
+.projects a {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 1.25rem;
+    padding: 1rem 0.9rem;
+    margin-inline: -0.9rem;
+    text-decoration: none;
+}
+
+.projects a:hover {
+    background-color: color-mix(in srgb, var(--accent) 7%, transparent);
+}
+
+.projects a:hover .projects__title {
+    color: var(--accent);
+}
+
+.projects__thumb {
+    flex: none;
+    display: block;
+    width: 250px;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid var(--rule);
+}
+
+.projects__title {
+    margin: 0 0 0.35rem;
+    font-size: 1.125rem;
+    color: var(--text);
+    text-wrap: balance;
+}
+
+.projects__desc {
+    margin: 0;
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--dim);
+}
+
+.projects__date {
+    font-family: var(--mono);
+    font-size: 0.8125rem;
+    font-variant-numeric: tabular-nums;
+}
+
+/* ── Home ──────────────────────────────────────────────────── */
+
+.hero {
+    max-width: var(--measure);
+    margin: 0 auto 3rem;
+}
+
+.hero h1 {
+    font-size: 1.875rem;
+    margin-bottom: 0.4rem;
+}
+
+.hero__tagline {
+    font-size: 1.375rem;
+    line-height: 1.4;
+    color: var(--accent);
+    margin: 0 0 0.4rem;
+}
+
+.hero__sub {
+    margin: 0 0 1.75rem;
+    color: var(--dim);
+}
+
+@media (min-width: 40em) {
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+    .hero__tagline {
+        font-size: 1.75rem;
+    }
+}
+
+.section-label {
+    max-width: var(--measure);
+    margin: 0 auto 0.75rem;
+    font-size: 0.8125rem;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.14em;
+    font-weight: 600;
+    color: var(--accent);
+}
+
+.more {
+    max-width: var(--measure);
+    margin: 1.25rem auto 0;
+    font-size: 0.9375rem;
+}

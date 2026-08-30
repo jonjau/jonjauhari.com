@@ -1,0 +1,24 @@
+.prose table {
+    display: block;
+    width: 100%;
+    max-width: var(--measure);
+    margin-block: 1.75rem;
+    overflow-x: auto;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+}
+
+.prose th,
+.prose td {
+    padding: 0.45rem 0.8rem;
+    text-align: left;
+    border-bottom: 1px solid var(--rule);
+}
+
+.prose th {
+    font-weight: 400;
+    font-variant-caps: small-caps;
+    letter-spacing: 0.06em;
+    color: var(--accent);
+    border-bottom: 1px solid var(--accent);
+}
