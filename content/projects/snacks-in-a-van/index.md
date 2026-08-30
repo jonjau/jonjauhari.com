@@ -41,7 +41,7 @@ We had a choice between two tech stacks: Express/Handlebars (good old
 templating) and Express/React (full-stack with front end and back end). We
 opted for the former as it seemed simpler for most of us. We used MongoDB for
 the database, Heroku for manual deployment, and not much else. The
-integration tests were embarassing.
+integration tests were embarrassing.
 
 Though Handlebars allowed us to prototype the simpler, more static pages of
 the application as we didn't have to care about CORS issues, the code became

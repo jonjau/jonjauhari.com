@@ -80,7 +80,7 @@ If reason determines my will, then the will becomes the power to choose independ
 
 I am able to act freely (in a Kantian sense) because reason can govern my will.
 
-For the empiricists, including the utilitarian philosphers, reason is instrumental: it enables us to identify means for the pursuit of certain ends - ends that reason itself does not provide.
+For the empiricists, including the utilitarian philosophers, reason is instrumental: it enables us to identify means for the pursuit of certain ends - ends that reason itself does not provide.
 
 [Thomas Hobbes](https://en.wikipedia.org/wiki/Thomas_Hobbes) called reason the "scout for the desires.":
 > For the thoughts are to the desires as scouts and spies to range abroad and find the way to the things desired,

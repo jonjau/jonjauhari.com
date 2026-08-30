@@ -14,7 +14,7 @@ description: "A novel 'state change explorer' web tool in Rust/HTMX/Prolog to in
 Entering 2025, I had a list of technologies that I wanted hands-on experience with:
 
 - **Rust**: my impression from Reddit is that it is the best language of all time.
-- **HTMX**: I was a bit weary of thick frameworks that I see at work, and was inspired by [these blog posts on HATEOAS](https://htmx.org/essays/). Rust + HTMX is 'light' and achieves a single-page application feel.
+- **HTMX**: I was a bit wary of thick frameworks that I see at work, and was inspired by [these blog posts on HATEOAS](https://htmx.org/essays/). Rust + HTMX is 'light' and achieves a single-page application feel.
 - **Prolog**: I've always wanted to make use of Prolog's backtracking semantics in a real-world app ever since I took a subject about it at university. Lucky for me, a modern Rust-friendly implementation exists — [Scryer Prolog](https://www.scryer.pl/).
 - **AWS**: After finishing my [Cloud Practitioner](https://aws.amazon.com/certification/certified-cloud-practitioner/) certificate, this is the natural next step. Specifically ECS Fargate and DynamoDB, because I will develop/deploy with Docker, and thought I might as well do without SQL entirely.
 - **Terraform**: a sane and cloud-agnostic way of managing infrastructure.

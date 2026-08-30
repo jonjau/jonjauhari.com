@@ -62,7 +62,7 @@ Cheerleading is not just about cheering on the team, but it's also about celebra
 
 ## Justice, telos, honor
 
-Two ideas fron Aristotelian philosophy:
+Two ideas from Aristotelian philosophy:
 1. **Justice is teleological**. Defining rights requires us to figure out the telos (the purpose, end, or essential nature) of the social practice in question.
 2. **Justice is honorific**. To reason or argue about the telos of a practice is, at least in part, to reason or argue about what virtues it should honor and reward.
 
