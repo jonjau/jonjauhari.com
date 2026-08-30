@@ -4,7 +4,7 @@
 		<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Params.author }}{{ end }}</title>
 		<link>{{ .Permalink }}</link>
 		<description>{{ or .Description site.Params.description }}</description>
-		<language>{{ site.LanguageCode }}</language>
+		<language>{{ site.Language.Locale }}</language>
 		<copyright>&#169; {{ now.Year }} {{ site.Params.author }}</copyright>
 		<atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
 		{{- range first 20 .RegularPagesRecursive }}
