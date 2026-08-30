@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://firstnamelastname.com/sitemap.xml
+Sitemap: https://jonjauhari.com/sitemap.xml
