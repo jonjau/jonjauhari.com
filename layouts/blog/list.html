@@ -1,0 +1,21 @@
+{{ define "main" }}
+<div style="max-width: 18rem; margin-bottom: 1.5rem;">
+	{{ partial "svgs/writing-hand.html" . }}
+</div>
+<header>
+	<h1>{{ .Title }}</h1>
+</header>
+{{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+<ol class="posts">
+	{{ range .Pages }}
+	<li>
+		<a href="{{ .RelPermalink }}">
+			<article itemscope itemtype="https://schema.org/BlogPosting">
+				<time class="posts__date" itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+				<span class="posts__title" itemprop="headline">{{ .Title }}</span>
+			</article>
+		</a>
+	</li>
+	{{ end }}
+</ol>
+{{ end }}

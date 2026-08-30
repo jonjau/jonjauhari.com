@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://firstnamelastname.com/sitemap.xml

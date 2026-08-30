@@ -1,0 +1,34 @@
+{{- $src := .Destination -}}
+{{- $w := "" -}}
+{{- $h := "" -}}
+{{- $vid := "" -}}
+{{- if not (urls.Parse $src).IsAbs -}}
+	{{- $img := $.Page.Resources.GetMatch $src -}}
+	{{- if $img -}}
+		{{- $src = $img.RelPermalink -}}
+		{{- with $img.Width }}{{ $w = . }}{{ end -}}
+		{{- with $img.Height }}{{ $h = . }}{{ end -}}
+		{{- $base := strings.TrimSuffix (path.Ext $img.Name) $img.Name -}}
+		{{- $mp4 := $.Page.Resources.GetMatch (printf "%s.mp4" $base) -}}
+		{{- if $mp4 -}}
+			{{- $vid = $mp4.RelPermalink -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+<figure>
+	{{- if $vid -}}
+	<video controls autoplay loop muted playsinline
+		poster="{{ $src }}"
+		{{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }}
+		preload="none">
+		<source src="{{ $vid }}" type="video/mp4">
+	</video>
+	{{- else -}}
+	<a href="{{ $src }}" target="_blank" rel="noopener noreferrer">
+		<img src="{{ $src }}" alt="{{ .Text | plainify }}"
+			{{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }}
+			loading="lazy" decoding="async">
+	</a>
+	{{- end -}}
+	{{- with .Text }}<figcaption>{{ . | plainify }}</figcaption>{{ end -}}
+</figure>

@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div style="max-width: 18rem; margin-bottom: 1.5rem;">
+	{{ partial "svgs/carpenter-gauge.html" . }}
+</div>
+<header>
+	<h1>{{ .Title }}</h1>
+</header>
+{{ with .Content }}<div class="page-intro">{{ . }}</div>{{ end }}
+<ol class="projects">
+	{{ range $i, $p := .Pages }}
+	<li>
+		<a href="{{ $p.RelPermalink }}" itemscope itemtype="https://schema.org/BlogPosting">
+			{{ with $p.Resources.GetMatch $p.Params.featured }}
+				{{ $sm := .Resize "250x" }}
+				{{ $lg := .Resize "500x" }}
+				<img class="projects__thumb"
+					src="{{ $sm.RelPermalink }}"
+					srcset="{{ $lg.RelPermalink }} 2x"
+					width="250" height="180" alt=""
+					{{ if lt $i 3 }}fetchpriority="high"{{ else }}loading="lazy" decoding="async"{{ end }}>
+			{{ end }}
+			<div>
+				<h2 class="projects__title" itemprop="headline">{{ $p.Title }}</h2>
+				<p class="projects__desc" itemprop="description">
+					<time class="projects__date" itemprop="datePublished" datetime="{{ $p.Date.Format "2006-01-02" }}">{{ $p.Date.Format "2 January 2006" }}</time>
+					&mdash; {{ $p.Description }}
+				</p>
+			</div>
+		</a>
+	</li>
+	{{ end }}
+</ol>
+{{ end }}

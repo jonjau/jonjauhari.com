@@ -1,0 +1,20 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} - {{ site.Params.author }}{{ end }}</title>
+		<link>{{ .Permalink }}</link>
+		<description>{{ or .Description site.Params.description }}</description>
+		<language>{{ site.LanguageCode }}</language>
+		<copyright>&#169; {{ now.Year }} {{ site.Params.author }}</copyright>
+		<atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
+		{{- range first 20 .RegularPagesRecursive }}
+		<item>
+			<title>{{ .Title }}</title>
+			<link>{{ .Permalink }}</link>
+			<pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
+			<guid>{{ .Permalink }}</guid>
+			<description>{{ .Description | plainify }}</description>
+		</item>
+		{{- end }}
+	</channel>
+</rss>

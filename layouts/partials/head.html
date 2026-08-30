@@ -1,0 +1,40 @@
+{{ $title := cond .IsHome site.Title (printf "%s - %s" .Title site.Params.author) }}
+{{ $desc := or .Description .Summary site.Params.description | plainify | truncate 200 }}
+<title>{{ $title }}</title>
+<meta name="description" content="{{ $desc }}">
+<meta name="author" content="{{ site.Params.author }}">
+<link rel="canonical" href="{{ .Permalink }}">
+
+{{/* Preload fonts */}}
+<link rel="preload" href="/fonts/LibreBaskerville-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/LibreBaskerville-Italic-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+
+{{ with resources.Get "css/main.css" | resources.Minify | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}">
+{{ end }}
+
+<meta property="og:site_name" content="{{ site.Title }}">
+<meta property="og:title" content="{{ $title }}">
+<meta property="og:description" content="{{ $desc }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:type" content="{{ cond .IsPage "article" "website" }}">
+{{ if .Params.date }}<meta property="article:published_time" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">{{ end }}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="{{ $title }}">
+<meta name="twitter:description" content="{{ $desc }}">
+
+{{ with .OutputFormats.Get "rss" }}
+<link rel="alternate" type="application/rss+xml" title="{{ $title }}" href="{{ .RelPermalink }}">
+{{ end }}
+
+{{/* Warm the next likely navigation so pages appear instantly. */}}
+{{ if .IsHome }}
+	{{ with site.GetPage "/blog" }}<link rel="prefetch" href="{{ .RelPermalink }}">{{ end }}
+{{ else if and .IsPage .Parent }}
+	{{ with .NextInSection }}<link rel="prefetch" href="{{ .RelPermalink }}">{{ end }}
+	{{ with .PrevInSection }}<link rel="prefetch" href="{{ .RelPermalink }}">{{ end }}
+{{ else if .IsSection }}
+	{{ range first 3 .Pages }}<link rel="prefetch" href="{{ .RelPermalink }}">{{ end }}
+{{ end }}
+
+<link rel="icon" href="/favicon.ico" sizes="any">

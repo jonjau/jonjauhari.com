@@ -1,0 +1,53 @@
+baseURL = "https://jonjauhari.com/"
+languageCode = "en-au"
+title = "jonjauhari.com"
+enableRobotsTXT = false
+
+[params]
+description = "Jonathan Jauhari's website"
+author = "Jonathan Jauhari"
+github = "https://github.com/jonjau"
+linkedin = "https://www.linkedin.com/in/jonjauhari/"
+repo = "https://github.com/jonjau/jonjauhari.com"
+
+[menu]
+# pageRef (not url) is what lets .IsMenuCurrent/.HasMenuCurrent resolve,
+# which drives the active-nav highlight.
+[[menu.main]]
+name = "Blog"
+pageRef = "/blog"
+weight = 1
+[[menu.main]]
+name = "Projects"
+pageRef = "/projects"
+weight = 2
+[[menu.main]]
+name = "About"
+pageRef = "/about"
+weight = 3
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = false
+[markup.goldmark.parser]
+# Without this, a standalone image is wrapped in <p>, which would nest
+# the render hook's <figure> inside a paragraph — invalid HTML.
+wrapStandAloneImageWithinParagraph = false
+[markup.goldmark.parser.attribute]
+block = true
+[markup.highlight]
+noClasses = false
+lineNos = false
+tabWidth = 4
+[markup.tableOfContents]
+startLevel = 2
+endLevel = 3
+
+[outputs]
+home = ["HTML", "RSS"]
+section = ["HTML", "RSS"]
+
+[taxonomies]
+
+[minify]
+minifyOutput = true

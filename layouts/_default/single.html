@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ $isPost := in (slice "blog" "projects") .Section }}
+{{ if eq .RelPermalink "/about/" }}
+<div style="max-width: 8rem; margin-bottom: 1.5rem;">
+	{{ partial "svgs/letter-j.html" . }}
+</div>
+{{ end }}
+<article {{ if $isPost }}itemscope itemtype="https://schema.org/BlogPosting"{{ end }}>
+	{{ if $isPost }}<meta itemprop="description" content="{{ .Description | plainify }}">{{ end }}
+	<header>
+		<h1 {{ if $isPost }}itemprop="headline"{{ end }}>{{ .Title }}</h1>
+		{{ if and $isPost .Params.date }}
+		<time class="byline" itemprop="datePublished" datetime="{{ .Date.Format "2006-01-02" }}">
+			{{ .Date.Format "2 January 2006" }}
+		</time>
+		{{ end }}
+	</header>
+	<div class="prose{{ if eq .Section "blog" }} prose--dropcap{{ end }}" {{ if $isPost }}itemprop="articleBody"{{ end }}>
+		{{ .Content }}
+	</div>
+</article>
+{{ end }}

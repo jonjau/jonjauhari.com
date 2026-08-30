@@ -1,0 +1,26 @@
+{{ define "main" }}
+<div class="hero">
+	<div style="max-width: 10rem; margin-bottom: 1.5rem;">
+		{{ partial "svgs/goat.html" . }}
+	</div>
+	<h1>Hi, I&rsquo;m Jonathan.</h1>
+	<p class="hero__tagline">I build web apps &mdash;</p>
+	<p class="hero__sub">with a sure-footed approach.</p>
+	<p>This website is <a href="{{ site.Params.repo }}" rel="noopener">open source</a>. Enjoy your stay!</p>
+</div>
+
+{{ with site.GetPage "/blog" }}
+<h2 class="section-label">Recently</h2>
+<ol class="posts">
+	{{ range first 5 .Pages }}
+	<li>
+		<a href="{{ .RelPermalink }}">
+			<time class="posts__date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+			<span class="posts__title">{{ .Title }}</span>
+		</a>
+	</li>
+	{{ end }}
+</ol>
+<p class="more"><a href="{{ .RelPermalink }}">All posts &rarr;</a></p>
+{{ end }}
+{{ end }}
