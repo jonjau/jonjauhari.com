@@ -84,6 +84,17 @@ main {
     font-weight: 700;
 }
 
+/* ── dinkus ──────────────────────────────────────────────── */
+
+.dinkus {
+	text-align: center;
+	color: var(--dim);
+	margin: 0;
+	padding-block: 2rem 0.5rem;
+	font-size: 0.875rem;
+	letter-spacing: 0.5em;
+}
+
 /* ── Footer ────────────────────────────────────────────────── */
 
 .footer {
