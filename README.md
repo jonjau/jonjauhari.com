@@ -1,7 +1,11 @@
 # jonjauhari.com v4
 
-A Hugo port of the Next.js version of this site. No JavaScript, no Node, no
-build step beyond the `hugo` binary itself.
+Version 4 of my personal website. It's built with Hugo and plain CSS
+deployed with Cloudflare Pages. It has 0 javascript.
+
+- V3 was built with Next.js and Tailwind, deployed with Vercel
+- V2 was built with Gatsby and styled-components, deployed with Netlify.
+- V1 was built with Hugo and plain CSS and Sass, deployed with GitHub Pages.
 
 ```sh
 hugo server    # http://localhost:1313

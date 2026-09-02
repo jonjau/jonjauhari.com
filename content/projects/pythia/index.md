@@ -26,7 +26,7 @@ beyond just my rote learning. Along the way, I made good use of GitHub Copilot, 
 
 ## So what is it?
 
-Pythia is a 'state change explorer'. It's a tool to visualise and search how records change over time, based on recorded facts for those record types. I'm not sure if there is an existing term for an application like this, maybe '[dynamic program analysis tool](en.wikipedia.org/wiki/Dynamic_program_analysis)'?
+Pythia is a 'state change explorer'. It's a tool to visualise and search how records change over time, based on recorded facts for those record types. I'm not sure if there is an existing term for an application like this, maybe '[dynamic program analysis tool](https://en.wikipedia.org/wiki/Dynamic_program_analysis)'?
 
 Pythia's intended use case is to aid in inferring the rules that produced the facts which are recorded.
 

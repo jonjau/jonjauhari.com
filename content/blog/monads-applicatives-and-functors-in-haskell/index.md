@@ -9,7 +9,7 @@ This is my summary of Chapter 11 and 12 of
 [Learn You a Haskell for Great Good!](https://learnyouahaskell.github.io/),
 a great introduction to functional programming and Haskell. I've found its
 explanation of monads, by far the most notorious of category theory jargon
-(monoids and functors being runner-ups), to be about as intuitive as monad
+(monoids and functors being runners-up), to be about as intuitive as monad
 explanations can get.
 
 This is hardly comprehensive, but these notes touch on most of the main
@@ -313,7 +313,7 @@ when dealing with IO operations, which are inherently
 [impure](https://en.wikipedia.org/wiki/Functional_purity).
 
 In a way, since the fact that potential side effects from the `IO` operations
-are clearly in laid out in the type system, they are not really side effects,
+are clearly laid out in the type system, they are not really side effects,
 and this makes the whole program easier to reason with. It is said that this
 makes Haskell a purely functional language still.
 

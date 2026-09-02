@@ -1,9 +1,21 @@
 {{ define "main" }}
+<style>
+.void {
+    max-width: var(--measure);
+    margin-inline: auto;
+    text-align: center;
+}
+.void p {
+    color: var(--accent);
+    font-style: italic;
+    font-size: 1.125rem;
+}
+</style>
 <div class="void">
 	<h1>Page not found&hellip;</h1>
 	<p>Have you found the void &mdash;</p>
 	<p>or has the void found you?</p>
-	<hr class="void__rule">
+	<p class="dinkus" aria-label="section end">* * *</p>
 	<p><a href="{{ "/" | relURL }}">Return home</a>.</p>
 </div>
 {{ end }}

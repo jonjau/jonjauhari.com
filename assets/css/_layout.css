@@ -133,30 +133,4 @@ main {
     color: var(--accent);
 }
 
-/* ── 404 ───────────────────────────────────────────────────── */
 
-.void {
-    max-width: var(--measure);
-    margin-inline: auto;
-    text-align: center;
-}
-
-.void p {
-    color: var(--accent);
-    font-style: italic;
-    font-size: 1.125rem;
-}
-
-.void__rule {
-    width: 0;
-    height: 6rem;
-    margin: 3rem auto;
-    border: 0;
-    font-size: 2rem;
-    color: var(--accent);
-    text-align: center;
-}
-
-.void__rule::before {
-    content: "\00A7";
-}

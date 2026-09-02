@@ -106,7 +106,7 @@ A utilitarian one generation after Bentham. I'd say, "Utilitarianism *plus right
 His essay ["On Liberty" (1859)](https://en.wikipedia.org/wiki/On_Liberty) writes: 
 - People should be free to do whatever they want, provided they do no harm to others.
 - People should not interfere with individual liberty even to protect someone from themselves.
-- In society, the only actions you should be accountable for are the those that affect others.
+- In society, the only actions you should be accountable for are those that affect others.
 
 > "Over himself, over his own body and mind, the individual is sovereign"
 
@@ -130,7 +130,7 @@ Mill concedes that following convention may lead a person to a satisfying life p
 
 So actions and consequences are not all that matter after all. Character also counts. For Mill, individuality matters more for the character it reflects, than for the pleasure it brings.
 
-Since *On Justice* appeals to moral ideals beyond utility (ideals of character and human flourishing) it is not really an elaboration of Bentham’s principle but a renunciation of it...
+Since *On Liberty* appeals to moral ideals beyond utility (ideals of character and human flourishing) it is not really an elaboration of Bentham’s principle but a renunciation of it...
 
 
 ## Higher pleasures

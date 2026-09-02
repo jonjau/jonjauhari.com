@@ -96,14 +96,14 @@ Kant's idea of reason is one that legislates a priori, regardless of empirical e
 ### Categorical vs Hypothetical Imperatives
 
 Reason can govern the will in two ways.
-in other words there are two kinds of imperatives:
+In other words there are two kinds of imperatives:
 
 Hypothetical: if you want X, do Y.
 - Conditional, not without exception
 - depends on or refers to another purpose
 - uses instrumental reason
 - action would be good solely as a means to something else
-- cannot qualify as an imperativefor morality
+- cannot qualify as an imperative for morality
 
 Categorical: just do Y.
 - Unconditional, without loophole or exception
