@@ -97,7 +97,7 @@ date, add and delete events on this page.
 Clicking on one event on the list allows the user to see its details in the
 **Event Detail** page. As in **Contact Detail**, edits to the event details
 can be cancelled or confirmed, making it user-friendly. The user may send
-email invitations to participant's email addresses, again with confirmation.
+email invitations to participants' email addresses, again with confirmation.
 However, this feature was not enabled in the live website due to security
 issues.
 

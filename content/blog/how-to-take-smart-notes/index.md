@@ -31,7 +31,7 @@ In terms of lifetimes:
 
 In my mind, understanding an idea can be thought of as knowing where it sits in relation to other ideas.
 For example, whether they are synonymous, opposite, related, derivative, generalising, etc.
-I think one sign that someone understands an idea is the ability to explain it simply (as in [the famous quote attributed to Einstein](https://skeptics.stackexchange.com/questions/8742/did-einstein-say-if-you-cant-explain-it-simply-you-dont-understand-it-well-en)), and in different terms, and to come up with examples, or analogies. Another is to be able to break down the ideas to its basic building blocks.
+I think one sign that someone understands an idea is the ability to explain it simply (as in [the famous quote attributed to Einstein](https://skeptics.stackexchange.com/questions/8742/did-einstein-say-if-you-cant-explain-it-simply-you-dont-understand-it-well-en)), and in different terms, and to come up with examples, or analogies. Another is to be able to break down the ideas into their basic building blocks.
 
 I guess an idea is easier to remember if we enforce a connection from it to existing things (that we may remember and understand much better)
 

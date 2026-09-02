@@ -19,7 +19,7 @@ other natural languages. People just (have to) get used to them. In general:
 5. Spoken vs written disconnect: slang, idioms, figures of speech.
 
 What can be done to improve it? I'm not sure, but there have been
-[been](<https://en.wikipedia.org/wiki/Learning_English_(version_of_English)>)
+[efforts](<https://en.wikipedia.org/wiki/Learning_English_(version_of_English)>)
 [many](https://en.wikipedia.org/wiki/Basic_English)
 [efforts](https://en.wikipedia.org/wiki/Simple_English_Wikipedia), mainly
 by simplifying sentence structure and restricting vocabulary.

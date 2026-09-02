@@ -112,7 +112,7 @@ Like playing an instrument, we learn moral virtue by doing.
 
 "We become just by doing just acts, temperate by doing temperate acts, brave by doing brave acts."
 
-Aristotle thinks law's primary purpose is to forming right habits in citizens, shaping their character.
+Aristotle thinks law's primary purpose is to form right habits in citizens, shaping their character.
 
 But moral virtue is not rote behaviour. Habit is the first step in moral education. Being steeped in virtuous behavior helps us acquire the disposition to act virtuously.
 
@@ -190,7 +190,7 @@ Justice and rights are often, unavoidably, debates about the purpose of social i
 
 I really enjoyed the tour of the 3 major approaches to normative ethics that Sandel offers in *Justice*. Each example and contrast helped me place each idea in relation to each other.
 
-In my current opinion, I think Aristotle's character-based ethical theory applies most cleanly to the real world. I often find my self deciding what good character I should I cultivate, before I think about the motive and consequences.
+In my current opinion, I think Aristotle's character-based ethical theory applies most cleanly to the real world. I often find myself deciding what good character I should cultivate, before I think about the motive and consequences.
 
 Perhaps Sandel's deliberate leaning towards virtue ethics has had an effect on me...
 
