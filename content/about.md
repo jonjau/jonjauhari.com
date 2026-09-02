@@ -3,9 +3,10 @@ title: "About me"
 description: "Jonathan Jauhari is a software developer based in Melbourne interested in financial applications."
 ---
 
-I'm **Jonathan Jauhari**, a software developer based in Melbourne interested in financial applications.
+I'm **Jonathan Jauhari**, a software developer based in Melbourne interested in
+financial applications. I work at [Vanguard Australia](https://www.vanguard.com.au "Vanguard Australia website").
 
-At [IntegraDev](https://integradev.com.au/ "IntegraDev website"), I focus on expanding the capabilities of the [online onboarding feature](https://www.transact-online.co.uk/guided-applications/ "Guided Applications") of the [Transact investment platform](https://www.transact-online.co.uk/ "Transact website") — an industry-leading investment platform in the UK, owned by IntegraFin ([LSE:IHP](https://www.londonstockexchange.com/stock/IHP/integrafin-holdings-plc/company-page "LSE:IHP company page")).
+At [IntegraDev](https://integradev.com.au/ "IntegraDev website"), I focused on expanding the capabilities of the [online onboarding feature](https://www.transact-online.co.uk/guided-applications/ "Guided Applications") of the [Transact investment platform](https://www.transact-online.co.uk/ "Transact website") — an industry-leading investment platform in the UK, owned by IntegraFin ([LSE:IHP](https://www.londonstockexchange.com/stock/IHP/integrafin-holdings-plc/company-page "LSE:IHP company page")).
 
 Beyond work, I run a homelab and self-host open source applications for my family and myself. Since making the jump to Linux, I've developed an honest interest of the operations side of software development.
 
