@@ -11,8 +11,8 @@
 	<li>
 		<a href="{{ $p.RelPermalink }}" itemscope itemtype="https://schema.org/BlogPosting">
 			{{ with $p.Resources.GetMatch $p.Params.featured }}
-				{{ $sm := .Resize "250x" }}
-				{{ $lg := .Resize "500x" }}
+				{{ $sm := .Resize "250x webp" }}
+				{{ $lg := .Resize "500x webp" }}
 				<img class="projects__thumb"
 					src="{{ $sm.RelPermalink }}"
 					srcset="{{ $lg.RelPermalink }} 2x"
