@@ -2,17 +2,22 @@
 {{- $w := "" -}}
 {{- $h := "" -}}
 {{- $vid := "" -}}
+{{- $webpSrc := "" -}}
 {{- if not (urls.Parse $src).IsAbs -}}
 	{{- $img := $.Page.Resources.GetMatch $src -}}
 	{{- if $img -}}
-		{{- $src = $img.RelPermalink -}}
 		{{- with $img.Width }}{{ $w = . }}{{ end -}}
 		{{- with $img.Height }}{{ $h = . }}{{ end -}}
 		{{- $base := strings.TrimSuffix (path.Ext $img.Name) $img.Name -}}
 		{{- $mp4 := $.Page.Resources.GetMatch (printf "%s.mp4" $base) -}}
 		{{- if $mp4 -}}
 			{{- $vid = $mp4.RelPermalink -}}
+		{{- else -}}
+			{{- /* Generate WebP from the original */ -}}
+			{{- $webp := $img.Resize (printf "%dx webp" $img.Width) -}}
+			{{- $webpSrc = $webp.RelPermalink -}}
 		{{- end -}}
+		{{- $src = $img.RelPermalink -}}
 	{{- end -}}
 {{- end -}}
 <figure>
@@ -25,9 +30,12 @@
 	</video>
 	{{- else -}}
 	<a href="{{ $src }}" target="_blank" rel="noopener noreferrer">
-		<img src="{{ $src }}" alt="{{ .Text | plainify }}"
-			{{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }}
-			loading="lazy" decoding="async">
+		<picture>
+			{{- with $webpSrc }}<source srcset="{{ . }}" type="image/webp">{{ end -}}
+			<img src="{{ $src }}" alt="{{ .Text | plainify }}"
+				{{ with $w }}width="{{ . }}"{{ end }} {{ with $h }}height="{{ . }}"{{ end }}
+				loading="lazy" decoding="async">
+		</picture>
 	</a>
 	{{- end -}}
 	{{- with .Text }}<figcaption>{{ . | plainify }}</figcaption>{{ end -}}

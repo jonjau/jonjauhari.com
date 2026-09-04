@@ -9,6 +9,7 @@
 {{/* Preload fonts */}}
 <link rel="preload" href="/fonts/LibreBaskerville-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="/fonts/LibreBaskerville-Italic-VariableFont_wght.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/iosevka-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
 
 {{ $styles := slice
   (resources.Get "css/_fonts.css")
@@ -22,8 +23,8 @@
   (resources.Get "css/_lists.css")
   (resources.Get "css/_utilities.css")
 }}
-{{ $bundle := $styles | resources.Concat "css/main.css" | resources.Minify | resources.Fingerprint }}
-<link rel="stylesheet" href="{{ $bundle.RelPermalink }}" integrity="{{ $bundle.Data.Integrity }}">
+{{ $bundle := $styles | resources.Concat "css/main.css" | resources.Minify }}
+<style>{{ $bundle.Content | safeCSS }}</style>
 
 <meta property="og:site_name" content="{{ site.Title }}">
 <meta property="og:title" content="{{ $title }}">
